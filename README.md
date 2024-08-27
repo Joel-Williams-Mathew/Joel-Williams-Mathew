@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Joel Williams</h1>
 <h3 align="center">A passionate Backend,ML and DS with AI learner from Kerala, India</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=cmardc&label=Profile%20views&color=0e75b6&style=flat" alt="cmardc" /> </p>
+<p align="left"> <img src="https://www.google.com/search?sca_esv=1fc0c3fc9b748aaf&sca_upv=1&sxsrf=ADLYWIKQ35zaLtqEtso7r4rX_CeTiJ7s4w:1724752785678&q=github+gif+in+readme&udm=2&fbs=AEQNm0CFDpRHaDHkXm_YXueHTfHtrgIXUKlluACpCix4T5ZoUSz6e3GWv4zN_09JkP2cR-DwqD-ER1CSuTjXzdXNKT0Wma9mNyum3oWLzhs1xt8u5GJdCx58_F0ZS8HPQnKQz9WgsdJpThHV1BWzodOO8E_BatEjT0dIL3U5ECu78v7bqTooU6tI88M-Qrvjqh0VwmagWSscc3JaO_0BmvDToqXs55uEqQ&sa=X&ved=2ahUKEwj_lPbo9JSIAxW3SmwGHUItCCMQtKgLegQIEhAB&biw=1366&bih=633&dpr=1#vhid=CVLQvplLvZ78OM&vssid=mosaic" /> </p>
 
 - 🔭 I’m currently pursuing BTech in **Artificial Intelligence & Data Science at SJCET, Palai.**
 
