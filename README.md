@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Joel Williams</h1>
 <h3 align="center">A passionate Backend,ML and DS with AI learner from Kerala, India</h3>
 
-<p align="right"> <img src="![image](https://github.com/user-attachments/assets/0f9a6701-1d89-4d83-ae67-41241ec70249)"/> </p>
+<img align="right" alt="coding" width ="400" src="https://github.com/user-attachments/assets/76be7e67-20a4-4d8f-8f6c-2d7a230451e8">
 
 - 🔭 I’m currently pursuing BTech in **Artificial Intelligence & Data Science at SJCET, Palai.**
 
