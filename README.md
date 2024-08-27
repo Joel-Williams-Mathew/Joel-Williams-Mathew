@@ -1,7 +1,9 @@
 <h1 align="center">Hi 👋, I'm Joel Williams</h1>
 <h3 align="center">A passionate Backend,ML and DS with AI learner from Kerala, India</h3>
 
-<img align="right" alt="coding" width ="400" src="https://github.com/user-attachments/assets/76be7e67-20a4-4d8f-8f6c-2d7a230451e8">
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=joel-williams-mathew&label=Profile%20views&color=0e75b6&style=flat" alt="joel-williams-mathew" /> </p>
+
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=joel-williams-mathew" alt="joel-williams-mathew" /></a> </p>
 
 - 🔭 I’m currently pursuing BTech in **Artificial Intelligence & Data Science at SJCET, Palai.**
 
