@@ -1,6 +1,5 @@
 <p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=32&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;" />
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Roboto+Slab&color=%2300FF00&size=40&center=true&vCenter=true&width=450&duration=1500&pause=1000&lines=Hi There!" width="auto" height="35"/>
 
 # 💫 About Me:
 - 🔭 I’m currently pursuing BTech in **Artificial Intelligence & Data Science at SJCET, Palai.**
@@ -16,11 +15,9 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=joel-williams-mathew&label=Profile%20views&color=0e75b6&style=flat" alt="joel-williams-mathew" /> </p>
 
 <p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=I'm+Joel+Williams!;" />
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Roboto+Slab&color=%23FF0000&size=40&center=true&vCenter=true&width=450&duration=1500&pause=1000&lines=Joel Williams" width="auto" height="35"/>
 
 <p align="center"><img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500"></p>
-<br>
 
 <p align="center">
    <img src="https://readme-typing-svg.demolab.com?font=Roboto+Slab&color=%23FFFF00&size=35&center=true&vCenter=true&width=450&duration=1500&pause=1000&lines=Python+Chatbot AI;Machine+Learning;Data+Science" width="auto" height="35"/>
