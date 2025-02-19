@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;" />
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=32&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;" />
 </p>
 
 # 💫 About Me:
@@ -20,7 +20,7 @@
 </p>
 
 <p align="center"><img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500"></p>
-<br><br>
+<br>
 
 <p align="center">
    <img src="https://readme-typing-svg.demolab.com?font=Roboto+Slab&color=%23FFFF00&size=35&center=true&vCenter=true&width=450&duration=1500&pause=1000&lines=Python+Chatbot AI;Machine+Learning;Data+Science" width="auto" height="35"/>
