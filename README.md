@@ -23,7 +23,8 @@
 <br><br>
 
 <p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=A+Passionate+Backend,+ML+and+DS+with+AI+learner;" />
+   <img src="https://readme-typing-svg.demolab.com?font=Roboto+Slab&color=%237E3ACE&size=35&center=true&vCenter=true&width=450&duration=1500&pause=1000&lines=A+Passionate+Backend,+ML+and+DS+with+AI+learner" width="auto" height="35"/>
+
 
 <p align="left">Connect with me:</p>
 <p align="left">
