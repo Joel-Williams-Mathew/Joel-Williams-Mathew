@@ -15,18 +15,17 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=joel-williams-mathew&label=Profile%20views&color=0e75b6&style=flat" alt="joel-williams-mathew" /> </p>
 
-
-
 <p align="center">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=I'm+Joel+Williams!;" />
 </p>
 
-<h2 align="center"><img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500"></h2>
+<p align="center"><img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500"></p>
 <br><br>
-<h3 align="center">A passionate Backend,ML and DS with AI learner from Kerala, India</h3>
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=joel-williams-mathew" alt="joel-williams-mathew" /></a> </p>
 
-<h3 align="left">Connect with me:</h3>
+<p align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=A+Passionate+Backend,+ML+and+DS+with+AI+learner;" />
+
+<p align="left">Connect with me:</p>
 <p align="left">
 <a href="https://linkedin.com/in/joel williams" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="joel williams" height="30" width="40" /></a>
 <a href="https://fb.com/joel williams" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="joel williams" height="30" width="40" /></a>
