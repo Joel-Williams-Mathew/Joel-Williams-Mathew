@@ -2,14 +2,14 @@
 <img src="https://readme-typing-svg.demolab.com?font=Roboto+Slab&color=%2300FF00&size=40&center=true&vCenter=true&width=450&duration=1500&pause=1000&lines=Hi There!" width="auto" height="35"/>
 
 # 💫 About Me:
-- 🔭 I’m currently pursuing BTech in **Artificial Intelligence & Data Science at SJCET, Palai.**
 
-- 🌱 I’m currently learning **ML and DS with AI**
-
-- 🤝 I’m looking for help with **ML and DS developers, Prompt Engineers...**
-
-- 💬 Ask me about **Python,MYSql,Java,C,HTML**
-
+- 🚀 BTech AI & Data Science Student | Aspiring AI/ML Engineer
+- 🔬 Passionate about Machine Learning, Deep Learning & Prompt Engineering
+- 📊 Working on real-world projects using Python, Scikit-learn, and PyTorch
+- 🌱 Currently learning advanced ML workflows, model deployment & unsupervised learning
+- 📌 Projects: Smart Health Analyzer, Titanic Survival Prediction, Image Clustering
+- 💡 Always exploring ways to solve real-world problems using AI
+- 📬 Let's connect and collaborate on meaningful tech!
 - 📫 You can reach me through **joelw2200@gmail.com**
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=joel-williams-mathew&label=Profile%20views&color=0e75b6&style=flat" alt="joel-williams-mathew" /> </p>
