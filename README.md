@@ -7,7 +7,7 @@
 - 🔬 Passionate about Machine Learning, Deep Learning & Prompt Engineering
 - 📊 Working on real-world projects using Python, Scikit-learn, and PyTorch
 - 🌱 Currently learning advanced ML workflows, model deployment & unsupervised learning
-- 📌 Projects: Smart Health Analyzer, Titanic Survival Prediction, Image Clustering
+- 📌 Projects: Smart Health Analyzer, Titanic Survival Prediction, Image Clustering, Fake and Real news Predictor
 - 💡 Always exploring ways to solve real-world problems using AI
 - 📬 Let's connect and collaborate on meaningful tech!
 - 📫 You can reach me through **joelw2200@gmail.com**
