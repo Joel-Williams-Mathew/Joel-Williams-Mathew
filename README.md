@@ -1,169 +1,118 @@
-<!-- ======================================================= -->
-<!--                 JOEL WILLIAMS | PROFILE                 -->
-<!-- ======================================================= -->
+<!-- Replace YOUR_GITHUB_USERNAME, project names, LinkedIn username and email before publishing -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:090979,50:301B70,100:00D4FF&text=JOEL%20WILLIAMS&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=AI%20%26%20GENAI%20ENGINEER%20%7C%20BUILDER%20%7C%20INNOVATOR&descAlignY=58&descSize=15&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:050816,50:102A43,100:00D9FF&text=Jomu%20D%20Williams&fontColor=FFFFFF&fontSize=42&fontAlignY=45&desc=Building%20Intelligence%20Beyond%20Code&descAlignY=65&descSize=16&animation=fadeIn" width="100%" />
 
-<a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3000&pause=900&color=00D4FF&center=true&vCenter=true&width=650&lines=Building+Intelligent+Systems+%F0%9F%A7%A0;Exploring+Generative+AI+%26+LLMs+%F0%9F%A4%96;Turning+Ideas+Into+Working+Solutions+%E2%9A%A1;Learning%2C+Building%2C+Breaking%2C+Improving+%F0%9F%9A%80" alt="Typing SVG"/>
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=650&lines=Artificial+Intelligence+Enthusiast;Machine+Learning+%7C+Deep+Learning;Exploring+Neural+Networks+%26+AI;Turning+Ideas+Into+Intelligent+Systems" />
 
 <br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_USERNAME)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
-
-<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=for-the-badge&color=00D4FF&label=PROFILE+VIEWS"/>
+[![GitHub followers](https://img.shields.io/github/followers/YOUR_GITHUB_USERNAME?style=for-the-badge&logo=github&color=161B22)](https://github.com/YOUR_GITHUB_USERNAME)
+[![Profile Views](https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=for-the-badge&color=00D9FF)](https://github.com/YOUR_GITHUB_USERNAME)
 
 </div>
 
 ---
 
-## `whoami` 👨‍💻
+## ◈ ABOUT ME
 
-Hey there! I'm **Joel Williams (Jomu)** 👋
-
-I'm a B.Tech Artificial Intelligence & Data Science student passionate about building intelligent systems and exploring the possibilities of AI.
-
-I enjoy experimenting with machine learning, deep learning, computer vision and Generative AI — turning interesting ideas into practical solutions.
+<img align="right" width="300" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" />
 
 ```python
 class Developer:
 
     def __init__(self):
         self.name = "Joel Williams"
-        self.alias = "Jomu"
-        self.role = "AI & Data Science Engineer"
-        self.education = "B.Tech AI & DS"
+        self.role = "AI / ML Developer"
         self.interests = [
-            "Generative AI & LLMs",
+            "Artificial Intelligence",
             "Machine Learning",
             "Deep Learning",
-            "Computer Vision",
+            "Neural Networks",
             "Intelligent Systems"
         ]
 
     def current_focus(self):
-        return "Building AI-powered applications 🚀"
+        return "Building something meaningful with AI"
 
     def motto(self):
-        return "Imagine. Experiment. Build. Repeat."
+        return "Think. Build. Experiment. Repeat."
 ```
 
----
+- Exploring the possibilities of Artificial Intelligence.
+- Interested in neural networks and intelligent systems.
+- Building projects that combine theory with practical applications.
+- Always experimenting with new technologies.
+- Believer in learning by building.
 
-## ⚡ What I Do
-
-<table>
-<tr>
-<td width="50%">
-
-### 🧠 Artificial Intelligence
-- Machine Learning
-- Deep Learning
-- Neural Networks
-- Natural Language Processing
-- Computer Vision
-
-</td>
-<td width="50%">
-
-### 🤖 Exploring Next
-- Generative AI
-- Large Language Models
-- Retrieval-Augmented Generation
-- AI Agents
-- Intelligent Automation
-
-</td>
-</tr>
-</table>
+<br clear="right"/>
 
 ---
 
-## 🛠️ Tech Arsenal
-
-<div align="center">
+## ◈ TECH STACK
 
 ### Programming Languages
 
-<img src="https://skillicons.dev/icons?i=python,c,java,html,css,js&theme=dark" />
+<p align="left">
+<img src="https://skillicons.dev/icons?i=python,c,cpp,java,js&theme=dark" />
+</p>
 
-### AI / ML & Data Science
+### AI / Machine Learning
 
+<p align="left">
 <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,sklearn&theme=dark" />
+</p>
 
 ### Tools & Development
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,react,firebase,mysql&theme=dark" />
+<p align="left">
+<img src="https://skillicons.dev/icons?i=git,github,vscode,anaconda,mysql,linux&theme=dark" />
+</p>
 
-</div>
+### Data & Visualization
+
+<p align="left">
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
+</p>
 
 ---
 
-## 🚀 Featured Projects
+## ◈ WHAT I'M EXPLORING
 
 <table>
 <tr>
 <td width="50%">
 
-### 🧠 Neuromorphic Gesture Recognition
+### 🧠 Neural Intelligence
 
-Exploring brain-inspired computing and Spiking Neural Networks for intelligent gesture recognition.
-
-**Focus:** SNN · Deep Learning · Gesture Recognition
+Exploring deep learning, neural architectures, and biologically inspired computing.
 
 </td>
 <td width="50%">
 
-### 🔍 BugHunter
+### ⚡ Neuromorphic Computing
 
-An intelligent website testing concept that detects UI issues, broken images, failed requests and browser errors using automated testing.
-
-**Focus:** Python · Playwright · AI · Automation
+Investigating Spiking Neural Networks and brain-inspired intelligent systems.
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### 🌌 A World Away
+### 🤖 Brain–Computer Interfaces
 
-Hunting for exoplanets using AI as part of NASA Space Apps Challenge.
-
-**Focus:** AI · Data Analysis · Space Technology
+Exploring AI-powered signal classification and human-computer interaction.
 
 </td>
 <td width="50%">
 
-### 🏥 Smart Health Analyzer
+### 🏗️ Autonomous AI Systems
 
-A machine learning-based system that predicts potential heart disease using health-related data.
-
-**Focus:** Python · Scikit-learn · Machine Learning
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🕳️ Road Damage Detection
-
-YOLO-based detection of potholes and road humps using computer vision.
-
-**Focus:** YOLOv8 · OpenCV · Deep Learning
-
-</td>
-<td width="50%">
-
-### 👁️ Assistive Home Automation
-
-An accessibility-focused system using eye movements and hand gestures to control home appliances.
-
-**Focus:** Computer Vision · Gesture Recognition · Automation
+Experimenting with intelligent agents and automated software development.
 
 </td>
 </tr>
@@ -171,77 +120,86 @@ An accessibility-focused system using eye movements and hand gestures to control
 
 ---
 
-## 🏆 Experience & Achievements
-
-- 🚀 **NASA Space Apps Challenge** — Global Nominee.
-- 🏅 **IEDC Executive Committee** — Chief Skills Officer.
-- 🌟 Selected among the **Top 60 from 2,300+ participants**.
-- 💻 **AI/ML Intern** — PACELAB Technologies.
-- ⚙️ **Software Development Intern** — Bluestock Fintech.
-- 🧪 Built and experimented with multiple AI/ML projects.
-
----
-
-## 📊 GitHub Analytics
+## ◈ FEATURED PROJECTS
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
+<a href="https://github.com/YOUR_GITHUB_USERNAME/YOUR_PROJECT_1">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_GITHUB_USERNAME&repo=YOUR_PROJECT_1&theme=tokyonight&hide_border=true" />
+</a>
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true" />
+<a href="https://github.com/YOUR_GITHUB_USERNAME/YOUR_PROJECT_2">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_GITHUB_USERNAME&repo=YOUR_PROJECT_2&theme=tokyonight&hide_border=true" />
+</a>
+
+</div>
+
+<!-- Replace the project placeholders with the names of your actual public repositories. -->
+
+---
+
+## ◈ GITHUB ANALYTICS
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true" />
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
 
 <br/>
 
-<img width="70%" src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=tokyonight&hide_border=true" />
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
+<img width="70%" src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" />
 
 </div>
 
 ---
 
-## 🌱 Currently Exploring
+## ◈ CONTRIBUTION ACTIVITY
 
 <div align="center">
 
-| Area | Learning Focus |
-|:---:|:---|
-| 🤖 Generative AI | LLMs, Prompt Engineering, AI Agents |
-| 🔗 LLM Applications | RAG, Vector Databases |
-| 🧠 Deep Learning | CNNs, RNNs, LSTMs, GRUs, SNNs |
-| 👁️ Computer Vision | Image Processing, Object Detection |
-| ⚙️ Development | AI-powered applications and automation |
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=tokyo-night&hide_border=true&area=true" width="100%" />
 
 </div>
 
 ---
 
-## 🤝 Let's Connect!
-
-I'm always interested in collaborating on innovative projects, exploring emerging technologies and connecting with people who love building things.
+## ◈ CONTRIBUTION SNAKE
 
 <div align="center">
 
-<a href="YOUR_LINKEDIN_URL">
-<img src="https://img.shields.io/badge/LinkedIn-Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+<img src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake Animation"/>
+
+</div>
+
+---
+
+## ◈ CONNECT WITH ME
+
+<div align="center">
+
+<a href="https://github.com/YOUR_GITHUB_USERNAME">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME/">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
 <a href="mailto:YOUR_EMAIL">
-<img src="https://img.shields.io/badge/Gmail-Drop_a_Message-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
-
-<br/><br/>
-
-### 💭 Developer Philosophy
-
-*"The future isn't something we wait for. It's something we build."*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D4FF,50:301B70,100:090979&height=120&section=footer"/>
-
-**Thanks for visiting! Keep building. Keep innovating. 🚀**
 
 </div>
 
-<!-- End of README -->
+---
+
+<div align="center">
+
+### ✦ THINK BEYOND THE POSSIBLE ✦
+
+*"The future belongs to those who build what doesn't exist yet."*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:102A43,100:050816&height=110&section=footer" width="100%" />
+
+</div>
