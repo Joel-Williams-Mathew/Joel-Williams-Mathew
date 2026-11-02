@@ -1,93 +1,167 @@
 <div align="center">
 
-# JOEL WILLIAMS MATHEW
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:2C5364,100:0F2027&height=260&section=header&text=JOEL%20WILLIAMS%20MATHEW&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20%26%20Data%20Science%20Engineer%20in%20the%20Making&descAlignY=55&descSize=17&descColor=8FD3FF" width="100%"/>
 
-**AI & Data Science Student · Building with Machine Learning**
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2600&pause=800&color=4FD1FF&center=true&vCenter=true&width=680&lines=Building+ML+systems+that+actually+ship;Python+%7C+PyTorch+%7C+Scikit-learn;Turning+data+into+decisions;Currently%3A+training+models+%26+debugging+pipelines" />
 
-`Palai, Kerala` · `joelw2200@gmail.com` · [`LinkedIn`](https://linkedin.com/in/joel-williams-mathew) · [`Instagram`](https://instagram.com/mr_jw_40)
+<br>
+
+![](https://img.shields.io/badge/STATUS-ACTIVELY__BUILDING-0F2027?style=for-the-badge&labelColor=2C5364&color=4FD1FF)
+![Profile Views](https://komarev.com/ghpvc/?username=joel-williams-mathew&label=VISITORS&color=4FD1FF&style=for-the-badge&labelColor=0F2027)
+![Followers](https://img.shields.io/github/followers/Joel-Williams-Mathew?label=FOLLOWERS&style=for-the-badge&labelColor=0F2027&color=4FD1FF)
 
 </div>
 
----
+<br>
 
-### Summary
+<table width="100%">
+<tr>
+<td width="60%" valign="top">
 
-BTech student in Artificial Intelligence & Data Science focused on machine learning, deep learning, and prompt engineering. Builds end-to-end projects in Python using Scikit-learn and PyTorch, and is currently deepening knowledge of ML workflows, model deployment, and unsupervised learning.
+### ⚙️ Engineering Profile
 
----
-
-### Experience Timeline
-
-```
-2023 ─┬─ Started BTech in AI & Data Science
-      │
-2024 ─┼─ First supervised learning project: Titanic Survival Prediction
-      │
-2025 ─┼─ Built NLP classifier: Fake & Real News Predictor
-      │  Built unsupervised model: Image Clustering
-      │
-2026 ─┴─ Building: Smart Health Analyzer
+```yaml
+role:        AI & Data Science Student
+focus:       Machine Learning · Deep Learning · Prompt Engineering
+stack:       Python · PyTorch · Scikit-learn
+currently:   Model deployment & unsupervised learning
+institution: St. Joseph's College of Engineering & Technology, Palai
+contact:     joelw2200@gmail.com
 ```
 
----
+</td>
+<td width="40%" valign="top" align="center">
 
-### Projects
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="100%">
 
-<details>
-<summary><b>Smart Health Analyzer</b></summary>
+</td>
+</tr>
+</table>
+
 <br>
-A machine learning–based tool for analyzing health data and surfacing actionable insights.
-<br><br>
-<code>Python</code> <code>Scikit-learn</code> <code>Pandas</code>
-</details>
 
-<details>
-<summary><b>Titanic Survival Prediction</b></summary>
-<br>
-A supervised learning model predicting passenger survival on the classic Titanic dataset.
-<br><br>
-<code>Python</code> <code>Scikit-learn</code> <code>NumPy</code>
-</details>
-
-<details>
-<summary><b>Image Clustering</b></summary>
-<br>
-An unsupervised learning project grouping images by visual similarity.
-<br><br>
-<code>Python</code> <code>OpenCV</code> <code>Scikit-learn</code>
-</details>
-
-<details>
-<summary><b>Fake & Real News Predictor</b></summary>
-<br>
-An NLP-based classifier distinguishing real news from misinformation.
-<br><br>
-<code>Python</code> <code>NLP</code> <code>Scikit-learn</code>
-</details>
-
----
-
-### Skills
-
-| Category | Stack |
-|---|---|
-| Languages | Python, Java, C, JavaScript |
-| Machine Learning | PyTorch, Scikit-learn, NumPy, Pandas, OpenCV, Matplotlib |
-| Platforms | AWS, MySQL, Firebase, Django, Node.js, Anaconda |
-
----
-
-### GitHub Activity
+## 🧬 Tech Stack
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Joel-Williams-Mathew&show_icons=true&theme=gruvbox&hide_border=true" height="160"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joel-Williams-Mathew&layout=compact&theme=gruvbox&hide_border=true" height="160"/>
+<img src="https://skillicons.dev/icons?i=py,pytorch,sklearn,opencv,java,c,js,mysql,aws,django,nodejs,anaconda,git&theme=dark&perline=7" />
 </div>
 
----
+<br>
+
+<table width="100%">
+<tr><td width="25%"><b>Python</b></td><td width="75%">
+
+![](https://progress-bar.xyz/92?width=500&color=4FD1FF&title=&suffix=%25)
+
+</td></tr>
+<tr><td><b>Machine Learning</b></td><td>
+
+![](https://progress-bar.xyz/85?width=500&color=4FD1FF&title=&suffix=%25)
+
+</td></tr>
+<tr><td><b>PyTorch</b></td><td>
+
+![](https://progress-bar.xyz/75?width=500&color=4FD1FF&title=&suffix=%25)
+
+</td></tr>
+<tr><td><b>Deep Learning</b></td><td>
+
+![](https://progress-bar.xyz/70?width=500&color=4FD1FF&title=&suffix=%25)
+
+</td></tr>
+<tr><td><b>SQL / Databases</b></td><td>
+
+![](https://progress-bar.xyz/65?width=500&color=4FD1FF&title=&suffix=%25)
+
+</td></tr>
+</table>
+
+<br>
+
+## 🚀 Deployed Builds
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+### 🩺 Smart Health Analyzer
+ML-driven health data analysis & insight generation
+<br>`Python` `Scikit-learn` `Pandas`
+
+</td>
+<td width="50%" valign="top">
+
+### 🚢 Titanic Survival Prediction
+Supervised learning on the classic Titanic dataset
+<br>`Python` `Scikit-learn` `NumPy`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🖼️ Image Clustering
+Unsupervised grouping of images by visual similarity
+<br>`Python` `OpenCV` `Scikit-learn`
+
+</td>
+<td width="50%" valign="top">
+
+### 📰 Fake & Real News Predictor
+NLP classifier flagging misinformation
+<br>`Python` `NLP` `Scikit-learn`
+
+</td>
+</tr>
+</table>
+
+<br>
+
+## 📡 Live Metrics
 
 <div align="center">
 
-<sub>Thanks for reading — open to collaboration and new opportunities.</sub>
+<img src="https://github-readme-stats.vercel.app/api?username=Joel-Williams-Mathew&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0F2027&title_color=4FD1FF&icon_color=4FD1FF&text_color=c9d1d9" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joel-Williams-Mathew&layout=compact&theme=tokyonight&hide_border=true&bg_color=0F2027&title_color=4FD1FF&text_color=c9d1d9" height="165"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Joel-Williams-Mathew&theme=tokyonight&hide_border=true&background=0F2027&ring=4FD1FF&fire=4FD1FF&currStreakLabel=4FD1FF" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Joel-Williams-Mathew&theme=tokyo-night&hide_border=true&bg_color=0F2027&color=4FD1FF&line=4FD1FF&point=ffffff" width="95%"/>
 
 </div>
+
+<br>
+
+## 🏆 Trophy Case
+
+<div align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=Joel-Williams-Mathew&theme=tokyonight&no-frame=true&margin-w=10&row=1" />
+</div>
+
+<br>
+
+## 🐍 Commit Pulse
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/github-contribution-grid-snake-dark.svg" width="100%" />
+</div>
+
+> Needs a one-time GitHub Action ([Platane/snk](https://github.com/Platane/snk)) in your profile repo to generate this SVG from your contribution graph — say the word and I'll give you the exact workflow file.
+
+<br>
+
+## 📬 Reach Me
+
+<div align="center">
+
+<a href="https://linkedin.com/in/joel-williams-mathew" target="_blank"><img src="https://img.shields.io/badge/LINKEDIN-0F2027?style=for-the-badge&logo=linkedin&logoColor=4FD1FF&labelColor=0F2027" /></a>
+<a href="https://instagram.com/mr_jw_40" target="_blank"><img src="https://img.shields.io/badge/INSTAGRAM-0F2027?style=for-the-badge&logo=instagram&logoColor=4FD1FF&labelColor=0F2027" /></a>
+<a href="mailto:joelw2200@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0F2027?style=for-the-badge&logo=gmail&logoColor=4FD1FF&labelColor=0F2027" /></a>
+
+</div>
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:2C5364,100:0F2027&height=140&section=footer" width="100%"/>
+
+<div align="center"><sub>⚡ System status: online · compiling the future, one model at a time</sub></div>
