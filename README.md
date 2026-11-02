@@ -32,7 +32,8 @@ contact:     joelw2200@gmail.com
 </td>
 <td width="40%" valign="top" align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="100%">
+<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgdmlld0JveD0iMCAwIDE0MCAxNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGNpcmNsZSBjeD0iNzAiIGN5PSI3MCIgcj0iMjAiIGZpbGw9IiM0RkQxRkYiPgogICAgPGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgdmFsdWVzPSIyMDs0NTsyMCIgZHVyPSIyLjVzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIvPgogICAgPGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ib3BhY2l0eSIgdmFsdWVzPSIwLjg7MDswLjgiIGR1cj0iMi41cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz4KICA8L2NpcmNsZT4KICA8Y2lyY2xlIGN4PSI3MCIgY3k9IjcwIiByPSIyMCIgZmlsbD0iIzRGRDFGRiIvPgo8L3N2Zz4=" width="140">
+<br><sub>system online</sub>
 
 </td>
 </tr>
@@ -121,8 +122,8 @@ NLP classifier flagging misinformation
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Joel-Williams-Mathew&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0F2027&title_color=4FD1FF&icon_color=4FD1FF&text_color=c9d1d9" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joel-Williams-Mathew&layout=compact&theme=tokyonight&hide_border=true&bg_color=0F2027&title_color=4FD1FF&text_color=c9d1d9" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?cache_seconds=86400&username=Joel-Williams-Mathew&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0F2027&title_color=4FD1FF&icon_color=4FD1FF&text_color=c9d1d9" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?cache_seconds=86400&username=Joel-Williams-Mathew&layout=compact&theme=tokyonight&hide_border=true&bg_color=0F2027&title_color=4FD1FF&text_color=c9d1d9" height="165"/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Joel-Williams-Mathew&theme=tokyonight&hide_border=true&background=0F2027&ring=4FD1FF&fire=4FD1FF&currStreakLabel=4FD1FF" />
 
@@ -135,7 +136,7 @@ NLP classifier flagging misinformation
 ## 🏆 Trophy Case
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Joel-Williams-Mathew&theme=tokyonight&no-frame=true&margin-w=10&row=1" />
+<img src="https://github-profile-trophy.vercel.app/?no-bg=false&username=Joel-Williams-Mathew&theme=tokyonight&no-frame=true&margin-w=10&row=1" />
 </div>
 
 <br>
