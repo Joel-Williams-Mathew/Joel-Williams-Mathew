@@ -1,205 +1,146 @@
-<!-- Replace YOUR_GITHUB_USERNAME, project names, LinkedIn username and email before publishing -->
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:050816,50:102A43,100:00D9FF&text=Jomu%20D%20Williams&fontColor=FFFFFF&fontSize=42&fontAlignY=45&desc=Building%20Intelligence%20Beyond%20Code&descAlignY=65&descSize=16&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A0E27,50:1B2735,100:0A0E27&height=200&text=JOEL%20WILLIAMS&fontSize=48&fontColor=00FF99&fontAlignY=35&desc=%3C%20AI%20%26%20DATA%20SCIENCE%20ENGINEER%20%3E&descAlignY=58&descColor=FFFFFF&descSize=16" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=650&lines=Artificial+Intelligence+Enthusiast;Machine+Learning+%7C+Deep+Learning;Exploring+Neural+Networks+%26+AI;Turning+Ideas+Into+Intelligent+Systems" />
+<a href="https://github.com/Joel-Williams-Mathew">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00FF99&center=true&vCenter=true&width=700&lines=>+INITIALIZING+PROFILE...;>+LOADING_STACK:+PYTHON+/+PYTORCH+/+FLUTTER;>+TRAINING_NEUROEVOLUTION_AGENTS;>+BUILDING+DUM-E+VOICE+ASSISTANT;>+ACCESS_GRANTED+" alt="Typing animation"/>
+</a>
 
 <br/>
 
-[![GitHub followers](https://img.shields.io/github/followers/YOUR_GITHUB_USERNAME?style=for-the-badge&logo=github&color=161B22)](https://github.com/YOUR_GITHUB_USERNAME)
-[![Profile Views](https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=for-the-badge&color=00D9FF)](https://github.com/YOUR_GITHUB_USERNAME)
+<img src="https://img.shields.io/github/followers/Joel-Williams-Mathew?style=for-the-badge&logo=github&color=00FF99&labelColor=0A0E27" alt="followers"/>
+<img src="https://komarev.com/ghpvc/?username=Joel-Williams-Mathew&style=for-the-badge&color=FFFFFF&labelColor=0A0E27&label=PROFILE+VIEWS" alt="profile views"/>
 
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider"/>
 
-## ◈ ABOUT ME
+## ◈ `whoami` 👨‍💻
 
-<img align="right" width="300" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" />
+<img align="right" width="350" src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/assets/coding/coding-purple.gif" alt="Coding GIF" />
 
 ```python
 class Developer:
-
     def __init__(self):
         self.name = "Joel Williams"
-        self.role = "AI / ML Developer"
-        self.interests = [
-            "Artificial Intelligence",
-            "Machine Learning",
-            "Deep Learning",
-            "Neural Networks",
-            "Intelligent Systems"
+        self.role = "AI / ML Developer & Builder"
+        self.education = "B.Tech AI & DS @ SJCET"
+        self.experience = [
+            "Machine Learning Intern @ Cognifyz", 
+            "Flutter Dev Intern @ Techgentsia"
         ]
 
     def current_focus(self):
-        return "Building something meaningful with AI"
+        return "Building DUM-E & Training GNNs in Pygame"
+        
+    def environments(self):
+        return ["Windows", "Arch Linux", "VS Code", "Cursor IDE"]
 
-    def motto(self):
-        return "Think. Build. Experiment. Repeat."
+    def afk_activity(self):
+        return "Riding the Himalayan 450 & editing cinematic aesthetics"
 ```
-
-- Exploring the possibilities of Artificial Intelligence.
-- Interested in neural networks and intelligent systems.
-- Building projects that combine theory with practical applications.
-- Always experimenting with new technologies.
-- Believer in learning by building.
 
 <br clear="right"/>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider"/>
 
-## ◈ TECH STACK
+## 🎒 ◈ INVENTORY & TECH STACK
 
-### Programming Languages
+<div align="center">
 
-<p align="left">
-<img src="https://skillicons.dev/icons?i=python,c,cpp,java,js&theme=dark" />
-</p>
+<img src="https://user-images.githubusercontent.com/74038190/219923809-b86dc415-a0c2-4a38-bc88-ad6cf06395a8.gif" width="400" alt="floating tech stack"/>
 
-### AI / Machine Learning
+<br><br>
 
-<p align="left">
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,sklearn&theme=dark" />
-</p>
+**⚔️ Core Languages**
+<br>
+<img src="https://skillicons.dev/icons?i=python,nodejs,js,html,css&theme=dark" alt="languages"/>
 
-### Tools & Development
+<br><br>
 
-<p align="left">
-<img src="https://skillicons.dev/icons?i=git,github,vscode,anaconda,mysql,linux&theme=dark" />
-</p>
+**🧠 AI & Frameworks**
+<br>
+<img src="https://skillicons.dev/icons?i=pytorch,opencv,flutter,react,tailwind&theme=dark" alt="frameworks"/>
 
-### Data & Visualization
+<br><br>
 
-<p align="left">
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white"/>
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
-</p>
+**🧪 Tools, DBs & Environments**
+<br>
+<img src="https://skillicons.dev/icons?i=git,github,postgres,firebase,linux,windows,vscode&theme=dark" alt="tools"/>
 
----
+</div>
 
-## ◈ WHAT I'M EXPLORING
+<br>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider"/>
+
+## 🌌 ◈ ACTIVE MODULES
 
 <table>
 <tr>
 <td width="50%">
 
-### 🧠 Neural Intelligence
-
-Exploring deep learning, neural architectures, and biologically inspired computing.
+### 🤖 DUM-E Voice Assistant
+Modular Python desktop automation tool leveraging `PyAutoGUI` and text-to-speech for hands-free execution.
 
 </td>
 <td width="50%">
 
-### ⚡ Neuromorphic Computing
-
-Investigating Spiking Neural Networks and brain-inspired intelligent systems.
+### 🧬 Autonomous Agents
+Training AI to beat games using Genetic Neural Networks (GNNs) and Neuroevolution directly inside Pygame.
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### 🤖 Brain–Computer Interfaces
-
-Exploring AI-powered signal classification and human-computer interaction.
+### 🔍 ML Data Pipelines
+Architecting automated Jupyter analysis scripts and custom recommendation systems.
 
 </td>
 <td width="50%">
 
-### 🏗️ Autonomous AI Systems
-
-Experimenting with intelligent agents and automated software development.
+### 📱 Full-Stack Interfaces
+Building dynamic front-end UI screens and integrating complex business logic with Flutter.
 
 </td>
 </tr>
 </table>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider"/>
 
-## ◈ FEATURED PROJECTS
-
-<div align="center">
-
-<a href="https://github.com/YOUR_GITHUB_USERNAME/YOUR_PROJECT_1">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_GITHUB_USERNAME&repo=YOUR_PROJECT_1&theme=tokyonight&hide_border=true" />
-</a>
-
-<a href="https://github.com/YOUR_GITHUB_USERNAME/YOUR_PROJECT_2">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_GITHUB_USERNAME&repo=YOUR_PROJECT_2&theme=tokyonight&hide_border=true" />
-</a>
-
-</div>
-
-<!-- Replace the project placeholders with the names of your actual public repositories. -->
-
----
-
-## ◈ GITHUB ANALYTICS
+## 🏆 ◈ TELEMETRY & HIGH SCORES
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true" />
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Joel-Williams-Mathew&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0A0E27&title_color=00FF99&icon_color=FFFFFF&include_all_commits=true" alt="GitHub stats"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joel-Williams-Mathew&layout=compact&theme=tokyonight&hide_border=true&bg_color=0A0E27&title_color=00FF99&langs_count=6" alt="Top languages"/>
 
 <br/>
 
-<img width="70%" src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" />
+<img src="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&theme=tokyonight&hide_border=true&background=0A0E27&ring=00FF99&fire=FFFFFF&currStreakLabel=00FF99" alt="GitHub streak"/>
 
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider"/>
 
-## ◈ CONTRIBUTION ACTIVITY
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=tokyo-night&hide_border=true&area=true" width="100%" />
-
-</div>
-
----
-
-## ◈ CONTRIBUTION SNAKE
+## 📡 ◈ UPLINK CHANNELS
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake Animation"/>
+<img src="https://user-images.githubusercontent.com/74038190/235294016-6556559a-ed58-4ca6-a4c9-c307cbe0b6b7.gif" width="48" alt="animated icon"/>
 
-</div>
+<br><br>
 
----
-
-## ◈ CONNECT WITH ME
-
-<div align="center">
-
-<a href="https://github.com/YOUR_GITHUB_USERNAME">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<a href="https://github.com/Joel-Williams-Mathew">
+<img src="https://img.shields.io/badge/GitHub-0A0E27?style=for-the-badge&logo=github&logoColor=00FF99"/>
+</a>
+<a href="mailto:joelw2200@gmail.com">
+<img src="https://img.shields.io/badge/Email-0A0E27?style=for-the-badge&logo=gmail&logoColor=FFFFFF"/>
 </a>
 
-<a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME/">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
+<br><br>
 
-<a href="mailto:YOUR_EMAIL">
-<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-</div>
-
----
-
-<div align="center">
-
-### ✦ THINK BEYOND THE POSSIBLE ✦
-
-*"The future belongs to those who build what doesn't exist yet."*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:102A43,100:050816&height=110&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A0E27,50:1B2735,100:0A0E27&height=100&text=END_OF_FILE&fontSize=16&fontColor=00FF99" width="100%"/>
 
 </div>
