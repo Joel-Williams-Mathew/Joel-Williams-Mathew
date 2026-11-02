@@ -1,96 +1,127 @@
-<h1 align="center">Hi there, I'm Joel Williams Mathew 👋</h1>
-<h3 align="center">Aspiring AI/ML Engineer | BTech Artificial Intelligence & Data Science</h3>
+<div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Focusing-success?style=flat-square" />
-  <img src="https://img.shields.io/badge/Open%20to-Collaboration-blue?style=flat-square" />
-</p>
+```
+╔═══════════════════════════════════════════════════╗
+║  joel@portfolio:~$ whoami                          ║
+╚═══════════════════════════════════════════════════╝
+```
 
----
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=00FF9C&center=true&vCenter=true&width=600&lines=Joel+Williams+Mathew;AI+%26+Data+Science+Student;Aspiring+ML+Engineer;Training+models...+debugging+life;Always+learning+%F0%9F%9A%80" alt="Typing SVG" />
 
-### 🔭 About Me
+</div>
 
-- 🎓 Currently pursuing **BTech in Artificial Intelligence & Data Science** at St. Joseph's College of Engineering and Technology, Palai
-- 🔬 Passionate about **Machine Learning, Deep Learning, and Prompt Engineering**
-- 📊 Building real-world projects with **Python, Scikit-learn, and PyTorch**
-- 🌱 Currently deepening my knowledge of **ML workflows, model deployment, and unsupervised learning**
-- 💡 Driven to apply AI to solve practical, real-world problems
-- 📫 Reach me at **joelw2200@gmail.com**
+<br>
 
----
+```bash
+joel@portfolio:~$ cat about.md
+```
 
-### 🚀 Featured Projects
+- 🎓 BTech **Artificial Intelligence & Data Science** @ St. Joseph's College of Engineering & Technology, Palai
+- 🔬 Exploring **Machine Learning, Deep Learning & Prompt Engineering**
+- 📊 Building with **Python · Scikit-learn · PyTorch**
+- 🌱 Currently leveling up on **ML workflows, model deployment & unsupervised learning**
+- 📫 `joelw2200@gmail.com`
 
-| Project | Description |
-|---|---|
-| **Smart Health Analyzer** | A machine learning–based tool for analyzing health data and surfacing insights |
-| **Titanic Survival Prediction** | Classic supervised learning model predicting passenger survival on the Titanic dataset |
-| **Image Clustering** | Unsupervised learning project grouping images by visual similarity |
-| **Fake and Real News Predictor** | NLP-based classifier distinguishing real news from misinformation |
+<br>
 
----
+```bash
+joel@portfolio:~$ ls projects/
+```
 
-### 🛠️ Tech Stack
+<table>
+<tr>
+<td width="50%">
 
-**Languages**
-<p>
-  <img src="https://img.shields.io/badge/-Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
-  <img src="https://img.shields.io/badge/-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/-C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-  <img src="https://img.shields.io/badge/-JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
-  <img src="https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-</p>
+**`smart-health-analyzer/`**
+ML-driven health data analysis tool
 
-**ML / Data Science**
-<p>
-  <img src="https://img.shields.io/badge/-PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/-scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/-NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Matplotlib-ffffff?style=for-the-badge&logo=Matplotlib&logoColor=black" />
-  <img src="https://img.shields.io/badge/-OpenCV-white?style=for-the-badge&logo=opencv&logoColor=white" />
-</p>
+</td>
+<td width="50%">
 
-**Tools & Platforms**
-<p>
-  <img src="https://img.shields.io/badge/-Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white" />
-  <img src="https://img.shields.io/badge/-AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" />
-  <img src="https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34" />
-  <img src="https://img.shields.io/badge/-Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</p>
+**`titanic-survival-prediction/`**
+Supervised learning · classic Kaggle dataset
 
----
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-### 📊 GitHub Stats
+**`image-clustering/`**
+Unsupervised learning · visual similarity grouping
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Joel-Williams-Mathew&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joel-Williams-Mathew&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
+</td>
+<td width="50%">
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Joel-Williams-Mathew&theme=tokyonight&hide_border=true" />
-</p>
+**`fake-news-predictor/`**
+NLP classifier for misinformation detection
 
----
+</td>
+</tr>
+</table>
 
-### 🌐 Connect With Me
+<br>
 
-<p>
-  <a href="https://linkedin.com/in/joel-williams-mathew" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://instagram.com/mr_jw_40" target="_blank">
-    <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
-  <a href="mailto:joelw2200@gmail.com">
-    <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
+```bash
+joel@portfolio:~$ cat tech_stack.json
+```
 
----
+<div align="center">
 
-<p align="center"><i>Always exploring ways to solve real-world problems with AI — let's connect and collaborate! 🚀</i></p>
+<img src="https://img.shields.io/badge/-Python-000000?style=for-the-badge&logo=python&logoColor=3670A0" />
+<img src="https://img.shields.io/badge/-PyTorch-000000?style=for-the-badge&logo=PyTorch&logoColor=EE4C2C" />
+<img src="https://img.shields.io/badge/-scikit--learn-000000?style=for-the-badge&logo=scikit-learn&logoColor=F7931E" />
+<img src="https://img.shields.io/badge/-NumPy-000000?style=for-the-badge&logo=numpy&logoColor=white" />
+<img src="https://img.shields.io/badge/-Pandas-000000?style=for-the-badge&logo=pandas&logoColor=E70488" />
+<img src="https://img.shields.io/badge/-OpenCV-000000?style=for-the-badge&logo=opencv&logoColor=white" /><br>
+<img src="https://img.shields.io/badge/-Java-000000?style=for-the-badge&logo=openjdk&logoColor=ED8B00" />
+<img src="https://img.shields.io/badge/-C-000000?style=for-the-badge&logo=c&logoColor=A8B9CC" />
+<img src="https://img.shields.io/badge/-JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+<img src="https://img.shields.io/badge/-MySQL-000000?style=for-the-badge&logo=mysql&logoColor=4479A1" />
+<img src="https://img.shields.io/badge/-AWS-000000?style=for-the-badge&logo=amazon-aws&logoColor=FF9900" />
+<img src="https://img.shields.io/badge/-Django-000000?style=for-the-badge&logo=django&logoColor=092E20" />
+
+</div>
+
+<br>
+
+```bash
+joel@portfolio:~$ ./fetch_stats.sh
+```
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Joel-Williams-Mathew&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FF9C&icon_color=00FF9C&text_color=c9d1d9" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joel-Williams-Mathew&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FF9C&text_color=c9d1d9" height="165"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Joel-Williams-Mathew&theme=dark&hide_border=true&background=0D1117&ring=00FF9C&fire=00FF9C&currStreakLabel=00FF9C" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Joel-Williams-Mathew&theme=react-dark&hide_border=true&bg_color=0D1117&color=00FF9C&line=00FF9C&point=ffffff" width="95%"/>
+
+</div>
+
+<br>
+
+```bash
+joel@portfolio:~$ cat contact.sh
+```
+
+<div align="center">
+
+<a href="https://linkedin.com/in/joel-williams-mathew" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=0077B5" /></a>
+<a href="https://instagram.com/mr_jw_40" target="_blank"><img src="https://img.shields.io/badge/-Instagram-000000?style=for-the-badge&logo=instagram&logoColor=E4405F" /></a>
+<a href="mailto:joelw2200@gmail.com"><img src="https://img.shields.io/badge/-Gmail-000000?style=for-the-badge&logo=gmail&logoColor=D14836" /></a>
+
+</div>
+
+<br>
+
+<div align="center">
+
+```
+joel@portfolio:~$ echo "thanks for stopping by" && exit
+> thanks for stopping by
+```
+
+<img src="https://komarev.com/ghpvc/?username=joel-williams-mathew&label=Profile%20Views&color=00FF9C&style=for-the-badge" />
+
+</div>
