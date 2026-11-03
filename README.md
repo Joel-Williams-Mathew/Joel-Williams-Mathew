@@ -12,11 +12,19 @@
 <!-- ══════════════════ FEATURE PRESENTATION ══════════════════ -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0D1117,50:2B1E07,100:0D1117&amp;height=230&amp;section=header&amp;text=JOEL%20WILLIAMS&amp;fontSize=52&amp;fontColor=FFB454&amp;animation=fadeIn&amp;fontAlignY=34&amp;desc=AI%20%2F%20ML%20ENGINEER%20%E2%80%94%20Building%20DUM-E%20&GNNs&amp;descSize=17&amp;descAlignY=56" width="100%" alt="Joel Williams Mathew — AI / ML Engineer, Building DUM-E & GNNs"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg"/>
+    <img src="./assets/banner-dark.svg" width="100%" alt="Joel Williams Mathew — AI / ML Engineer, Building DUM-E &amp; GNNs. NASA Space Apps 2025 Global Nominee"/>
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=19&amp;duration=2800&amp;pause=1100&amp;color=FFB454&amp;center=true&amp;vCenter=true&amp;width=800&amp;lines=%3E%20booting%20profile.exe...;%3E%20stack%3A%20GEN-AI%20%2F%2F%20MACHINE-LEARNING%20%2F%2F%20PYTHON;%3E%20NASA%20Space%20Apps%202025%20%E2%80%94%20Global%20Nominee;%3E%20Training%20Genetic%20Neural%20Networks;%3E%20Building%20DUM-E%20%E2%80%94%20modular%20voice%20assistant" alt="Animated terminal typing: Gen-AI, Machine Learning, Python stack, NASA Space Apps 2025 Global Nominee, GNN training, DUM-E voice assistant"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=19&amp;duration=2800&amp;pause=1100&amp;color=FFB454&amp;center=true&amp;vCenter=true&amp;width=800&amp;lines=%3E%20booting%20profile.exe...;%3E%20stack%3A%20GEN-AI%20%2F%2F%20MACHINE-LEARNING%20%2F%2F%20PYTHON;%3E%20NASA%20Space%20Apps%202025%20%E2%80%94%20Global%20Nominee;%3E%20Training%20Genetic%20Neural%20Networks;%3E%20Building%20DUM-E%20%E2%80%94%20modular%20voice%20assistant"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=19&amp;duration=2800&amp;pause=1100&amp;color=B45309&amp;center=true&amp;vCenter=true&amp;width=800&amp;lines=%3E%20booting%20profile.exe...;%3E%20stack%3A%20GEN-AI%20%2F%2F%20MACHINE-LEARNING%20%2F%2F%20PYTHON;%3E%20NASA%20Space%20Apps%202025%20%E2%80%94%20Global%20Nominee;%3E%20Training%20Genetic%20Neural%20Networks;%3E%20Building%20DUM-E%20%E2%80%94%20modular%20voice%20assistant"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=19&amp;duration=2800&amp;pause=1100&amp;color=FFB454&amp;center=true&amp;vCenter=true&amp;width=800&amp;lines=%3E%20booting%20profile.exe...;%3E%20stack%3A%20GEN-AI%20%2F%2F%20MACHINE-LEARNING%20%2F%2F%20PYTHON;%3E%20NASA%20Space%20Apps%202025%20%E2%80%94%20Global%20Nominee;%3E%20Training%20Genetic%20Neural%20Networks;%3E%20Building%20DUM-E%20%E2%80%94%20modular%20voice%20assistant" alt="Animated terminal typing: Gen-AI, Machine Learning, Python stack, NASA Space Apps 2025 Global Nominee, Training Genetic Neural Networks, Building DUM-E"/>
+  </picture>
 </p>
 
 <p align="center">
@@ -74,17 +82,29 @@
 
 **`> core_languages`**
 <p>
-  <img src="https://skillicons.dev/icons?i=python,java,c,javascript,dart,html,css&amp;theme=dark" alt="Core languages: Python, Java, C, JavaScript, Dart, HTML, CSS"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,java,c,javascript,dart,html,css&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python,java,c,javascript,dart,html,css&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=python,java,c,javascript,dart,html,css&theme=dark" alt="Core languages: Python, Java, C, JavaScript, Dart, HTML, CSS"/>
+  </picture>
 </p>
 
 **`> ai_ml_and_frameworks`**
 <p>
-  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,flutter,react,tailwind&amp;theme=dark" alt="AI and frameworks: PyTorch, TensorFlow, OpenCV, Flutter, React, Tailwind CSS"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,flutter,react,tailwind&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,flutter,react,tailwind&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,flutter,react,tailwind&theme=dark" alt="AI and frameworks: PyTorch, TensorFlow, OpenCV, Flutter, React, Tailwind CSS"/>
+  </picture>
 </p>
 
 **`> tools_dbs_and_environments`**
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,linux,arch,windows,firebase,postgres&amp;theme=dark" alt="Tools: Git, GitHub, VS Code, Linux, Arch, Windows, Firebase, PostgreSQL"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git,github,vscode,linux,arch,windows,firebase,postgres&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=git,github,vscode,linux,arch,windows,firebase,postgres&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=git,github,vscode,linux,arch,windows,firebase,postgres&theme=dark" alt="Tools: Git, GitHub, VS Code, Linux, Arch, Windows, Firebase, PostgreSQL"/>
+  </picture>
 </p>
 
 <p align="center">
@@ -108,13 +128,26 @@
 
 ### `SCENE_04 // TELEMETRY`
 
+<!-- Stats cards: generated daily by .github/workflows/stats.yml, served from the `output` branch (self-hosted, no external stats service) -->
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=Joel-Williams-Mathew&amp;show_icons=true&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=FFB454&amp;icon_color=FFB454&amp;text_color=C9D1D9&amp;include_all_commits=true&amp;count_private=true" height="165" alt="GitHub stats — commits, stars, PRs and contributions for Joel-Williams-Mathew"/>
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Joel-Williams-Mathew&amp;layout=compact&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=FFB454&amp;text_color=C9D1D9&amp;langs_count=6" height="165" alt="Top languages used by Joel-Williams-Mathew"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/stats-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/stats-light.svg"/>
+    <img src="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/stats-dark.svg" height="165" alt="GitHub stats — commits, stars, PRs and contributions for Joel-Williams-Mathew"/>
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/top-langs-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/top-langs-light.svg"/>
+    <img src="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/top-langs-dark.svg" height="165" alt="Top languages used by Joel-Williams-Mathew"/>
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=0D1117&amp;ring=FFB454&amp;fire=FFB454&amp;currStreakLabel=FFB454&amp;currStreakNum=FFFFFF&amp;sideLabels=8B949E&amp;sideNums=C9D1D9&amp;dates=8B949E" height="165" alt="GitHub contribution streak for Joel-Williams-Mathew"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=0D1117&amp;ring=FFB454&amp;fire=FFB454&amp;currStreakLabel=FFB454&amp;currStreakNum=FFFFFF&amp;sideLabels=8B949E&amp;sideNums=C9D1D9&amp;dates=8B949E"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=FFFFFF&amp;ring=B45309&amp;fire=B45309&amp;currStreakLabel=B45309&amp;currStreakNum=111111&amp;sideLabels=6B7280&amp;sideNums=374151&amp;dates=6B7280"/>
+    <img src="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=0D1117&amp;ring=FFB454&amp;fire=FFB454&amp;currStreakLabel=FFB454&amp;currStreakNum=FFFFFF&amp;sideLabels=8B949E&amp;sideNums=C9D1D9&amp;dates=8B949E" height="165" alt="GitHub contribution streak for Joel-Williams-Mathew"/>
+  </picture>
 </p>
 
 <!-- Contribution snake — generated by .github/workflows/snake.yml, refreshes daily -->
@@ -167,6 +200,4 @@
 
 <p align="center"><code>&gt; EOF // thanks for watching — drop a ⭐ if the build impressed you</code></p>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0D1117,50:2B1E07,100:0D1117&amp;height=110&amp;section=footer&amp;text=STAY%20CURIOUS%20%E2%80%A2%20STAY%20BUILDING&amp;fontSize=18&amp;fontColor=FFB454&amp;animation=fadeIn&amp;fontAlignY=65" width="100%" alt=""/>
-</p>
+<p align="center"><code>STAY CURIOUS &#183; STAY BUILDING</code></p>

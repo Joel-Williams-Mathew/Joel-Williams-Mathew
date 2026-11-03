@@ -1,0 +1,69 @@
+name: Generate profile stats cards
+
+# Generates self-hosted stats + top-languages cards (dark & light) and
+# publishes them ADDITIVELY to the `output` branch. The README references
+# these files, so the cards refresh daily and depend on no external host.
+
+on:
+  schedule:
+    - cron: "30 0 * * *"  # daily, 30 min after the snake run
+  workflow_dispatch:        # allow manual runs
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-output
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=Joel-Williams-Mathew&show_icons=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=FFB454&icon_color=FFB454&text_color=C9D1D9&hide_border=true
+          path: dist/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate stats card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=Joel-Williams-Mathew&show_icons=true&include_all_commits=true&count_private=true&bg_color=FFFFFF&title_color=B45309&icon_color=B45309&text_color=374151&hide_border=true
+          path: dist/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top languages card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=Joel-Williams-Mathew&layout=compact&langs_count=6&bg_color=0D1117&title_color=FFB454&text_color=C9D1D9&hide_border=true
+          path: dist/top-langs-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top languages card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=Joel-Williams-Mathew&layout=compact&langs_count=6&bg_color=FFFFFF&title_color=B45309&text_color=374151&hide_border=true
+          path: dist/top-langs-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish to output branch (additive)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin output
+          git checkout output
+          cp dist/stats-dark.svg dist/stats-light.svg dist/top-langs-dark.svg dist/top-langs-light.svg .
+          git add stats-dark.svg stats-light.svg top-langs-dark.svg top-langs-light.svg
+          git commit -m "chore: update stats cards" || echo "no changes to commit"
+          git push origin output
