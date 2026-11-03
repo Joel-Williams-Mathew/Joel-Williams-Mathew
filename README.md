@@ -94,13 +94,6 @@ d4e7a19 feat: Flutter UI on real business logic
   </picture>
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=0D1117&amp;ring=FF6B1A&amp;fire=FF6B1A&amp;currStreakLabel=FF6B1A&amp;currStreakNum=FFFFFF&amp;sideLabels=8B949E&amp;sideNums=FFFFFF&amp;dates=8B949E"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=0D1117&amp;ring=FF6B1A&amp;fire=FF6B1A&amp;currStreakLabel=FF6B1A&amp;currStreakNum=FFFFFF&amp;sideLabels=8B949E&amp;sideNums=FFFFFF&amp;dates=8B949E"/>
-    <img src="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=0D1117&amp;ring=FF6B1A&amp;fire=FF6B1A&amp;currStreakLabel=FF6B1A&amp;currStreakNum=FFFFFF&amp;sideLabels=8B949E&amp;sideNums=FFFFFF&amp;dates=8B949E" height="170" alt="GitHub contribution streak"/>
-  </picture>
-</p>
 
 <p align="center">
   <picture>
