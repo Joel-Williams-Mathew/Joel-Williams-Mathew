@@ -41,7 +41,11 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&amp;color=0:0D1117,50:FFB454,100:0D1117&amp;height=3" width="100%" alt=""/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg"/>
+    <img src="./assets/divider-dark.svg" width="100%" alt=""/>
+  </picture>
 </p>
 
 <!-- ══════════════════ SCENE 01 — WHOAMI ══════════════════ -->
@@ -69,7 +73,11 @@
 </table>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&amp;color=0:0D1117,50:FFB454,100:0D1117&amp;height=3" width="100%" alt=""/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg"/>
+    <img src="./assets/divider-dark.svg" width="100%" alt=""/>
+  </picture>
 </p>
 
 <!-- ══════════════════ SCENE 02 — THE LOADOUT ══════════════════ -->
@@ -134,12 +142,20 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&amp;color=0:0D1117,50:FFB454,100:0D1117&amp;height=3" width="100%" alt=""/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg"/>
+    <img src="./assets/divider-dark.svg" width="100%" alt=""/>
+  </picture>
 </p>
 
 <!-- ══════════════════ SCENE 03 — ACTIVE MISSIONS ══════════════════ -->
 
 ### `SCENE_03 // ACTIVE MISSIONS`
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284068-b4ee9a5c-331c-4d18-9481-53dd6b9debd5.gif" width="380" alt="Cinematic coding session — the craft in motion"/>
+</p>
 
 | | |
 |:---|:---|
@@ -147,12 +163,20 @@
 | **🔍&nbsp; ML Data Pipelines** <br/>`STATUS: SHIPPING` <br/> Automated Jupyter analysis scripts &amp; custom recommendation systems, from raw CSV to insight. | **📱&nbsp; Full-Stack Interfaces** <br/>`STATUS: BUILDING` <br/> Dynamic front-end UI screens wired to real business logic with <b>Flutter</b>. |
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&amp;color=0:0D1117,50:FFB454,100:0D1117&amp;height=3" width="100%" alt=""/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg"/>
+    <img src="./assets/divider-dark.svg" width="100%" alt=""/>
+  </picture>
 </p>
 
 <!-- ══════════════════ SCENE 04 — TELEMETRY ══════════════════ -->
 
 ### `SCENE_04 // TELEMETRY`
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-night-view.svg" width="90%" alt="3D contribution skyline — glowing windows mapped from my commits, regenerated daily"/>
+</p>
 
 <!-- Stats cards: generated daily by .github/workflows/stats.yml, served from the `output` branch (self-hosted, no external stats service) -->
 <p align="center">
@@ -186,7 +210,11 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&amp;color=0:0D1117,50:FFB454,100:0D1117&amp;height=3" width="100%" alt=""/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg"/>
+    <img src="./assets/divider-dark.svg" width="100%" alt=""/>
+  </picture>
 </p>
 
 <!-- ══════════════════ SCENE 05 — OFF THE CLOCK ══════════════════ -->
@@ -201,7 +229,11 @@
 - 🎬&nbsp; **Frame by frame** — every shot gets graded; even the code screenshots
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&amp;color=0:0D1117,50:FFB454,100:0D1117&amp;height=3" width="100%" alt=""/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg"/>
+    <img src="./assets/divider-dark.svg" width="100%" alt=""/>
+  </picture>
 </p>
 
 <!-- ══════════════════ SCENE 06 — UPLINK ══════════════════ -->

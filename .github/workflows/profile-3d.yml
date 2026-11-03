@@ -1,0 +1,41 @@
+name: GitHub-Profile-3D-Contrib
+
+# Generates a 3D contribution-calendar image and commits it to main
+# (profile-3d-contrib/*.svg). Referenced by README.md as ./profile-3d-contrib/.
+
+on:
+  schedule:
+    - cron: "15 0 * * *"   # daily, 15 min after snake
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-main
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A ./profile-3d-contrib
+          if git commit -m "chore: update 3d contribution calendar"; then
+            git pull --rebase origin main
+            git push
+          fi
