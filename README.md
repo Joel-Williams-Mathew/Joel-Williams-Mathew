@@ -12,11 +12,11 @@
 <!-- ══════════════════ FEATURE PRESENTATION ══════════════════ -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0D1117,50:2B1E07,100:0D1117&amp;height=230&amp;section=header&amp;text=JOEL%20WILLIAMS&amp;fontSize=52&amp;fontColor=FFB454&amp;animation=fadeIn&amp;fontAlignY=34&amp;desc=AI%20%2F%20ML%20ENGINEER%20%E2%80%94%20CINEMATIC%20BUILDER&amp;descSize=17&amp;descAlignY=56" width="100%" alt="Joel Williams Mathew — AI / ML Engineer, Cinematic Builder"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0D1117,50:2B1E07,100:0D1117&amp;height=230&amp;section=header&amp;text=JOEL%20WILLIAMS&amp;fontSize=52&amp;fontColor=FFB454&amp;animation=fadeIn&amp;fontAlignY=34&amp;desc=AI%20%2F%20ML%20ENGINEER%20%E2%80%94%20CINEMATIC%20BUILDER&amp;descSize=17&amp;descAlignY=56" width="100%" alt="Joel Williams Mathew — AI / ML Engineer, building DUM-E & GNNs"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=19&amp;duration=2800&amp;pause=1100&amp;color=FFB454&amp;center=true&amp;vCenter=true&amp;width=780&amp;lines=%3E%20booting%20profile.exe...;%3E%20stack%3A%20PYTHON%20%2F%2F%20PYTORCH%20%2F%2F%20FLUTTER;%3E%20training%20genetic%20neural%20networks%20in%20pygame;%3E%20building%20DUM-E%20%E2%80%94%20modular%20voice%20assistant;%3E%20AFK%3A%20Himalayan%20450%20%2B%20cinematic%20photography" alt="Animated terminal typing: booting profile, stack Python/PyTorch/Flutter, training GNNs, building DUM-E, Himalayan 450 and photography"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=19&amp;duration=2800&amp;pause=1100&amp;color=FFB454&amp;center=true&amp;vCenter=true&amp;width=780&amp;lines=%3E%20booting%20profile.exe...;%3E%20stack%3A%20PYTHON%20%2F%2F%20PYTORCH%20%2F%2F%20FLUTTER;%3E%20training%20genetic%20neural%20networks%20in%20pygame;%3E%20building%20DUM-E%20%E2%80%94%20modular%20voice%20assistant;%3E%20AFK%3A%20Himalayan%20450%20%2B%20cinematic%20photography" alt="Animated terminal typing: booting profile, stack Gen-AI, Machine-Learning, Python, Nasa-Space-Apps runnerup, Training GNNs, Building DUM-E"/>
 </p>
 
 <p align="center">
