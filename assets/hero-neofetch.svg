@@ -1,0 +1,57 @@
+<svg width="1400" height="680" viewBox="0 0 1400 680" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>neofetch — jomu@joel</title>
+  <defs>
+    <pattern id="bgDots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.4" cy="1.4" r="1.2" fill="#101825"/>
+    </pattern>
+  </defs>
+
+  <rect width="1400" height="680" fill="#050A14"/>
+  <rect width="1400" height="680" fill="url(#bgDots)" opacity="0.9"/>
+
+  <!-- terminal window -->
+  <rect x="20" y="20" width="1360" height="640" rx="14" fill="#0D1117" stroke="#1F2937" stroke-width="2"/>
+  <circle cx="52" cy="52" r="9" fill="#FF5F57"/>
+  <circle cx="80" cy="52" r="9" fill="#FEBC2E"/>
+  <circle cx="108" cy="52" r="9" fill="#28C840"/>
+  <text x="700" y="58" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="17" letter-spacing="2" fill="#8B949E">jomu@joel: ~ — neofetch</text>
+  <line x1="40" y1="76" x2="1360" y2="76" stroke="#1F2937" stroke-width="2"/>
+
+  <!-- prompt -->
+  <text x="60" y="118" font-family="'Courier New', Courier, monospace" font-size="20" font-weight="700"><tspan fill="#56B6C2">jomu@joel</tspan><tspan fill="#E8F4FF">:~$ neofetch</tspan></text>
+
+  <!-- ASCII art: JOMU block letters -->
+  <text x="55" y="235" font-family="'Courier New', 'DejaVu Sans Mono', monospace" font-size="44" font-weight="700" fill="#E8F4FF">     ██╗ ██████╗ ███╗   ███╗██╗   ██╗</text>
+  <text x="55" y="288" font-family="'Courier New', 'DejaVu Sans Mono', monospace" font-size="44" font-weight="700" fill="#E8F4FF">     ██║██╔═══██╗████╗ ████║██║   ██║</text>
+  <text x="55" y="341" font-family="'Courier New', 'DejaVu Sans Mono', monospace" font-size="44" font-weight="700" fill="#E8F4FF">     ██║██║   ██║██╔████╔██║██║   ██║</text>
+  <text x="55" y="394" font-family="'Courier New', 'DejaVu Sans Mono', monospace" font-size="44" font-weight="700" fill="#E8F4FF">██   ██║██║   ██║██║╚██╔╝██║██║   ██║</text>
+  <text x="55" y="447" font-family="'Courier New', 'DejaVu Sans Mono', monospace" font-size="44" font-weight="700" fill="#E8F4FF">╚█████╔╝╚██████╔╝██║ ╚═╝ ██║╚██████╔╝</text>
+  <text x="55" y="500" font-family="'Courier New', 'DejaVu Sans Mono', monospace" font-size="44" font-weight="700" fill="#E8F4FF"> ╚════╝  ╚═════╝ ╚═╝     ╚═╝ ╚═════╝</text>
+
+  <!-- bottom prompt with blinking cursor -->
+  <text x="55" y="600" font-family="'Courier New', Courier, monospace" font-size="22" font-weight="700"><tspan fill="#56B6C2">jomu@joel</tspan><tspan fill="#E8F4FF">:~$ </tspan></text>
+  <rect x="202" y="580" width="18" height="26" fill="#E8F4FF">
+    <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- info column -->
+  <text x="625" y="150" font-family="'Courier New', Courier, monospace" font-size="17" font-weight="700" fill="#E5C07B">jomu@joel</text>
+  <text x="625" y="176" font-family="'Courier New', Courier, monospace" font-size="15" fill="#3E4A5F">────────────────────────────</text>
+  <text x="625" y="202" font-family="'Courier New', Courier, monospace" font-size="15"><tspan fill="#56B6C2">OS:               </tspan><tspan fill="#E8F4FF">Windows 11 · Arch Linux</tspan></text>
+  <text x="625" y="228" font-family="'Courier New', Courier, monospace" font-size="15"><tspan fill="#56B6C2">Host:             </tspan><tspan fill="#E8F4FF">Joel Williams Mathew — Kozhikode, IN</tspan></text>
+  <text x="625" y="254" font-family="'Courier New', Courier, monospace" font-size="15"><tspan fill="#56B6C2">Kernel:           </tspan><tspan fill="#E8F4FF">NASA Space Apps 2025 — Global Nominee</tspan></text>
+  <text x="625" y="280" font-family="'Courier New', Courier, monospace" font-size="15"><tspan fill="#56B6C2">IDE:              </tspan><tspan fill="#E8F4FF">VS Code · Cursor · Jupyter</tspan></text>
+  <text x="625" y="306" font-family="'Courier New', Courier, monospace" font-size="15" fill="#3E4A5F">────────────────────────────</text>
+  <text x="625" y="332" font-family="'Courier New', Courier, monospace" font-size="15"><tspan fill="#E5C07B">Languages.Programming: </tspan><tspan fill="#E8F4FF">Python, C, Java, SQL</tspan></text>
+  <text x="625" y="358" font-family="'Courier New', Courier, monospace" font-size="15"><tspan fill="#E5C07B">Languages.Computer:    </tspan><tspan fill="#E8F4FF">HTML, CSS, YAML</tspan></text>
+  <text x="625" y="384" font-family="'Courier New', Courier, monospace" font-size="15"><tspan fill="#E5C07B">Languages.Real:        </tspan><tspan fill="#E8F4FF">English, Malayalam</tspan></text>
+  <text x="625" y="410" font-family="'Courier New', Courier, monospace" font-size="15" fill="#3E4A5F">────────────────────────────</text>
+  <text x="625" y="436" font-family="'Courier New', Courier, monospace" font-size="15"><tspan fill="#E5C07B">Hobbies.Software: </tspan><tspan fill="#E8F4FF">DUM-E · GNNs</tspan></text>
+  <text x="625" y="462" font-family="'Courier New', Courier, monospace" font-size="15"><tspan fill="#E5C07B">Hobbies.Hardware: </tspan><tspan fill="#E8F4FF">Himalayan 450 · Photography</tspan></text>
+  <text x="625" y="488" font-family="'Courier New', Courier, monospace" font-size="15" fill="#3E4A5F">────────────────────────────</text>
+  <text x="625" y="514" font-family="'Courier New', Courier, monospace" font-size="15" fill="#E5C07B">─── Contact</text>
+  <text x="625" y="540" font-family="'Courier New', Courier, monospace" font-size="15"><tspan fill="#56B6C2">Email.Personal:   </tspan><tspan fill="#E8F4FF">joelw2200@gmail.com</tspan></text>
+  <text x="625" y="566" font-family="'Courier New', Courier, monospace" font-size="15"><tspan fill="#56B6C2">GitHub:           </tspan><tspan fill="#E8F4FF">github.com/Joel-Williams-Mathew</tspan></text>
+  <text x="625" y="592" font-family="'Courier New', Courier, monospace" font-size="15"><tspan fill="#56B6C2">LinkedIn:         </tspan><tspan fill="#E8F4FF">linkedin.com/in/joel-williams-97b375272</tspan></text>
+  <text x="625" y="618" font-family="'Courier New', Courier, monospace" font-size="15"><tspan fill="#56B6C2">Stack:            </tspan><tspan fill="#E8F4FF">PyTorch · TensorFlow · LangChain · Ollama</tspan></text>
+</svg>

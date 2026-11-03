@@ -1,73 +1,84 @@
 <!--
-  VARIANT C ??? "BLUEPRINT / SHEET SPEC-1"
-  Technical-drawing identity. Independent branch. Do not merge without review.
+  VARIANT D — "JOMU-TERM / NEOFETCH"
+  Terminal-native identity. Independent branch.
 -->
 
 <p align="center">
-  <img src="./assets/hero-blueprint.svg" width="100%" alt="Technical Data Sheet ??? Joel Williams, AI &amp; ML Engineering, Rev A"/>
+  <img src="./assets/hero-neofetch.svg" width="100%" alt="neofetch — jomu@joel — NASA Space Apps 2025 Global Nominee"/>
 </p>
 
 <p align="center">
-  <b>SUBJECT:&nbsp; AI &amp; ML ENGINEER ??? BUILDING DUM-E &amp; GENETIC NEURAL NETWORKS</b><br/>
-  <sub>DWG NO. JMW-2026-001&nbsp;&nbsp;??&nbsp;&nbsp;REV A&nbsp;&nbsp;??&nbsp;&nbsp;SCALE 1:1&nbsp;&nbsp;??&nbsp;&nbsp;STATUS: ACTIVE</sub>
+  <code>jomu@joel:~$ cat /etc/joel</code>
 </p>
 
 <p align="center">
-  <img src="./assets/rule-blueprint.svg" width="100%" alt=""/>
+  <code>builder | AI &amp; DS @ SJCET · ML Intern @ Cognifyz &amp; PaceLab · NASA Space Apps 2025 · Himalayan 450</code>
 </p>
 
-### TECH-SPEC SHEET 01 ??? SUBJECT PROFILE
-
-- **EDUCATION** ??? B.Tech Artificial Intelligence &amp; Data Science ??? SJCET, Palai
-- **EXPERIENCE** ??? Machine Learning Intern ??? Cognifyz ?? PaceLab, Kozhikode
-- **QUALIFICATION** ??? NASA Space Apps 2025 ??? **Global Nominee** ?? 2?? Hackathon Finalist
-- **PLATFORM** ??? Windows ?? Arch Linux ?? VS Code / Cursor ?? Git
-- **OFF-DUTY** ??? Royal Enfield Himalayan 450 ?? high-contrast cinematic photography
-- **MISSION** ??? build intelligent systems that leave the lab and start winning
-
 <p align="center">
-  <img src="./assets/rule-blueprint.svg" width="100%" alt=""/>
+  <img src="./assets/rule-neofetch.svg" width="100%" alt=""/>
 </p>
 
-### TECH-SPEC SHEET 02 ??? EQUIPMENT LIST
+### INSTALLED PACKAGES
 
-|  |  |
-|:--|:--|
-| **LANG** ??? Python ?? C ?? Java ?? SQL | **DATA** ??? NumPy ?? Pandas ?? Matplotlib |
-| **ML** ??? PyTorch ?? TensorFlow ?? Scikit-learn | **WEB** ??? React ?? HTML ?? CSS ?? JavaScript |
-| **GENAI** ??? LangChain ?? Ollama ?? Hugging Face | **STORE** ??? MySQL ?? Firebase ?? Neon |
+```
+$ pacman -Q python c java sql pytorch tensorflow scikit-learn
+python · c · java · sql · pytorch · tensorflow · scikit-learn
 
-**TOOLS** ??? Git ?? GitHub ?? VS Code ?? Cursor ?? Jupyter
+$ pacman -Q langchain ollama huggingface-hub
+langchain · ollama · huggingface-hub
+
+$ pacman -Q numpy pandas matplotlib
+numpy · pandas · matplotlib
+
+$ pacman -Q react html css javascript
+react · html · css · javascript
+
+$ pacman -Q mysql firebase neon
+mysql · firebase · neon
+
+$ pacman -Q git github vscode cursor jupyter
+git · github · vscode · cursor · jupyter
+```
 
 <p align="center">
-  <img src="./assets/rule-blueprint.svg" width="100%" alt=""/>
+  <img src="./assets/rule-neofetch.svg" width="100%" alt=""/>
 </p>
 
-### TECH-SPEC SHEET 03 ??? TEST PROCEDURE
+### RUNNING SERVICES
 
-**OP-01 / DUM-E** ??? Voice-first Python desktop automation. PyAutoGUI + TTS.
-<br/><sub>RESULT: BUILDING</sub>
-
-**OP-02 / GENETIC NEURAL NETWORKS** ??? neuroevolution live in Pygame.
-<br/><sub>RESULT: TRAINING</sub>
-
-**OP-03 / NASA SPACE APPS 2025** ??? deadline engineering, finished first.
-<br/><sub>RESULT: GLOBAL NOMINEE</sub>
-
-**OP-04 / ML PIPELINES** ??? raw CSV ??? Jupyter ??? custom recommendation systems.
-<br/><sub>RESULT: SHIPPING</sub>
-
-**OP-05 / FULL-STACK FLUTTER** ??? opinionated UI on real business logic.
-<br/><sub>RESULT: BUILDING</sub>
+```
+$ systemctl --user status
+dum-e.service        active (running)   voice-first desktop automation
+gnns.service         active (running)   neuroevolution in Pygame
+spaceapps.service    inactive (dead)    NASA Space Apps 2025 — GLOBAL NOMINEE
+mlpipes.service      active (running)   raw CSV → Jupyter → recsys
+flutter.service      active (running)   UI on real business logic
+```
 
 <p align="center">
-  <img src="./assets/rule-blueprint.svg" width="100%" alt=""/>
+  <img src="./assets/rule-neofetch.svg" width="100%" alt=""/>
 </p>
 
-### TECH-SPEC SHEET 04 ??? FIELD TEST DATA
+### GIT LOG --oneline -6
+
+```
+$ git log --oneline -6
+b59c359 feat: DUM-E — voice-first automation core
+7k2m31b feat: GNNS — neuroevolution goes brrr
+9f0a2c4 feat: NASA Space Apps 2025 — GLOBAL NOMINEE
+b3d18c7 feat: ML pipelines — recsys from raw CSV
+d4e7a19 feat: Flutter UI on real business logic
+```
 
 <p align="center">
-  <img src="./profile-3d-contrib/profile-night-view.svg" width="92%" alt="3D contribution skyline ??? regenerated daily"/>
+  <img src="./assets/rule-neofetch.svg" width="100%" alt=""/>
+</p>
+
+### TELEMETRY
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-night-view.svg" width="92%" alt="3D contribution skyline — regenerated daily"/>
 </p>
 
 <p align="center">
@@ -85,9 +96,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=10395C&amp;ring=7FD4FF&amp;fire=FFD60A&amp;currStreakLabel=FFD60A&amp;currStreakNum=E8F4FF&amp;sideLabels=9CC4E4&amp;sideNums=E8F4FF&amp;dates=7A9CC0"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=10395C&amp;ring=7FD4FF&amp;fire=FFD60A&amp;currStreakLabel=FFD60A&amp;currStreakNum=E8F4FF&amp;sideLabels=9CC4E4&amp;sideNums=E8F4FF&amp;dates=7A9CC0"/>
-    <img src="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=10395C&amp;ring=7FD4FF&amp;fire=FFD60A&amp;currStreakLabel=FFD60A&amp;currStreakNum=E8F4FF&amp;sideLabels=9CC4E4&amp;sideNums=E8F4FF&amp;dates=7A9CC0" height="170" alt="GitHub contribution streak"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=0D1117&amp;ring=7EE787&amp;fire=7EE787&amp;currStreakLabel=7EE787&amp;currStreakNum=FFFFFF&amp;sideLabels=8B949E&amp;sideNums=E8F4FF&amp;dates=8B949E"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=0D1117&amp;ring=7EE787&amp;fire=7EE787&amp;currStreakLabel=7EE787&amp;currStreakNum=FFFFFF&amp;sideLabels=8B949E&amp;sideNums=E8F4FF&amp;dates=8B949E"/>
+    <img src="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=0D1117&amp;ring=7EE787&amp;fire=7EE787&amp;currStreakLabel=7EE787&amp;currStreakNum=FFFFFF&amp;sideLabels=8B949E&amp;sideNums=E8F4FF&amp;dates=8B949E" height="170" alt="GitHub contribution streak"/>
   </picture>
 </p>
 
@@ -100,21 +111,23 @@
 </p>
 
 <p align="center">
-  <img src="./assets/rule-blueprint.svg" width="100%" alt=""/>
+  <img src="./assets/rule-neofetch.svg" width="100%" alt=""/>
 </p>
 
-### TECH-SPEC SHEET 05 ??? APPROVED FOR RELEASE
+### OPEN PORTS
 
-|  |  |
-|:--|:--|
-| **GIT** | [github.com/Joel-Williams-Mathew](https://github.com/Joel-Williams-Mathew) |
-| **IN** | [linkedin.com/in/joel-williams-97b375272](https://www.linkedin.com/in/joel-williams-97b375272/) |
-| **IG** | [instagram.com/jomu.willy](https://www.instagram.com/jomu.willy/) |
-| **X** | [x.com/joelw2200](https://x.com/joelw2200) |
-| **MAIL** | [joelw2200@gmail.com](mailto:joelw2200@gmail.com) |
+```
+$ nmap -p- joel.local
+PORT    SERVICE
+22/tcp  ssh           git access — github.com/Joel-Williams-Mathew
+443/tcp https         linkedin.com/in/joel-williams-97b375272
+443/tcp https         instagram.com/jomu.willy
+443/tcp https         x.com/joelw2200
+587/tcp smtp          joelw2200@gmail.com
+```
 
 <p align="center">
-  <img src="./assets/rule-blueprint.svg" width="100%" alt=""/>
+  <img src="./assets/rule-neofetch.svg" width="100%" alt=""/>
 </p>
 
-<p align="center"><b>APPROVED ??? J. MATHEW ??? 2026</b><br/><sub>NO TOLERANCES UNLESS SPECIFIED</sub></p>
+<p align="center"><code>END OF FILE — EOF</code></p>
