@@ -82,29 +82,55 @@
 
 **`> core_languages`**
 <p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,java,c,cpp,javascript,typescript,dart,html,css,bash&theme=dark"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python,java,c,cpp,javascript,typescript,dart,html,css,bash&theme=light"/>
-    <img src="https://skillicons.dev/icons?i=python,java,c,cpp,javascript,typescript,dart,html,css,bash&theme=dark" alt="Core languages: Python, Java, C, C++, JavaScript, TypeScript, Dart, HTML, CSS, Bash"/>
-  </picture>
+  <img src="https://img.shields.io/badge/Python-161B22?style=flat-square&amp;logo=python&amp;logoColor=3776AB&amp;labelColor=161B22" alt="Python"/>
+  <img src="https://img.shields.io/badge/C-161B22?style=flat-square&amp;logo=c&amp;logoColor=A8B9CC&amp;labelColor=161B22" alt="C"/>
+  <img src="https://img.shields.io/badge/Java-161B22?style=flat-square&amp;logo=java&amp;logoColor=F89820&amp;labelColor=161B22" alt="Java"/>
+  <img src="https://img.shields.io/badge/SQL-161B22?style=flat-square&amp;labelColor=161B22" alt="SQL"/>
 </p>
 
-**`> ai_ml_and_frameworks`**
+**`> ai_ml_frameworks`**
 <p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,flutter,react,nodejs,tailwind&theme=dark"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,flutter,react,nodejs,tailwind&theme=light"/>
-    <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,flutter,react,nodejs,tailwind&theme=dark" alt="AI and frameworks: PyTorch, TensorFlow, OpenCV, Flutter, React, Node.js, Tailwind CSS"/>
-  </picture>
+  <img src="https://img.shields.io/badge/PyTorch-161B22?style=flat-square&amp;logo=pytorch&amp;logoColor=EE4C2C&amp;labelColor=161B22" alt="PyTorch"/>
+  <img src="https://img.shields.io/badge/TensorFlow-161B22?style=flat-square&amp;logo=tensorflow&amp;logoColor=FF6F00&amp;labelColor=161B22" alt="TensorFlow"/>
+  <img src="https://img.shields.io/badge/Scikit--learn-161B22?style=flat-square&amp;logo=scikitlearn&amp;logoColor=F7931E&amp;labelColor=161B22" alt="Scikit-learn"/>
 </p>
 
-**`> tools_dbs_and_environments`**
+**`> genai_llms`**
 <p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git,github,vscode,linux,arch,windows,firebase,postgres,githubactions&theme=dark"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=git,github,vscode,linux,arch,windows,firebase,postgres,githubactions&theme=light"/>
-    <img src="https://skillicons.dev/icons?i=git,github,vscode,linux,arch,windows,firebase,postgres,githubactions&theme=dark" alt="Tools: Git, GitHub, VS Code, Linux, Arch, Windows, Firebase, PostgreSQL, GitHub Actions"/>
-  </picture>
+  <img src="https://img.shields.io/badge/LangChain-161B22?style=flat-square&amp;logo=langchain&amp;logoColor=34D399&amp;labelColor=161B22" alt="LangChain"/>
+  <img src="https://img.shields.io/badge/Ollama-161B22?style=flat-square&amp;logo=ollama&amp;logoColor=FFFFFF&amp;labelColor=161B22" alt="Ollama"/>
+  <img src="https://img.shields.io/badge/Hugging%20Face-161B22?style=flat-square&amp;logo=huggingface&amp;logoColor=FFD21E&amp;labelColor=161B22" alt="Hugging Face"/>
+</p>
+
+**`> data_science`**
+<p>
+  <img src="https://img.shields.io/badge/NumPy-161B22?style=flat-square&amp;logo=numpy&amp;logoColor=4DABCF&amp;labelColor=161B22" alt="NumPy"/>
+  <img src="https://img.shields.io/badge/Pandas-161B22?style=flat-square&amp;logo=pandas&amp;logoColor=9B74D0&amp;labelColor=161B22" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/Matplotlib-161B22?style=flat-square&amp;logo=matplotlib&amp;logoColor=4DD0E1&amp;labelColor=161B22" alt="Matplotlib"/>
+</p>
+
+**`> web_development`**
+<p>
+  <img src="https://img.shields.io/badge/React-161B22?style=flat-square&amp;logo=react&amp;logoColor=61DAFB&amp;labelColor=161B22" alt="React"/>
+  <img src="https://img.shields.io/badge/HTML5-161B22?style=flat-square&amp;logo=html5&amp;logoColor=E34F26&amp;labelColor=161B22" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-161B22?style=flat-square&amp;logo=css3&amp;logoColor=42A5F5&amp;labelColor=161B22" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/JavaScript-161B22?style=flat-square&amp;logo=javascript&amp;logoColor=F7DF1E&amp;labelColor=161B22" alt="JavaScript"/>
+</p>
+
+**`> databases`**
+<p>
+  <img src="https://img.shields.io/badge/MySQL-161B22?style=flat-square&amp;logo=mysql&amp;logoColor=4479A1&amp;labelColor=161B22" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/Firebase-161B22?style=flat-square&amp;logo=firebase&amp;logoColor=FFCA28&amp;labelColor=161B22" alt="Firebase"/>
+  <img src="https://img.shields.io/badge/Neon-161B22?style=flat-square&amp;logo=neon&amp;logoColor=00E599&amp;labelColor=161B22" alt="Neon"/>
+</p>
+
+**`> tools_environments`**
+<p>
+  <img src="https://img.shields.io/badge/Git-161B22?style=flat-square&amp;logo=git&amp;logoColor=F05032&amp;labelColor=161B22" alt="Git"/>
+  <img src="https://img.shields.io/badge/GitHub-161B22?style=flat-square&amp;logo=github&amp;logoColor=FFFFFF&amp;labelColor=161B22" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/VS%20Code-161B22?style=flat-square&amp;logo=visualstudiocode&amp;logoColor=2CA6F1&amp;labelColor=161B22" alt="VS Code"/>
+  <img src="https://img.shields.io/badge/Cursor-161B22?style=flat-square&amp;logo=cursor&amp;logoColor=FFFFFF&amp;labelColor=161B22" alt="Cursor"/>
+  <img src="https://img.shields.io/badge/Jupyter-161B22?style=flat-square&amp;logo=jupyter&amp;logoColor=F37626&amp;labelColor=161B22" alt="Jupyter"/>
 </p>
 
 <p align="center">
