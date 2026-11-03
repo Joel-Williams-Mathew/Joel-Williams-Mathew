@@ -35,7 +35,7 @@
   <line x1="70" y1="238" x2="560" y2="238" stroke="url(#rule)" stroke-width="3.5"/>
 
   <!-- tagline -->
-  <text x="70" y="268" font-family="'Courier New', Courier, monospace" font-size="14.5" letter-spacing="4.2" fill="#FFB454">AI &amp; ML ENGINEER &#8212; CINEMATIC BUILDER</text>
+  <text x="70" y="268" font-family="'Courier New', Courier, monospace" font-size="14.5" letter-spacing="4.2" fill="#FFB454">AI &amp; ML ENGINEER &#8212; BUILDING DUM-E &amp; GNNS</text>
 
   <!-- monogram ring -->
   <circle cx="1015" cy="152" r="94" fill="none" stroke="#FFB454" stroke-width="2.5" stroke-dasharray="5 9" stroke-opacity="0.9"/>
