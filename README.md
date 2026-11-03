@@ -1,91 +1,123 @@
 <!--
-  CHAMPION CARD — NASA FIRST EDITION
-  Collectible-foil identity. One card, no gimmicks — the card IS the proof.
-  Asset adapted from beydemirfurkan/awesome-github-profile (CC0).
+  MONOGRAPH — variant F
+  Editorial ink-on-white broadsheet identity. Pure white, black rules, copper accent.
+  No dark theme, no badges, no card collage. Type does the work.
 -->
 
 <p align="center">
-  <img src="./assets/holographic-foil.svg" width="100%" alt="Joel Williams champion card — AI &amp; ML Engineer, NASA Space Apps 2025 Global Nominee, 1,593 HP, 91–98 power ratings"/>
+  <img src="./assets/masthead.svg" width="100%" alt="MONOGRAPH — Joel Williams. Vol. I, No. 001. Kozhikode, 2026."/>
 </p>
 
 <p align="center">
-  <code>N° 001 / 2026 · FIRST EDITION · NASA SPACE APPS 2025 — GLOBAL NOMINEE</code><br/>
-  <sub>AI &amp; ML ENGINEER · SJCET · ML INTERN @ COGNIFYZ &amp; PACELAB · KOZHIKODE, KERALA</sub>
+  <code>NO. 001 — THE JOURNAL OF AN AI &amp; DS ENGINEER</code>
 </p>
 
 <p align="center">
-  <img src="./assets/divider-foil.svg" width="100%" alt=""/>
+  <img src="./assets/rule-mono.svg" width="100%" alt=""/>
 </p>
 
-### EXPANSION — THE COLLECTOR'S EYE
+## THE LEAD
 
 <table>
   <tr>
-    <td width="58%" valign="top">
+    <td width="60%" valign="top">
 
-I don't collect cards — I open packs.
+**Joel Williams Mathew** builds intelligent
+systems that leave the lab. B.Tech Artificial
+Intelligence &amp; Data Science at **SJCET,
+Palai**. ML Intern at **Cognifyz** and
+**PaceLab, Kozhikode**. Two-time hackathon
+finalist. **NASA Space Apps 2025 —
+Global Nominee.**
 
-B.Tech Artificial Intelligence &amp; Data Science at
-**SJCET, Palai**. ML Intern at **Cognifyz** and
-**PaceLab, Kozhikode**. Two-time hackathon finalist.
-**NASA Space Apps 2025 — Global Nominee.**
+Currently in development: **DUM-E**, a
+voice-first Python desktop automation
+system; **GNNs**, evolved live inside
+Pygame; day jobs in ML pipelines and
+recommendation logic.
 
-Based out of Kozhikode — where the Western Ghats
-meet the Arabian Sea, and the sky still wins.
+Based out of **Kozhikode** — where the
+Western Ghats meet the Arabian Sea, and
+the sky still wins.
 
 <br/>
 
-> *"Build it, break it, ship it — then make it cinematic."*
+> *Build it, break it, ship it — then make it cinematic.*
 
     </td>
-    <td valign="top" width="42%">
+    <td valign="top" width="40%">
 
-**PACK ODDS**
+**IN THIS ISSUE**
 
-- **ship** — DUM-E, voice-first desktop automation
-- **train** — GNNs, neuroevolution inside Pygame
-- **file** — NASA Space Apps 2025 — global nominee
-- **log** — ML pipelines, CSV → Jupyter → recsys
-- **carry** — Royal Enfield Himalayan 450 · cinematic photography
-- **note** — Kozhikode, Kerala — where the sky still wins
+[01 — Profile](#01--profile)
+
+[02 — Operations](#02--operations)
+
+[03 — Capability Ledger](#03--capability-ledger)
+
+[04 — Field Record](#04--field-record)
+
+[05 — Correspondence](#05--correspondence)
 
     </td>
   </tr>
 </table>
 
 <p align="center">
-  <img src="./assets/divider-foil.svg" width="100%" alt=""/>
+  <img src="./assets/rule-mono.svg" width="100%" alt=""/>
 </p>
 
-### ABILITIES — HOW THIS CARD PLAYS
+## 01 — PROFILE
 
-| No. | Move | Engine | Power |
-|:-:|:--|:--|:-:|
-| 01 | **DUM-E — Genesis Drive** | Python · PyAutoGUI · TTS · wake-word | `94` |
-| 02 | **GNNS — Evolution Storm** | Pygame · neuroevolution · fitness = survival | `94` |
-| 03 | **NASA Protocol — First Print** | Deadline engineering · assembled under pressure | `98` |
-| 04 | **ML Pipes — Recommendation Core** | Jupyter · pandas · custom recsys | `91` |
-| 05 | **Flutter — Sidearm** | opinionated UI on real business logic | `88` |
+I design systems the way editors cut copy — remove everything the reader
+doesn't need. In practice: Python and PyTorch for the heavy lifting,
+Flutter and React for the surfaces, and a bias toward shipping honest
+work over polishing the imagined perfect.
+
+- **Education** — B.Tech AI &amp; Data Science, SJCET, Palai
+- **Experience** — ML Intern @ Cognifyz · ML Intern @ PaceLab, Kozhikode
+- **Distinguished** — NASA Space Apps 2025 — Global Nominee · 2× Hackathon Finalist
+- **Environment** — Windows × Arch Linux · VS Code / Cursor
+- **AFK** — Royal Enfield Himalayan 450 · high-contrast cinematic photography
+- **Motto** — Build it, break it, ship it — then make it cinematic.
 
 <p align="center">
-  <img src="./assets/divider-foil.svg" width="100%" alt=""/>
+  <img src="./assets/rule-mono.svg" width="100%" alt=""/>
 </p>
 
-### TYPES — ELEMENTS IN THE DECK
+## 02 — OPERATIONS
 
-**Python · PyTorch · TensorFlow · Scikit-learn · LangChain · Ollama · Hugging Face · NumPy · Pandas · Matplotlib · React · JavaScript · HTML · CSS · SQL · MySQL · Firebase · Git · GitHub · VS Code · Cursor · Jupyter**
+| File | Operation | Status |
+|:--|:--|:-:|
+| 01 | **DUM-E** — voice-first desktop automation (PyAutoGUI + TTS) | `IN DEV` |
+| 02 | **GNNs** — neuroevolution inside Pygame | `TRAINING` |
+| 03 | **NASA Space Apps 2025** — deadline engineering, finished first | `NOMINEE` |
+| 04 | **ML Pipelines** — raw CSV → Jupyter → recommendation logic | `SHIPPING` |
+| 05 | **Flutter Full-Stack** — UI on real business logic | `BUILDING` |
 
 <p align="center">
-  <img src="./assets/divider-foil.svg" width="100%" alt=""/>
+  <img src="./assets/rule-mono.svg" width="100%" alt=""/>
 </p>
 
-### MECHANICS — SEASON 2026
+## 03 — CAPABILITY LEDGER
 
-Shipped daily. Honest record — HP is exactly this year's commit count, not marketing.
+| Ledger | Entries |
+|:--|:--|
+| Languages | Python · C · Java · SQL |
+| ML &amp; Frameworks | PyTorch · TensorFlow · Scikit-learn |
+| GenAI &amp; LLMs | LangChain · Ollama · Hugging Face |
+| Data Science | NumPy · Pandas · Matplotlib |
+| Web | React · HTML · CSS · JavaScript |
+| Stores | MySQL · Firebase · Neon |
+| Instruments | Git · GitHub · VS Code · Cursor · Jupyter |
 
 <p align="center">
-  <img src="./profile-3d-contrib/profile-season-animate.svg" width="92%" alt="3D contribution calendar — animated skyline regenerated daily"/>
+  <img src="./assets/rule-mono.svg" width="100%" alt=""/>
 </p>
+
+## 04 — FIELD RECORD
+
+Committed work, honestly tallied. No decorative numbers.
 
 <p align="center">
   <picture>
@@ -101,31 +133,23 @@ Shipped daily. Honest record — HP is exactly this year's commit count, not mar
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/github-contribution-grid-snake.svg"/>
-    <img src="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/github-contribution-grid-snake-dark.svg" width="90%" alt="Animated snake eating my contribution graph"/>
-  </picture>
+  <img src="./assets/rule-mono.svg" width="100%" alt=""/>
 </p>
 
-<p align="center">
-  <img src="./assets/divider-foil.svg" width="100%" alt=""/>
-</p>
-
-### TRANSMISSION — SEND DICE
+## 05 — CORRESPONDENCE
 
 Open to internships, collaborations and honest engineering conversations.
 
-| Channel | Coordinates |
+| Route | Address |
 |:--|:--|
 | **GitHub** | [github.com/Joel-Williams-Mathew](https://github.com/Joel-Williams-Mathew) |
 | **LinkedIn** | [linkedin.com/in/joel-williams-97b375272](https://www.linkedin.com/in/joel-williams-97b375272/) |
 | **Instagram** | [instagram.com/jomu.willy](https://www.instagram.com/jomu.willy/) |
 | **X (Twitter)** | [x.com/joelw2200](https://x.com/joelw2200) |
-| **Direct line** | [joelw2200@gmail.com](mailto:joelw2200@gmail.com) |
+| **Post** | [joelw2200@gmail.com](mailto:joelw2200@gmail.com) |
 
 <p align="center">
-  <img src="./assets/divider-foil.svg" width="100%" alt=""/>
+  <img src="./assets/rule-mono.svg" width="100%" alt=""/>
 </p>
 
-<p align="center"><code>END OF THE PACK — GO PLAY YOUR OWN</code></p>
+<p align="center"><code>PRINTED IN KOZHIKODE — SET IN HELVETICA &amp; COURIER — END OF VOL. I</code></p>
