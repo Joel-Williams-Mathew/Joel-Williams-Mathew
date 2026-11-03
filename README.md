@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=19&amp;duration=2800&amp;pause=1100&amp;color=FFB454&amp;center=true&amp;vCenter=true&amp;width=780&amp;lines=%3E%20booting%20profile.exe...;%3E%20stack%3A%20PYTHON%20%2F%2F%20PYTORCH%20%2F%2F%20FLUTTER;%3E%20training%20genetic%20neural%20networks%20in%20pygame;%3E%20building%20DUM-E%20%E2%80%94%20modular%20voice%20assistant;%3E%20AFK%3A%20Himalayan%20450%20%2B%20cinematic%20photography" alt="Animated terminal typing: booting profile, stack Gen-AI, Machine-Learning, Python, Nasa-Space-Apps runnerup, Training GNNs, Building DUM-E"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=19&amp;duration=2800&amp;pause=1100&amp;color=FFB454&amp;center=true&amp;vCenter=true&amp;width=800&amp;lines=%3E%20booting%20profile.exe...;%3E%20stack%3A%20GEN-AI%20%2F%2F%20MACHINE-LEARNING%20%2F%2F%20PYTHON;%3E%20NASA%20Space%20Apps%202025%20%E2%80%94%20Global%20Nominee;%3E%20training%20genetic%20neural%20networks%20in%20pygame;%3E%20building%20DUM-E%20%E2%80%94%20modular%20voice%20assistant" alt="Animated terminal typing: Gen-AI, Machine Learning, Python stack, NASA Space Apps 2025 Global Nominee, GNN training, DUM-E voice assistant"/>
 </p>
 
 <p align="center">
