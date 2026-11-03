@@ -12,7 +12,7 @@
 <!-- ══════════════════ FEATURE PRESENTATION ══════════════════ -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0D1117,50:2B1E07,100:0D1117&amp;height=230&amp;section=header&amp;text=JOEL%20WILLIAMS&amp;fontSize=52&amp;fontColor=FFB454&amp;animation=fadeIn&amp;fontAlignY=34&amp;desc=AI%20%2F%20ML%20ENGINEER%20%E2%80%94%20CINEMATIC%20BUILDER&amp;descSize=17&amp;descAlignY=56" width="100%" alt="Joel Williams Mathew — AI / ML Engineer, building DUM-E & GNNs"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0D1117,50:2B1E07,100:0D1117&amp;height=230&amp;section=header&amp;text=JOEL%20WILLIAMS&amp;fontSize=52&amp;fontColor=FFB454&amp;animation=fadeIn&amp;fontAlignY=34&amp;desc=AI%20%2F%20ML%20ENGINEER%20%E2%80%94%20Building%20DUM-E%20&GNNs&amp;descSize=17&amp;descAlignY=56" width="100%" alt="Joel Williams Mathew — AI / ML Engineer, Building DUM-E & GNNs"/>
 </p>
 
 <p align="center">
