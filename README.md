@@ -83,27 +83,27 @@
 **`> core_languages`**
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,java,c,javascript,dart,html,css&theme=dark"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python,java,c,javascript,dart,html,css&theme=light"/>
-    <img src="https://skillicons.dev/icons?i=python,java,c,javascript,dart,html,css&theme=dark" alt="Core languages: Python, Java, C, JavaScript, Dart, HTML, CSS"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,java,c,cpp,javascript,typescript,dart,html,css,bash&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python,java,c,cpp,javascript,typescript,dart,html,css,bash&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=python,java,c,cpp,javascript,typescript,dart,html,css,bash&theme=dark" alt="Core languages: Python, Java, C, C++, JavaScript, TypeScript, Dart, HTML, CSS, Bash"/>
   </picture>
 </p>
 
 **`> ai_ml_and_frameworks`**
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,flutter,react,tailwind&theme=dark"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,flutter,react,tailwind&theme=light"/>
-    <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,flutter,react,tailwind&theme=dark" alt="AI and frameworks: PyTorch, TensorFlow, OpenCV, Flutter, React, Tailwind CSS"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,flutter,react,nodejs,tailwind&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,flutter,react,nodejs,tailwind&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,flutter,react,nodejs,tailwind&theme=dark" alt="AI and frameworks: PyTorch, TensorFlow, OpenCV, Flutter, React, Node.js, Tailwind CSS"/>
   </picture>
 </p>
 
 **`> tools_dbs_and_environments`**
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git,github,vscode,linux,arch,windows,firebase,postgres&theme=dark"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=git,github,vscode,linux,arch,windows,firebase,postgres&theme=light"/>
-    <img src="https://skillicons.dev/icons?i=git,github,vscode,linux,arch,windows,firebase,postgres&theme=dark" alt="Tools: Git, GitHub, VS Code, Linux, Arch, Windows, Firebase, PostgreSQL"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git,github,vscode,linux,arch,windows,firebase,postgres,githubactions&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=git,github,vscode,linux,arch,windows,firebase,postgres,githubactions&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=git,github,vscode,linux,arch,windows,firebase,postgres,githubactions&theme=dark" alt="Tools: Git, GitHub, VS Code, Linux, Arch, Windows, Firebase, PostgreSQL, GitHub Actions"/>
   </picture>
 </p>
 
