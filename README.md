@@ -1,261 +1,144 @@
 <!--
-  ╔════════════════════════════════════════════════╗
-  ║  CINEMATIC PROFILE README — READY TO PUBLISH   ║
-  ║                                                ║
-  ║  Social links: filled in.                      ║
-  ║  Must live in repo:                            ║
-  ║    Joel-Williams-Mathew / Joel-Williams-Mathew ║
-  ║  Snake animation: optional (see SETUP.md)      ║
-  ╚════════════════════════════════════════════════╝
+  THE DOSSIER — special profile README of JOEL WILLIAMS.
+  Broadsheet editorial identity. Do not edit without review.
 -->
 
-<!-- ══════════════════ FEATURE PRESENTATION ══════════════════ -->
-
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg"/>
-    <img src="./assets/banner-dark.svg" width="100%" alt="Joel Williams Mathew — AI / ML Engineer, Building DUM-E &amp; GNNs. NASA Space Apps 2025 Global Nominee"/>
-  </picture>
+  <img src="./assets/hero.svg" width="100%" alt="JOEL WILLIAMS — AI &amp; ML Engineering · The Dossier · Vol. I No. 1"/>
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=19&amp;duration=2800&amp;pause=1100&amp;color=FFB454&amp;center=true&amp;vCenter=true&amp;width=800&amp;lines=%3E%20booting%20profile.exe...;%3E%20stack%3A%20GEN-AI%20%2F%2F%20MACHINE-LEARNING%20%2F%2F%20PYTHON;%3E%20NASA%20Space%20Apps%202025%20%E2%80%94%20Global%20Nominee;%3E%20Training%20Genetic%20Neural%20Networks;%3E%20Building%20DUM-E%20%E2%80%94%20modular%20voice%20assistant"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=19&amp;duration=2800&amp;pause=1100&amp;color=B45309&amp;center=true&amp;vCenter=true&amp;width=800&amp;lines=%3E%20booting%20profile.exe...;%3E%20stack%3A%20GEN-AI%20%2F%2F%20MACHINE-LEARNING%20%2F%2F%20PYTHON;%3E%20NASA%20Space%20Apps%202025%20%E2%80%94%20Global%20Nominee;%3E%20Training%20Genetic%20Neural%20Networks;%3E%20Building%20DUM-E%20%E2%80%94%20modular%20voice%20assistant"/>
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=19&amp;duration=2800&amp;pause=1100&amp;color=FFB454&amp;center=true&amp;vCenter=true&amp;width=800&amp;lines=%3E%20booting%20profile.exe...;%3E%20stack%3A%20GEN-AI%20%2F%2F%20MACHINE-LEARNING%20%2F%2F%20PYTHON;%3E%20NASA%20Space%20Apps%202025%20%E2%80%94%20Global%20Nominee;%3E%20Training%20Genetic%20Neural%20Networks;%3E%20Building%20DUM-E%20%E2%80%94%20modular%20voice%20assistant" alt="Animated terminal typing: Gen-AI, Machine Learning, Python stack, NASA Space Apps 2025 Global Nominee, Training Genetic Neural Networks, Building DUM-E"/>
-  </picture>
+  <img src="./assets/ticker.svg" width="100%" alt="Profile ticker: NASA Space Apps 2025 global nominee · 2x hackathon finalist · DUM-E in development · genetic neural networks · SJCET · Kozhikode"/>
+</p>
+
+<br/>
+
+<p align="center">
+  <img src="./assets/rule.svg" width="100%" alt=""/>
+</p>
+
+### No. 01 — DOSSIER
+
+**Joel Williams Mathew** — I build intelligent systems that leave the lab.
+A modular voice assistant on your taskbar, evolved agents failing beautifully inside
+Pygame first, then winning. B.Tech Artificial Intelligence &amp; Data Science at
+SJCET, Palai. ML intern at **Cognifyz** and **PaceLab, Kozhikode**.
+Two-time hackathon finalist. **NASA Space Apps 2025 — Global Nominee.**
+
+- **Currently:** DUM-E — a modular, voice-first Python desktop automation system
+- **On the bench:** Genetic Neural Networks trained via neuroevolution in Pygame
+- **Default orbit:** Windows + Arch Linux · VS Code / Cursor
+- **Elsewhere:** Royal Enfield Himalayan 450 · high-contrast cinematic photography
+
+<p align="center">
+  <img src="./assets/rule.svg" width="100%" alt=""/>
+</p>
+
+### No. 02 — CAPABILITIES
+
+|  |  |
+|:--|:--|
+| **01 · Languages**<br/>Python · C · Java · SQL | **04 · Data Science**<br/>NumPy · Pandas · Matplotlib |
+| **02 · ML &amp; Frameworks**<br/>PyTorch · TensorFlow · Scikit-learn | **05 · Web**<br/>React · HTML · CSS · JavaScript |
+| **03 · GenAI &amp; LLMs**<br/>LangChain · Ollama · Hugging Face | **06 · Databases**<br/>MySQL · Firebase · Neon |
+
+**07 · Tools &amp; Environments**<br/>Git · GitHub · VS Code · Cursor · Jupyter
+
+I care about the compound interest of fundamentals: probability over hype,
+a clean commit over a clever one, and agents that make their own demos.
+
+<p align="center">
+  <img src="./assets/rule.svg" width="100%" alt=""/>
+</p>
+
+### No. 03 — SELECTED WORK
+
+**01 — DUM-E** &nbsp;·&nbsp;<sub>STATUS: IN DEV</sub>
+A modular, voice-first desktop automation system. PyAutoGUI + text-to-speech,
+hands-free execution, scripted routines for the repetitive parts of a build day.
+
+**02 — GENETIC NEURAL NETWORKS** &nbsp;·&nbsp;<sub>STATUS: TRAINING</sub>
+Neuroevolution inside Pygame: populations rise and fall on camera while the
+fittest survive on points, not luck. Watching evolution, then scripting around it.
+
+**03 — NASA SPACE APPS 2025** &nbsp;·&nbsp;<sub>STATUS: GLOBAL NOMINEE</sub>
+Competition engineering under a hard deadline — the one that gets talked about
+in the corridors weeks after it ends.
+
+**04 — ML PIPELINES** &nbsp;·&nbsp;<sub>STATUS: SHIPPING</sub>
+Jupyter-driven analysis from raw CSV to custom recommendation logic — the
+pipelines the internship debriefs keep praising quietly.
+
+**05 — FULL-STACK FLUTTER** &nbsp;·&nbsp;<sub>STATUS: BUILDING</sub>
+Opinionated front-ends wired to real business logic — because the demo that
+ships is worth more than the slide about the demo.
+
+<p align="center">
+  <img src="./assets/rule.svg" width="100%" alt=""/>
+</p>
+
+### No. 04 — IN THE FIELD
+
+Shipped daily. Here is the honest record.
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-night-view.svg" width="92%" alt="3D contribution skyline — glowing windows are my commit days. Regenerated daily by GitHub Action."/>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Joel-Williams-Mathew"><img src="https://img.shields.io/badge/GITHUB-@Joel--Williams--Mathew?style=for-the-badge&amp;logo=github&amp;logoColor=FFB454&amp;color=161B22&amp;v=2" alt="GitHub — @Joel-Williams-Mathew"/></a>
-  <a href="https://www.linkedin.com/in/joel-williams-97b375272/"><img src="https://img.shields.io/badge/LINKEDIN-joel--williams?style=for-the-badge&amp;logo=linkedin&amp;logoColor=FFB454&amp;color=161B22&amp;v=2" alt="LinkedIn"/></a>
-  <a href="https://www.instagram.com/jomu.willy/"><img src="https://img.shields.io/badge/INSTAGRAM-@jomu--willy?style=for-the-badge&amp;logo=instagram&amp;logoColor=FFB454&amp;color=161B22" alt="Instagram — @jomu.willy"/></a>
-  <a href="https://x.com/joelw2200"><img src="https://img.shields.io/badge/X-@joelw2200?style=for-the-badge&amp;logo=x&amp;logoColor=FFB454&amp;color=161B22&amp;v=2" alt="X (Twitter) — @joelw2200"/></a>
-  <a href="mailto:joelw2200@gmail.com"><img src="https://img.shields.io/badge/EMAIL-joelw2200?style=for-the-badge&amp;logo=gmail&amp;logoColor=FFB454&amp;color=161B22" alt="Email — joelw2200@gmail.com"/></a>
-  <img src="https://komarev.com/ghpvc/?username=Joel-Williams-Mathew&amp;style=for-the-badge&amp;color=FFB454&amp;labelColor=0D1117&amp;label=PROFILE+VIEWS" alt="Profile views"/>
+  <img src="./assets/rule.svg" width="100%" alt=""/>
 </p>
 
-<p align="center">
-  <b>🏆 NASA Space Apps 2025 Global Nominee &nbsp;·&nbsp; ⚡ 2x Hackathon Finalist &nbsp;·&nbsp; 🎓 AI &amp; Data Science @ SJCET</b>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg"/>
-    <img src="./assets/divider-dark.svg" width="100%" alt=""/>
-  </picture>
-</p>
-
-<!-- ══════════════════ SCENE 01 — WHOAMI ══════════════════ -->
-
-### `SCENE_01 // whoami`
-
-<table>
-  <tr>
-    <td width="40%" align="center" valign="middle">
-      <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" alt="Green streaming binary code on black — hacker terminal aesthetic"/>
-    </td>
-    <td valign="middle">
-      <b>Joel Williams Mathew</b> — a builder at the intersection of <b>AI, machine learning and real-world systems</b>. I turn interesting ideas into practical, intelligent software.
-      <br/><br/>
-      <ul>
-        <li>🎓&nbsp; <b>Education:</b> B.Tech in Artificial Intelligence &amp; Data Science @ <a href="https://github.com/sjcet">SJCET</a>, Palai</li>
-        <li>💼&nbsp; <b>Experience:</b> Machine Learning Intern @ <b>Cognifyz</b> · Machine Learning Intern @ <b>PaceLab</b>, Kozhikode</li>
-        <li>🏆&nbsp; <b>Highlight:</b> NASA Space Apps 2025 Global Nominee · 2x Hackathon Finalist</li>
-        <li>🎯&nbsp; <b>Now:</b> building <b>DUM-E</b> (modular voice assistant) · training <b>Genetic Neural Networks</b> in Pygame</li>
-        <li>⚙️&nbsp; <b>Environments:</b> Windows × Arch Linux · VS Code / Cursor IDE</li>
-        <li>🏍️&nbsp; <b>AFK:</b> Royal Enfield Himalayan 450 · high-contrast cinematic photography</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg"/>
-    <img src="./assets/divider-dark.svg" width="100%" alt=""/>
-  </picture>
-</p>
-
-<!-- ══════════════════ SCENE 02 — THE LOADOUT ══════════════════ -->
-
-### `SCENE_02 // THE LOADOUT`
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/219923809-b86dc415-a0c2-4a38-bc88-ad6cf06395a8.gif" width="420" alt="Floating animated tech-stack logos orbiting in dark space"/>
-</p>
-
-**`> core_languages`**
-<p>
-  <img src="https://img.shields.io/badge/Python-161B22?style=flat-square&amp;logo=python&amp;logoColor=3776AB&amp;labelColor=161B22" alt="Python"/>
-  <img src="https://img.shields.io/badge/C-161B22?style=flat-square&amp;logo=c&amp;logoColor=A8B9CC&amp;labelColor=161B22" alt="C"/>
-  <img src="https://img.shields.io/badge/Java-161B22?style=flat-square&amp;logo=java&amp;logoColor=F89820&amp;labelColor=161B22" alt="Java"/>
-  <img src="https://img.shields.io/badge/SQL-161B22?style=flat-square&amp;labelColor=161B22" alt="SQL"/>
-</p>
-
-**`> ai_ml_frameworks`**
-<p>
-  <img src="https://img.shields.io/badge/PyTorch-161B22?style=flat-square&amp;logo=pytorch&amp;logoColor=EE4C2C&amp;labelColor=161B22" alt="PyTorch"/>
-  <img src="https://img.shields.io/badge/TensorFlow-161B22?style=flat-square&amp;logo=tensorflow&amp;logoColor=FF6F00&amp;labelColor=161B22" alt="TensorFlow"/>
-  <img src="https://img.shields.io/badge/Scikit--learn-161B22?style=flat-square&amp;logo=scikitlearn&amp;logoColor=F7931E&amp;labelColor=161B22" alt="Scikit-learn"/>
-</p>
-
-**`> genai_llms`**
-<p>
-  <img src="https://img.shields.io/badge/LangChain-161B22?style=flat-square&amp;logo=langchain&amp;logoColor=34D399&amp;labelColor=161B22" alt="LangChain"/>
-  <img src="https://img.shields.io/badge/Ollama-161B22?style=flat-square&amp;logo=ollama&amp;logoColor=FFFFFF&amp;labelColor=161B22" alt="Ollama"/>
-  <img src="https://img.shields.io/badge/Hugging%20Face-161B22?style=flat-square&amp;logo=huggingface&amp;logoColor=FFD21E&amp;labelColor=161B22" alt="Hugging Face"/>
-</p>
-
-**`> data_science`**
-<p>
-  <img src="https://img.shields.io/badge/NumPy-161B22?style=flat-square&amp;logo=numpy&amp;logoColor=4DABCF&amp;labelColor=161B22" alt="NumPy"/>
-  <img src="https://img.shields.io/badge/Pandas-161B22?style=flat-square&amp;logo=pandas&amp;logoColor=9B74D0&amp;labelColor=161B22" alt="Pandas"/>
-  <img src="https://img.shields.io/badge/Matplotlib-161B22?style=flat-square&amp;logo=matplotlib&amp;logoColor=4DD0E1&amp;labelColor=161B22" alt="Matplotlib"/>
-</p>
-
-**`> web_development`**
-<p>
-  <img src="https://img.shields.io/badge/React-161B22?style=flat-square&amp;logo=react&amp;logoColor=61DAFB&amp;labelColor=161B22" alt="React"/>
-  <img src="https://img.shields.io/badge/HTML5-161B22?style=flat-square&amp;logo=html5&amp;logoColor=E34F26&amp;labelColor=161B22" alt="HTML5"/>
-  <img src="https://img.shields.io/badge/CSS3-161B22?style=flat-square&amp;logo=css3&amp;logoColor=42A5F5&amp;labelColor=161B22" alt="CSS3"/>
-  <img src="https://img.shields.io/badge/JavaScript-161B22?style=flat-square&amp;logo=javascript&amp;logoColor=F7DF1E&amp;labelColor=161B22" alt="JavaScript"/>
-</p>
-
-**`> databases`**
-<p>
-  <img src="https://img.shields.io/badge/MySQL-161B22?style=flat-square&amp;logo=mysql&amp;logoColor=4479A1&amp;labelColor=161B22" alt="MySQL"/>
-  <img src="https://img.shields.io/badge/Firebase-161B22?style=flat-square&amp;logo=firebase&amp;logoColor=FFCA28&amp;labelColor=161B22" alt="Firebase"/>
-  <img src="https://img.shields.io/badge/Neon-161B22?style=flat-square&amp;logo=neon&amp;logoColor=00E599&amp;labelColor=161B22" alt="Neon"/>
-</p>
-
-**`> tools_environments`**
-<p>
-  <img src="https://img.shields.io/badge/Git-161B22?style=flat-square&amp;logo=git&amp;logoColor=F05032&amp;labelColor=161B22" alt="Git"/>
-  <img src="https://img.shields.io/badge/GitHub-161B22?style=flat-square&amp;logo=github&amp;logoColor=FFFFFF&amp;labelColor=161B22" alt="GitHub"/>
-  <img src="https://img.shields.io/badge/VS%20Code-161B22?style=flat-square&amp;logo=visualstudiocode&amp;logoColor=2CA6F1&amp;labelColor=161B22" alt="VS Code"/>
-  <img src="https://img.shields.io/badge/Cursor-161B22?style=flat-square&amp;logo=cursor&amp;logoColor=FFFFFF&amp;labelColor=161B22" alt="Cursor"/>
-  <img src="https://img.shields.io/badge/Jupyter-161B22?style=flat-square&amp;logo=jupyter&amp;logoColor=F37626&amp;labelColor=161B22" alt="Jupyter"/>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg"/>
-    <img src="./assets/divider-dark.svg" width="100%" alt=""/>
-  </picture>
-</p>
-
-<!-- ══════════════════ SCENE 03 — ACTIVE MISSIONS ══════════════════ -->
-
-### `SCENE_03 // ACTIVE MISSIONS`
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284068-b4ee9a5c-331c-4d18-9481-53dd6b9debd5.gif" width="380" alt="Cinematic coding session — the craft in motion"/>
-</p>
-
-| | |
-|:---|:---|
-| **🤖&nbsp; DUM-E — Voice Assistant** <br/>`STATUS: IN DEV` <br/> Modular Python desktop automation. `PyAutoGUI` + text-to-speech for hands-free, voice-first execution. | **🧬&nbsp; Genetic Neural Networks** <br/>`STATUS: TRAINING` <br/> Teaching agents to beat games via neuroevolution &amp; GNNs — evolved live inside <b>Pygame</b>. |
-| **🔍&nbsp; ML Data Pipelines** <br/>`STATUS: SHIPPING` <br/> Automated Jupyter analysis scripts &amp; custom recommendation systems, from raw CSV to insight. | **📱&nbsp; Full-Stack Interfaces** <br/>`STATUS: BUILDING` <br/> Dynamic front-end UI screens wired to real business logic with <b>Flutter</b>. |
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg"/>
-    <img src="./assets/divider-dark.svg" width="100%" alt=""/>
-  </picture>
-</p>
-
-<!-- ══════════════════ SCENE 04 — TELEMETRY ══════════════════ -->
-
-### `SCENE_04 // TELEMETRY`
-
-<p align="center">
-  <img src="./profile-3d-contrib/profile-night-view.svg" width="90%" alt="3D contribution skyline — glowing windows mapped from my commits, regenerated daily"/>
-</p>
-
-<!-- Stats cards: generated daily by .github/workflows/stats.yml, served from the `output` branch (self-hosted, no external stats service) -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/stats-dark.svg"/>
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/stats-light.svg"/>
-    <img src="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/stats-dark.svg" height="165" alt="GitHub stats — commits, stars, PRs and contributions for Joel-Williams-Mathew"/>
+    <img src="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/stats-dark.svg" height="180" alt="GitHub stats — commits, stars, PRs and contributions"/>
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/top-langs-dark.svg"/>
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/top-langs-light.svg"/>
-    <img src="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/top-langs-dark.svg" height="165" alt="Top languages used by Joel-Williams-Mathew"/>
+    <img src="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/top-langs-dark.svg" height="180" alt="Top languages"/>
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=0D1117&amp;ring=FFB454&amp;fire=FFB454&amp;currStreakLabel=FFB454&amp;currStreakNum=FFFFFF&amp;sideLabels=8B949E&amp;sideNums=C9D1D9&amp;dates=8B949E"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=FFFFFF&amp;ring=B45309&amp;fire=B45309&amp;currStreakLabel=B45309&amp;currStreakNum=111111&amp;sideLabels=6B7280&amp;sideNums=374151&amp;dates=6B7280"/>
-    <img src="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=0D1117&amp;ring=FFB454&amp;fire=FFB454&amp;currStreakLabel=FFB454&amp;currStreakNum=FFFFFF&amp;sideLabels=8B949E&amp;sideNums=C9D1D9&amp;dates=8B949E" height="165" alt="GitHub contribution streak for Joel-Williams-Mathew"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=F6F1E7&amp;ring=E4572E&amp;fire=E4572E&amp;currStreakLabel=E4572E&amp;currStreakNum=141414&amp;sideLabels=3A362F&amp;sideNums=161311&amp;dates=8A8271"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=F6F1E7&amp;ring=E4572E&amp;fire=E4572E&amp;currStreakLabel=E4572E&amp;currStreakNum=141414&amp;sideLabels=3A362F&amp;sideNums=161311&amp;dates=8A8271"/>
+    <img src="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=F6F1E7&amp;ring=E4572E&amp;fire=E4572E&amp;currStreakLabel=E4572E&amp;currStreakNum=141414&amp;sideLabels=3A362F&amp;sideNums=161311&amp;dates=8A8271" height="180" alt="GitHub contribution streak"/>
   </picture>
 </p>
 
-<!-- Contribution snake — generated by .github/workflows/snake.yml, refreshes daily -->
+<!-- field notes: animated grid, one 11-week window -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/github-contribution-grid-snake-dark.svg"/>
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/github-contribution-grid-snake.svg"/>
-    <img src="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/github-contribution-grid-snake-dark.svg" alt="Animated snake eating my contribution graph"/>
+    <img src="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/github-contribution-grid-snake-dark.svg" width="90%" alt="Animated snake eating my contribution graph"/>
   </picture>
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg"/>
-    <img src="./assets/divider-dark.svg" width="100%" alt=""/>
-  </picture>
+  <img src="./assets/rule.svg" width="100%" alt=""/>
 </p>
 
-<!-- ══════════════════ SCENE 05 — OFF THE CLOCK ══════════════════ -->
+### No. 05 — ORBIT
 
-### `SCENE_05 // OFF THE CLOCK`
+Open to internships, collaborations and honest engineering conversations.
 
-> When the terminal goes dark, the viewfinder comes out.
-
-- 🏍️&nbsp; **Throttle therapy** — the Himalayan 450 is the weekend plan, the weekday reward
-- 📸&nbsp; **Light chaser** — high-contrast cinematic photography &amp; color grading
-- 🐧&nbsp; **Rice &amp; ride** — ricing Arch Linux when the builds pass green
-- 🎬&nbsp; **Frame by frame** — every shot gets graded; even the code screenshots
+| Channel | Address |
+|:--|:--|
+| **GitHub** | [github.com/Joel-Williams-Mathew](https://github.com/Joel-Williams-Mathew) |
+| **LinkedIn** | [linkedin.com/in/joel-williams-97b375272](https://www.linkedin.com/in/joel-williams-97b375272/) |
+| **Instagram** | [instagram.com/jomu.willy](https://www.instagram.com/jomu.willy/) |
+| **X (Twitter)** | [x.com/joelw2200](https://x.com/joelw2200) |
+| **Direct line** | [joelw2200@gmail.com](mailto:joelw2200@gmail.com) |
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg"/>
-    <img src="./assets/divider-dark.svg" width="100%" alt=""/>
-  </picture>
+  <img src="./assets/rule.svg" width="100%" alt=""/>
 </p>
-
-<!-- ══════════════════ SCENE 06 — UPLINK ══════════════════ -->
-
-### `SCENE_06 // UPLINK`
-
-<p align="center"><b>Open to collabs, internships and interesting problems.</b><br/><i>"Build it, break it, ship it — then make it cinematic."</i></p>
 
 <p align="center">
-  <a href="https://github.com/Joel-Williams-Mathew"><img src="https://img.shields.io/badge/GITHUB-Joel--Williams--Mathew?style=for-the-badge&amp;logo=github&amp;logoColor=FFB454&amp;color=161B22" alt="GitHub"/></a>
-  <a href="https://www.linkedin.com/in/joel-williams-97b375272/"><img src="https://img.shields.io/badge/LINKEDIN-Connect?style=for-the-badge&amp;logo=linkedin&amp;logoColor=FFB454&amp;color=161B22" alt="LinkedIn"/></a>
-  <a href="https://www.instagram.com/jomu.willy/"><img src="https://img.shields.io/badge/INSTAGRAM-Follow?style=for-the-badge&amp;logo=instagram&amp;logoColor=FFB454&amp;color=161B22" alt="Instagram"/></a>
-  <a href="https://x.com/joelw2200"><img src="https://img.shields.io/badge/X-Follow?style=for-the-badge&amp;logo=x&amp;logoColor=FFB454&amp;color=161B22" alt="X (Twitter)"/></a>
-  <a href="mailto:joelw2200@gmail.com"><img src="https://img.shields.io/badge/EMAIL-Say%20hello?style=for-the-badge&amp;logo=gmail&amp;logoColor=FFB454&amp;color=161B22" alt="Email"/></a>
+  <code>FIN. — JOEL WILLIAMS&nbsp;&nbsp;·&nbsp;&nbsp;BUILD IT, BREAK IT, SHIP IT&nbsp;&nbsp;·&nbsp;&nbsp;THEN MAKE IT CINEMATIC</code>
 </p>
-
-<!-- ══════════════════ FINAL SCENE ══════════════════ -->
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/213911110-aedbef38-a29f-4b6b-a65c-11608b4f75a5.gif" width="260" alt="Animated cinematic fire — sign-off"/>
-</p>
-
-<p align="center"><code>&gt; EOF // thanks for watching — drop a ⭐ if the build impressed you</code></p>
-
-<p align="center"><code>STAY CURIOUS &#183; STAY BUILDING</code></p>

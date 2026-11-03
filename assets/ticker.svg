@@ -1,0 +1,16 @@
+<svg width="1200" height="46" viewBox="0 0 1200 46" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Profile ticker</title>
+  <rect width="1200" height="46" fill="#161311"/>
+  <rect x="0" y="0" width="1200" height="3" fill="#E4572E"/>
+  <rect x="0" y="43" width="1200" height="3" fill="#E4572E"/>
+  <a>
+    <text x="0" y="29" font-family="'Courier New', Courier, monospace" font-weight="700" font-size="15" letter-spacing="2.4" fill="#F6F1E7">
+      NASA SPACE APPS 2025 &#8212; GLOBAL NOMINEE &#183; 2X HACKATHON FINALIST &#183; DUM-E IN DEV &#183; GENETIC NEURAL NETWORKS IN PYGAME &#183; SJCET AI &amp; DS &#183; KOZHIKODE &#183;
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="14s" repeatCount="indefinite"/>
+    </text>
+    <text x="2400" y="29" font-family="'Courier New', Courier, monospace" font-weight="700" font-size="15" letter-spacing="2.4" fill="#F6F1E7">
+      NASA SPACE APPS 2025 &#8212; GLOBAL NOMINEE &#183; 2X HACKATHON FINALIST &#183; DUM-E IN DEV &#183; GENETIC NEURAL NETWORKS IN PYGAME &#183; SJCET AI &amp; DS &#183; KOZHIKODE &#183;
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="14s" repeatCount="indefinite"/>
+    </text>
+  </a>
+</svg>
