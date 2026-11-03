@@ -1,77 +1,73 @@
 <!--
-  DESIGN VARIANT B ??? "BAUHAUS" ?? swiss modernism
-  Independent identity branch. Do not merge over main design without review.
+  VARIANT C — "BLUEPRINT / SHEET SPEC-1"
+  Technical-drawing identity. Independent branch. Do not merge without review.
 -->
 
 <p align="center">
-  <img src="./assets/hero-bauhaus.svg" width="100%" alt="JOEL WILLIAMS ??? AI &amp; ML Engineer ?? SJCET Palai"/>
+  <img src="./assets/hero-blueprint.svg" width="100%" alt="Technical Data Sheet — Joel Williams, AI &amp; ML Engineering, Rev A"/>
 </p>
 
 <p align="center">
-  <b>SHAPE FIRST. THEN SOLVE.</b><br/>
-  <sub>AI &amp; ML ENGINEER ??? SJCET, PALAI</sub>
+  <b>SUBJECT:&nbsp; AI &amp; ML ENGINEER — BUILDING DUM-E &amp; GENETIC NEURAL NETWORKS</b><br/>
+  <sub>DWG NO. JMW-2026-001&nbsp;&nbsp;·&nbsp;&nbsp;REV A&nbsp;&nbsp;·&nbsp;&nbsp;SCALE 1:1&nbsp;&nbsp;·&nbsp;&nbsp;STATUS: ACTIVE</sub>
 </p>
 
 <p align="center">
-  <img src="./assets/divider-bauhaus.svg" width="100%" alt=""/>
+  <img src="./assets/rule-blueprint.svg" width="100%" alt=""/>
 </p>
 
-### ??? WHO
+### TECH-SPEC SHEET 01 — SUBJECT PROFILE
 
-I build systems that leave the abstract and start winning.
-
-- B.Tech Artificial Intelligence &amp; Data Science ??? **SJCET, Palai**
-- ML Intern ??? **Cognifyz** ?? Machine Learning Intern ??? **PaceLab, Kozhikode**
-- **NASA Space Apps 2025 ??? Global Nominee** ?? 2?? Hackathon Finalist
-- Now: **DUM-E**, voice-first desktop automation ?? **Genetic Neural Networks** in Pygame
-- Windows ?? Arch Linux ?? VS Code / Cursor
-- Off-grid: Royal Enfield Himalayan 450 ?? cinematic photography
+- **EDUCATION** — B.Tech Artificial Intelligence &amp; Data Science — SJCET, Palai
+- **EXPERIENCE** — Machine Learning Intern — Cognifyz · PaceLab, Kozhikode
+- **QUALIFICATION** — NASA Space Apps 2025 — **Global Nominee** · 2× Hackathon Finalist
+- **PLATFORM** — Windows × Arch Linux · VS Code / Cursor · Git
+- **OFF-DUTY** — Royal Enfield Himalayan 450 · high-contrast cinematic photography
+- **MISSION** — build intelligent systems that leave the lab and start winning
 
 <p align="center">
-  <img src="./assets/divider-bauhaus.svg" width="100%" alt=""/>
+  <img src="./assets/rule-blueprint.svg" width="100%" alt=""/>
 </p>
 
-### ??? PRACTICE
+### TECH-SPEC SHEET 02 — EQUIPMENT LIST
 
 |  |  |
 |:--|:--|
-| **LANG**<br/>Python ?? C ?? Java ?? SQL | **DATA**<br/>NumPy ?? Pandas ?? Matplotlib |
-| **ML**<br/>PyTorch ?? TensorFlow ?? Scikit-learn | **WEB**<br/>React ?? HTML ?? CSS ?? JavaScript |
-| **GENAI**<br/>LangChain ?? Ollama ?? Hugging Face | **DATA STORE**<br/>MySQL ?? Firebase ?? Neon |
+| **LANG** — Python · C · Java · SQL | **DATA** — NumPy · Pandas · Matplotlib |
+| **ML** — PyTorch · TensorFlow · Scikit-learn | **WEB** — React · HTML · CSS · JavaScript |
+| **GENAI** — LangChain · Ollama · Hugging Face | **STORE** — MySQL · Firebase · Neon |
+
+**TOOLS** — Git · GitHub · VS Code · Cursor · Jupyter
 
 <p align="center">
-  <b>TOOLS</b><br/>Git ?? GitHub ?? VS Code ?? Cursor ?? Jupyter
+  <img src="./assets/rule-blueprint.svg" width="100%" alt=""/>
 </p>
 
+### TECH-SPEC SHEET 03 — TEST PROCEDURE
+
+**OP-01 / DUM-E** — Voice-first Python desktop automation. PyAutoGUI + TTS.
+<br/><sub>RESULT: BUILDING</sub>
+
+**OP-02 / GENETIC NEURAL NETWORKS** — neuroevolution live in Pygame.
+<br/><sub>RESULT: TRAINING</sub>
+
+**OP-03 / NASA SPACE APPS 2025** — deadline engineering, finished first.
+<br/><sub>RESULT: GLOBAL NOMINEE</sub>
+
+**OP-04 / ML PIPELINES** — raw CSV → Jupyter → custom recommendation systems.
+<br/><sub>RESULT: SHIPPING</sub>
+
+**OP-05 / FULL-STACK FLUTTER** — opinionated UI on real business logic.
+<br/><sub>RESULT: BUILDING</sub>
+
 <p align="center">
-  <img src="./assets/divider-bauhaus.svg" width="100%" alt=""/>
+  <img src="./assets/rule-blueprint.svg" width="100%" alt=""/>
 </p>
 
-### ??? WORK
-
-**01 / DUM-E.** Voice-first Python desktop automation. PyAutoGUI + TTS.
-<br/><sub>STATUS ??? BUILDING</sub>
-
-**02 / GENETIC NEURAL NETWORKS.** Neuroevolution live inside Pygame. Evolution is the curriculum.
-<br/><sub>STATUS ??? TRAINING</sub>
-
-**03 / NASA SPACE APPS 2025.** Deadline-driven engineering, finished first, discussed for weeks.
-<br/><sub>STATUS ??? GLOBAL NOMINEE</sub>
-
-**04 / ML PIPELINES.** CSV ??? Jupyter ??? custom recommendation logic.
-<br/><sub>STATUS ??? SHIPPING</sub>
-
-**05 / FULL-STACK FLUTTER.** Opinionated front-ends on real business logic.
-<br/><sub>STATUS ??? BUILDING</sub>
+### TECH-SPEC SHEET 04 — FIELD TEST DATA
 
 <p align="center">
-  <img src="./assets/divider-bauhaus.svg" width="100%" alt=""/>
-</p>
-
-### ??? INDEX
-
-<p align="center">
-  <img src="./profile-3d-contrib/profile-night-view.svg" width="92%" alt="3D contribution skyline ??? regenerated daily"/>
+  <img src="./profile-3d-contrib/profile-night-view.svg" width="92%" alt="3D contribution skyline — regenerated daily"/>
 </p>
 
 <p align="center">
@@ -104,21 +100,21 @@ I build systems that leave the abstract and start winning.
 </p>
 
 <p align="center">
-  <img src="./assets/divider-bauhaus.svg" width="100%" alt=""/>
+  <img src="./assets/rule-blueprint.svg" width="100%" alt=""/>
 </p>
 
-### ??? CONTACT
+### TECH-SPEC SHEET 05 — APPROVED FOR RELEASE
 
 |  |  |
 |:--|:--|
-| **GIT** | [Joel-Williams-Mathew](https://github.com/Joel-Williams-Mathew) |
-| **IN** | [joel-williams-97b375272](https://www.linkedin.com/in/joel-williams-97b375272/) |
-| **IG** | [jomu.willy](https://www.instagram.com/jomu.willy/) |
-| **X** | [joelw2200](https://x.com/joelw2200) |
+| **GIT** | [github.com/Joel-Williams-Mathew](https://github.com/Joel-Williams-Mathew) |
+| **IN** | [linkedin.com/in/joel-williams-97b375272](https://www.linkedin.com/in/joel-williams-97b375272/) |
+| **IG** | [instagram.com/jomu.willy](https://www.instagram.com/jomu.willy/) |
+| **X** | [x.com/joelw2200](https://x.com/joelw2200) |
 | **MAIL** | [joelw2200@gmail.com](mailto:joelw2200@gmail.com) |
 
 <p align="center">
-  <img src="./assets/divider-bauhaus.svg" width="100%" alt=""/>
+  <img src="./assets/rule-blueprint.svg" width="100%" alt=""/>
 </p>
 
-<p align="center"><b>JOEL ??? 2026</b><br/><sub>MATERIALS: CODE ?? CURIOSITY ?? COFFEE</sub></p>
+<p align="center"><b>APPROVED — J. MATHEW — 2026</b><br/><sub>NO TOLERANCES UNLESS SPECIFIED</sub></p>

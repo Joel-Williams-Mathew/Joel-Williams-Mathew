@@ -1,0 +1,72 @@
+<svg width="1400" height="460" viewBox="0 0 1400 460" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Joel Williams — Technical Data Sheet</title>
+  <defs>
+    <pattern id="gridMinor" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1C4770" stroke-width="1"/>
+    </pattern>
+    <pattern id="gridMajor" width="140" height="140" patternUnits="userSpaceOnUse">
+      <path d="M 140 0 L 0 0 0 140" fill="none" stroke="#29517F" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1400" height="460" fill="#10395C"/>
+  <rect width="1400" height="460" fill="url(#gridMinor)"/>
+  <rect width="1400" height="460" fill="url(#gridMajor)"/>
+
+  <!-- scan line -->
+  <rect x="-160" y="0" width="150" height="460" fill="#7FD4FF" opacity="0.10">
+    <animate attributeName="x" values="-160;1500" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- frame -->
+  <rect x="18" y="18" width="1364" height="424" fill="none" stroke="#E8F4FF" stroke-width="3"/>
+  <rect x="26" y="26" width="1348" height="408" fill="none" stroke="#E8F4FF" stroke-width="1" stroke-opacity="0.6"/>
+
+  <!-- zone markers -->
+  <text x="120" y="13" font-family="'Courier New', monospace" font-size="12" fill="#9CC4E4">A</text>
+  <text x="690" y="13" font-family="'Courier New', monospace" font-size="12" fill="#9CC4E4">B</text>
+  <text x="1260" y="13" font-family="'Courier New', monospace" font-size="12" fill="#9CC4E4">C</text>
+  <text x="6" y="240" font-family="'Courier New', monospace" font-size="12" fill="#9CC4E4">1</text>
+  <text x="1388" y="240" font-family="'Courier New', monospace" font-size="12" fill="#9CC4E4">2</text>
+
+  <!-- header annotation -->
+  <text x="48" y="58" font-family="'Courier New', Courier, monospace" font-size="15" letter-spacing="3" fill="#FFD60A">TECHNICAL DATA SHEET</text>
+  <text x="48" y="80" font-family="'Courier New', Courier, monospace" font-size="11" letter-spacing="2" fill="#9CC4E4">DWG NO. JMW-2026-001 — REV A</text>
+
+  <!-- status beacon -->
+  <circle cx="48" cy="120" r="7" fill="#FFD60A">
+    <animate attributeName="opacity" values="1;0.25;1" dur="1.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="62" y="125" font-family="'Courier New', Courier, monospace" font-size="13" letter-spacing="2" fill="#FFFFFF">STATUS: ACTIVE</text>
+
+  <!-- name -->
+  <text x="48" y="230" font-family="'Arial Black', Arial, sans-serif" font-weight="900" font-size="118" fill="#E8F4FF">JOEL</text>
+  <text x="48" y="350" font-family="'Arial Black', Arial, sans-serif" font-weight="900" font-size="104" fill="#E8F4FF">WILLIAMS<tspan fill="#FFD60A">_</tspan></text>
+
+  <!-- dimension line -->
+  <line x1="48" y1="382" x2="720" y2="382" stroke="#7FD4FF" stroke-width="2"/>
+  <polygon points="48,382 60,376 60,388" fill="#7FD4FF"/>
+  <polygon points="720,382 708,376 708,388" fill="#7FD4FF"/>
+  <text x="380" y="374" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#7FD4FF">SUBJECT: AI &amp; ML ENGINEERING</text>
+
+  <!-- dashed gauge with rotating sweep -->
+  <circle cx="1130" cy="180" r="112" fill="none" stroke="#7FD4FF" stroke-width="2" stroke-dasharray="8 10"/>
+  <circle cx="1130" cy="180" r="70" fill="none" stroke="#FFD60A" stroke-width="2" stroke-dasharray="4 14">
+    <animateTransform attributeName="transform" type="rotate" from="0 1130 180" to="360 1130 180" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1130" y="172" text-anchor="middle" font-family="'Arial Black', Arial, sans-serif" font-weight="900" font-size="42" fill="#E8F4FF">JW</text>
+  <text x="1130" y="200" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" letter-spacing="3" fill="#FFD60A">REV A</text>
+
+  <!-- small annotation -->
+  <text x="1130" y="330" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#9CC4E4">MODEL: DUM-E</text>
+  <text x="1130" y="348" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#5E87AC">SCALE 1:1</text>
+
+  <!-- title block -->
+  <rect x="1035" y="372" width="330" height="62" fill="#0C2C47" stroke="#E8F4FF" stroke-width="2"/>
+  <line x1="1035" y1="402" x2="1365" y2="402" stroke="#E8F4FF" stroke-width="1.5"/>
+  <line x1="1195" y1="372" x2="1195" y2="434" stroke="#E8F4FF" stroke-width="1.5"/>
+  <text x="1048" y="392" font-family="'Courier New', monospace" font-size="9" fill="#9CC4E4">DRAWN</text>
+  <text x="1048" y="425" font-family="'Courier New', monospace" font-size="11" fill="#E8F4FF">J. MATHEW</text>
+  <text x="1208" y="392" font-family="'Courier New', monospace" font-size="9" fill="#9CC4E4">SHEET</text>
+  <text x="1208" y="425" font-family="'Courier New', monospace" font-size="11" fill="#FFD60A">1 OF 1</text>
+</svg>
