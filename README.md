@@ -20,11 +20,11 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Joel-Williams-Mathew"><img src="https://img.shields.io/badge/GITHUB-@Joel--Williams--Mathew?style=for-the-badge&amp;logo=github&amp;logoColor=FFB454&amp;color=161B22" alt="GitHub — @Joel-Williams-Mathew"/></a>
-  <a href="https://www.linkedin.com/in/joel-williams-97b375272/"><img src="https://img.shields.io/badge/LINKEDIN-joel--williams?style=for-the-badge&amp;logo=linkedin&amp;logoColor=FFB454&amp;color=161B22" alt="LinkedIn"/></a>
-  <a href="https://www.instagram.com/jomu.willy/"><img src="https://img.shields.io/badge/INSTAGRAM-@jomu.willy?style=for-the-badge&amp;logo=instagram&amp;logoColor=FFB454&amp;color=161B22" alt="Instagram"/></a>
-  <a href="https://x.com/joelw2200"><img src="https://img.shields.io/badge/X-@joelw2200?style=for-the-badge&amp;logo=x&amp;logoColor=FFB454&amp;color=161B22" alt="X (Twitter)"/></a>
-  <a href="mailto:joelw2200@gmail.com"><img src="https://img.shields.io/badge/EMAIL-joelw2200%40gmail.com?style=for-the-badge&amp;logo=gmail&amp;logoColor=FFB454&amp;color=161B22" alt="Email — joelw2200@gmail.com"/></a>
+  <a href="https://github.com/Joel-Williams-Mathew"><img src="https://img.shields.io/badge/GITHUB-@Joel--Williams--Mathew?style=for-the-badge&amp;logo=github&amp;logoColor=FFB454&amp;color=161B22&amp;v=2" alt="GitHub — @Joel-Williams-Mathew"/></a>
+  <a href="https://www.linkedin.com/in/joel-williams-97b375272/"><img src="https://img.shields.io/badge/LINKEDIN-joel--williams?style=for-the-badge&amp;logo=linkedin&amp;logoColor=FFB454&amp;color=161B22&amp;v=2" alt="LinkedIn"/></a>
+  <a href="https://www.instagram.com/jomu.willy/"><img src="https://img.shields.io/badge/INSTAGRAM-@jomu--willy?style=for-the-badge&amp;logo=instagram&amp;logoColor=FFB454&amp;color=161B22" alt="Instagram — @jomu.willy"/></a>
+  <a href="https://x.com/joelw2200"><img src="https://img.shields.io/badge/X-@joelw2200?style=for-the-badge&amp;logo=x&amp;logoColor=FFB454&amp;color=161B22&amp;v=2" alt="X (Twitter) — @joelw2200"/></a>
+  <a href="mailto:joelw2200@gmail.com"><img src="https://img.shields.io/badge/EMAIL-joelw2200?style=for-the-badge&amp;logo=gmail&amp;logoColor=FFB454&amp;color=161B22" alt="Email — joelw2200@gmail.com"/></a>
   <img src="https://komarev.com/ghpvc/?username=Joel-Williams-Mathew&amp;style=for-the-badge&amp;color=FFB454&amp;labelColor=0D1117&amp;label=PROFILE+VIEWS" alt="Profile views"/>
 </p>
 
@@ -109,10 +109,15 @@
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=0D1117&amp;ring=FFB454&amp;fire=FFB454&amp;currStreakLabel=FFB454&amp;sideLabels=8B949E&amp;sideNums=C9D1D9&amp;dates=8B949E" height="165" alt="GitHub contribution streak for Joel-Williams-Mathew"/>
+  <img src="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=0D1117&amp;ring=FFB454&amp;fire=FFB454&amp;currStreakLabel=FFB454&amp;currStreakNum=FFFFFF&amp;sideLabels=8B949E&amp;sideNums=C9D1D9&amp;dates=8B949E" height="165" alt="GitHub contribution streak for Joel-Williams-Mathew"/>
 </p>
 
-<!-- Contribution snake — requires the included GitHub Action (see SETUP.md). Renders nothing until the first run. -->
+<!-- Contribution snake — DISABLED BY DEFAULT (the `output` branch does not exist
+     until the workflow runs once, so the image 404s). To enable:
+     1. Push .github/workflows/snake.yml to your profile repo
+     2. Actions tab → "Generate contribution snake" → Run workflow
+     3. Delete the comment markers around this block -->
+<!--
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/github-contribution-grid-snake-dark.svg"/>
@@ -120,6 +125,7 @@
     <img src="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/github-contribution-grid-snake-dark.svg" alt="Animated snake eating my contribution graph"/>
   </picture>
 </p>
+-->
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&amp;color=0:0D1117,50:FFB454,100:0D1117&amp;height=3" width="100%" alt=""/>
