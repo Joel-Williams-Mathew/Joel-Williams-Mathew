@@ -1,10 +1,10 @@
 <!--
-  VARIANT D — "JOMU-TERM / NEOFETCH"
+  VARIANT D ??? "JOMU-TERM / NEOFETCH"
   Terminal-native identity. Independent branch.
 -->
 
 <p align="center">
-  <img src="./assets/hero-neofetch.svg" width="100%" alt="neofetch — jomu@joel — NASA Space Apps 2025 Global Nominee"/>
+  <img src="./assets/hero-neofetch.svg" width="100%" alt="neofetch ??? jomu@joel ??? NASA Space Apps 2025 Global Nominee"/>
 </p>
 
 <p align="center">
@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <code>builder | AI &amp; DS @ SJCET · ML Intern @ Cognifyz &amp; PaceLab · NASA Space Apps 2025 · Himalayan 450</code>
+  <code>builder | AI &amp; DS @ SJCET ?? ML Intern @ Cognifyz &amp; PaceLab ?? NASA Space Apps 2025 ?? Himalayan 450</code>
 </p>
 
 <p align="center">
@@ -23,22 +23,22 @@
 
 ```
 $ pacman -Q python c java sql pytorch tensorflow scikit-learn
-python · c · java · sql · pytorch · tensorflow · scikit-learn
+python ?? c ?? java ?? sql ?? pytorch ?? tensorflow ?? scikit-learn
 
 $ pacman -Q langchain ollama huggingface-hub
-langchain · ollama · huggingface-hub
+langchain ?? ollama ?? huggingface-hub
 
 $ pacman -Q numpy pandas matplotlib
-numpy · pandas · matplotlib
+numpy ?? pandas ?? matplotlib
 
 $ pacman -Q react html css javascript
-react · html · css · javascript
+react ?? html ?? css ?? javascript
 
 $ pacman -Q mysql firebase neon
-mysql · firebase · neon
+mysql ?? firebase ?? neon
 
 $ pacman -Q git github vscode cursor jupyter
-git · github · vscode · cursor · jupyter
+git ?? github ?? vscode ?? cursor ?? jupyter
 ```
 
 <p align="center">
@@ -51,8 +51,8 @@ git · github · vscode · cursor · jupyter
 $ systemctl --user status
 dum-e.service        active (running)   voice-first desktop automation
 gnns.service         active (running)   neuroevolution in Pygame
-spaceapps.service    inactive (dead)    NASA Space Apps 2025 — GLOBAL NOMINEE
-mlpipes.service      active (running)   raw CSV → Jupyter → recsys
+spaceapps.service    inactive (dead)    NASA Space Apps 2025 ??? GLOBAL NOMINEE
+mlpipes.service      active (running)   raw CSV ??? Jupyter ??? recsys
 flutter.service      active (running)   UI on real business logic
 ```
 
@@ -64,10 +64,10 @@ flutter.service      active (running)   UI on real business logic
 
 ```
 $ git log --oneline -6
-b59c359 feat: DUM-E — voice-first automation core
-7k2m31b feat: GNNS — neuroevolution goes brrr
-9f0a2c4 feat: NASA Space Apps 2025 — GLOBAL NOMINEE
-b3d18c7 feat: ML pipelines — recsys from raw CSV
+b59c359 feat: DUM-E ??? voice-first automation core
+7k2m31b feat: GNNS ??? neuroevolution goes brrr
+9f0a2c4 feat: NASA Space Apps 2025 ??? GLOBAL NOMINEE
+b3d18c7 feat: ML pipelines ??? recsys from raw CSV
 d4e7a19 feat: Flutter UI on real business logic
 ```
 
@@ -78,7 +78,7 @@ d4e7a19 feat: Flutter UI on real business logic
 ### TELEMETRY
 
 <p align="center">
-  <img src="./profile-3d-contrib/profile-night-view.svg" width="92%" alt="3D contribution skyline — regenerated daily"/>
+  <img src="./profile-3d-contrib/profile-season-animate.svg" width="92%" alt="3D contribution skyline ??? regenerated daily"/>
 </p>
 
 <p align="center">
@@ -96,9 +96,9 @@ d4e7a19 feat: Flutter UI on real business logic
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=0D1117&amp;ring=7EE787&amp;fire=7EE787&amp;currStreakLabel=7EE787&amp;currStreakNum=FFFFFF&amp;sideLabels=8B949E&amp;sideNums=E8F4FF&amp;dates=8B949E"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=0D1117&amp;ring=7EE787&amp;fire=7EE787&amp;currStreakLabel=7EE787&amp;currStreakNum=FFFFFF&amp;sideLabels=8B949E&amp;sideNums=E8F4FF&amp;dates=8B949E"/>
-    <img src="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=0D1117&amp;ring=7EE787&amp;fire=7EE787&amp;currStreakLabel=7EE787&amp;currStreakNum=FFFFFF&amp;sideLabels=8B949E&amp;sideNums=E8F4FF&amp;dates=8B949E" height="170" alt="GitHub contribution streak"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=0D1117&amp;ring=FF6B1A&amp;fire=FF6B1A&amp;currStreakLabel=FF6B1A&amp;currStreakNum=FFFFFF&amp;sideLabels=8B949E&amp;sideNums=FFFFFF&amp;dates=8B949E"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=0D1117&amp;ring=FF6B1A&amp;fire=FF6B1A&amp;currStreakLabel=FF6B1A&amp;currStreakNum=FFFFFF&amp;sideLabels=8B949E&amp;sideNums=FFFFFF&amp;dates=8B949E"/>
+    <img src="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=0D1117&amp;ring=FF6B1A&amp;fire=FF6B1A&amp;currStreakLabel=FF6B1A&amp;currStreakNum=FFFFFF&amp;sideLabels=8B949E&amp;sideNums=FFFFFF&amp;dates=8B949E" height="170" alt="GitHub contribution streak"/>
   </picture>
 </p>
 
@@ -119,7 +119,7 @@ d4e7a19 feat: Flutter UI on real business logic
 ```
 $ nmap -p- joel.local
 PORT    SERVICE
-22/tcp  ssh           git access — github.com/Joel-Williams-Mathew
+22/tcp  ssh           git access ??? github.com/Joel-Williams-Mathew
 443/tcp https         linkedin.com/in/joel-williams-97b375272
 443/tcp https         instagram.com/jomu.willy
 443/tcp https         x.com/joelw2200
@@ -130,4 +130,4 @@ PORT    SERVICE
   <img src="./assets/rule-neofetch.svg" width="100%" alt=""/>
 </p>
 
-<p align="center"><code>END OF FILE — EOF</code></p>
+<p align="center"><code>END OF FILE ??? EOF</code></p>
