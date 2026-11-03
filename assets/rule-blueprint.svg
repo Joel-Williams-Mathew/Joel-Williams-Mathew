@@ -1,6 +1,0 @@
-<svg width="1400" height="26" viewBox="0 0 1400 26" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-  <line x1="0" y1="13" x2="1400" y2="13" stroke="#29517F" stroke-width="2" stroke-dasharray="10 8"/>
-  <polygon points="0,13 14,7 14,19" fill="#FFD60A"/>
-  <polygon points="1400,13 1386,7 1386,19" fill="#FFD60A"/>
-  <text x="700" y="17" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#FFD60A" letter-spacing="6">REF</text>
-</svg>

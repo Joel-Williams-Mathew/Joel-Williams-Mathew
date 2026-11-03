@@ -1,8 +1,0 @@
-<svg width="1400" height="30" viewBox="0 0 1400 30" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-  <rect width="1400" height="30" fill="#0D1117"/>
-  <line x1="0" y1="15" x2="1400" y2="15" stroke="#1F2937" stroke-width="2" stroke-dasharray="12 10"/>
-  <line x1="0" y1="15" x2="1400" y2="15" stroke="#56B6C2" stroke-width="3" stroke-dasharray="90 1310">
-    <animate attributeName="stroke-dashoffset" from="1400" to="0" dur="2.2s" repeatCount="indefinite"/>
-  </line>
-  <text x="700" y="20" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#E5C07B">─── jomu@joel ───</text>
-</svg>

@@ -1,7 +1,0 @@
-<svg width="1200" height="18" viewBox="0 0 1200 18" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-  <rect x="0" y="3" width="1200" height="2" fill="#161311"/>
-  <rect x="0" y="11" width="1200" height="1" fill="#161311"/>
-  <text x="0" y="15" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="16" fill="#E4572E">
-    &#10035;<animate attributeName="x" from="20" to="1155" dur="3.4s" repeatCount="indefinite"/>
-  </text>
-</svg>
