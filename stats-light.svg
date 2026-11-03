@@ -9,11 +9,11 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Joel Williams Mathew&#39;s GitHub Stats, Rank: C+</title>
-        <desc id="descId">Total Stars Earned: 11, Total Commits  : 283, Total PRs: 1, Total Issues: 0, Contributed to (last year): 0</desc>
+        <desc id="descId">Total Stars Earned: 11, Total Commits  : 284, Total PRs: 1, Total Issues: 0, Contributed to (last year): 0</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #7DF9FF;
+            fill: #FCD34D;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -46,18 +46,18 @@
     .not_bold { font-weight: 400 }
     .bold { font-weight: 700 }
     .icon {
-      fill: #FF3D8A;
+      fill: #F472B6;
       display: block;
     }
 
     .rank-circle-rim {
-      stroke: #7DF9FF;
+      stroke: #FCD34D;
       fill: none;
       stroke-width: 6;
       opacity: 0.2;
     }
     .rank-circle {
-      stroke: #7DF9FF;
+      stroke: #FCD34D;
       stroke-dasharray: 250;
       fill: none;
       stroke-width: 6;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 211.60447043207293;
+        stroke-dashoffset: 211.58061583555116;
       }
     }
   
@@ -118,7 +118,7 @@
           height="99%"
           stroke="#1A2238"
           width="466"
-          fill="#070B22"
+          fill="#0A0D1F"
           stroke-opacity="1"
         />
 
@@ -184,7 +184,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >283</text>
+      >284</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">

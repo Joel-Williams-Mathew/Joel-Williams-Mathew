@@ -13,7 +13,7 @@
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #7DF9FF;
+            fill: #FCD34D;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -101,7 +101,7 @@
           height="99%"
           stroke="#1A2238"
           width="299"
-          fill="#070B22"
+          fill="#0A0D1F"
           stroke-opacity="1"
         />
 
