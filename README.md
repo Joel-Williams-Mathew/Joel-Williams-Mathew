@@ -1,104 +1,89 @@
 <!--
-  THE DOSSIER — special profile README of JOEL WILLIAMS.
-  Broadsheet editorial identity. Do not edit without review.
+  DESIGN VARIANT B — "BAUHAUS" · swiss modernism
+  Independent identity branch. Do not merge over main design without review.
 -->
 
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="JOEL WILLIAMS — AI &amp; ML Engineering · The Dossier · Vol. I No. 1"/>
+  <img src="./assets/hero-bauhaus.svg" width="100%" alt="JOEL WILLIAMS — AI &amp; ML Engineer · SJCET Palai"/>
 </p>
 
 <p align="center">
-  <img src="./assets/ticker.svg" width="100%" alt="Profile ticker: NASA Space Apps 2025 global nominee · 2x hackathon finalist · DUM-E in development · genetic neural networks · SJCET · Kozhikode"/>
+  <b>SHAPE FIRST. THEN SOLVE.</b><br/>
+  <sub>AI &amp; ML ENGINEER — SJCET, PALAI</sub>
 </p>
-
-<br/>
 
 <p align="center">
-  <img src="./assets/rule.svg" width="100%" alt=""/>
+  <img src="./assets/divider-bauhaus.svg" width="100%" alt=""/>
 </p>
 
-### No. 01 — DOSSIER
+### ■ WHO
 
-**Joel Williams Mathew** — I build intelligent systems that leave the lab.
-A modular voice assistant on your taskbar, evolved agents failing beautifully inside
-Pygame first, then winning. B.Tech Artificial Intelligence &amp; Data Science at
-SJCET, Palai. ML intern at **Cognifyz** and **PaceLab, Kozhikode**.
-Two-time hackathon finalist. **NASA Space Apps 2025 — Global Nominee.**
+I build systems that leave the abstract and start winning.
 
-- **Currently:** DUM-E — a modular, voice-first Python desktop automation system
-- **On the bench:** Genetic Neural Networks trained via neuroevolution in Pygame
-- **Default orbit:** Windows + Arch Linux · VS Code / Cursor
-- **Elsewhere:** Royal Enfield Himalayan 450 · high-contrast cinematic photography
+- B.Tech Artificial Intelligence &amp; Data Science — **SJCET, Palai**
+- ML Intern — **Cognifyz** · Machine Learning Intern — **PaceLab, Kozhikode**
+- **NASA Space Apps 2025 — Global Nominee** · 2× Hackathon Finalist
+- Now: **DUM-E**, voice-first desktop automation · **Genetic Neural Networks** in Pygame
+- Windows × Arch Linux · VS Code / Cursor
+- Off-grid: Royal Enfield Himalayan 450 · cinematic photography
 
 <p align="center">
-  <img src="./assets/rule.svg" width="100%" alt=""/>
+  <img src="./assets/divider-bauhaus.svg" width="100%" alt=""/>
 </p>
 
-### No. 02 — CAPABILITIES
+### ■ PRACTICE
 
 |  |  |
 |:--|:--|
-| **01 · Languages**<br/>Python · C · Java · SQL | **04 · Data Science**<br/>NumPy · Pandas · Matplotlib |
-| **02 · ML &amp; Frameworks**<br/>PyTorch · TensorFlow · Scikit-learn | **05 · Web**<br/>React · HTML · CSS · JavaScript |
-| **03 · GenAI &amp; LLMs**<br/>LangChain · Ollama · Hugging Face | **06 · Databases**<br/>MySQL · Firebase · Neon |
-
-**07 · Tools &amp; Environments**<br/>Git · GitHub · VS Code · Cursor · Jupyter
-
-I care about the compound interest of fundamentals: probability over hype,
-a clean commit over a clever one, and agents that make their own demos.
+| **LANG**<br/>Python · C · Java · SQL | **DATA**<br/>NumPy · Pandas · Matplotlib |
+| **ML**<br/>PyTorch · TensorFlow · Scikit-learn | **WEB**<br/>React · HTML · CSS · JavaScript |
+| **GENAI**<br/>LangChain · Ollama · Hugging Face | **DATA STORE**<br/>MySQL · Firebase · Neon |
 
 <p align="center">
-  <img src="./assets/rule.svg" width="100%" alt=""/>
-</p>
-
-### No. 03 — SELECTED WORK
-
-**01 — DUM-E** &nbsp;·&nbsp;<sub>STATUS: IN DEV</sub>
-A modular, voice-first desktop automation system. PyAutoGUI + text-to-speech,
-hands-free execution, scripted routines for the repetitive parts of a build day.
-
-**02 — GENETIC NEURAL NETWORKS** &nbsp;·&nbsp;<sub>STATUS: TRAINING</sub>
-Neuroevolution inside Pygame: populations rise and fall on camera while the
-fittest survive on points, not luck. Watching evolution, then scripting around it.
-
-**03 — NASA SPACE APPS 2025** &nbsp;·&nbsp;<sub>STATUS: GLOBAL NOMINEE</sub>
-Competition engineering under a hard deadline — the one that gets talked about
-in the corridors weeks after it ends.
-
-**04 — ML PIPELINES** &nbsp;·&nbsp;<sub>STATUS: SHIPPING</sub>
-Jupyter-driven analysis from raw CSV to custom recommendation logic — the
-pipelines the internship debriefs keep praising quietly.
-
-**05 — FULL-STACK FLUTTER** &nbsp;·&nbsp;<sub>STATUS: BUILDING</sub>
-Opinionated front-ends wired to real business logic — because the demo that
-ships is worth more than the slide about the demo.
-
-<p align="center">
-  <img src="./assets/rule.svg" width="100%" alt=""/>
-</p>
-
-### No. 04 — IN THE FIELD
-
-Shipped daily. Here is the honest record.
-
-<p align="center">
-  <img src="./profile-3d-contrib/profile-night-view.svg" width="92%" alt="3D contribution skyline — glowing windows are my commit days. Regenerated daily by GitHub Action."/>
+  <b>TOOLS</b><br/>Git · GitHub · VS Code · Cursor · Jupyter
 </p>
 
 <p align="center">
-  <img src="./assets/rule.svg" width="100%" alt=""/>
+  <img src="./assets/divider-bauhaus.svg" width="100%" alt=""/>
+</p>
+
+### ■ WORK
+
+**01 / DUM-E.** Voice-first Python desktop automation. PyAutoGUI + TTS.
+<br/><sub>STATUS — BUILDING</sub>
+
+**02 / GENETIC NEURAL NETWORKS.** Neuroevolution live inside Pygame. Evolution is the curriculum.
+<br/><sub>STATUS — TRAINING</sub>
+
+**03 / NASA SPACE APPS 2025.** Deadline-driven engineering, finished first, discussed for weeks.
+<br/><sub>STATUS — GLOBAL NOMINEE</sub>
+
+**04 / ML PIPELINES.** CSV → Jupyter → custom recommendation logic.
+<br/><sub>STATUS — SHIPPING</sub>
+
+**05 / FULL-STACK FLUTTER.** Opinionated front-ends on real business logic.
+<br/><sub>STATUS — BUILDING</sub>
+
+<p align="center">
+  <img src="./assets/divider-bauhaus.svg" width="100%" alt=""/>
+</p>
+
+### ■ INDEX
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-night-view.svg" width="92%" alt="3D contribution skyline — regenerated daily"/>
 </p>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/stats-dark.svg"/>
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/stats-light.svg"/>
-    <img src="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/stats-dark.svg" height="180" alt="GitHub stats — commits, stars, PRs and contributions"/>
+    <img src="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/stats-dark.svg" height="170" alt="GitHub stats"/>
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/top-langs-dark.svg"/>
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/top-langs-light.svg"/>
-    <img src="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/top-langs-dark.svg" height="180" alt="Top languages"/>
+    <img src="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/top-langs-dark.svg" height="170" alt="Top languages"/>
   </picture>
 </p>
 
@@ -106,11 +91,10 @@ Shipped daily. Here is the honest record.
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=F6F1E7&amp;ring=E4572E&amp;fire=E4572E&amp;currStreakLabel=E4572E&amp;currStreakNum=141414&amp;sideLabels=3A362F&amp;sideNums=161311&amp;dates=8A8271"/>
     <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=F6F1E7&amp;ring=E4572E&amp;fire=E4572E&amp;currStreakLabel=E4572E&amp;currStreakNum=141414&amp;sideLabels=3A362F&amp;sideNums=161311&amp;dates=8A8271"/>
-    <img src="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=F6F1E7&amp;ring=E4572E&amp;fire=E4572E&amp;currStreakLabel=E4572E&amp;currStreakNum=141414&amp;sideLabels=3A362F&amp;sideNums=161311&amp;dates=8A8271" height="180" alt="GitHub contribution streak"/>
+    <img src="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&amp;hide_border=true&amp;background=F6F1E7&amp;ring=E4572E&amp;fire=E4572E&amp;currStreakLabel=E4572E&amp;currStreakNum=141414&amp;sideLabels=3A362F&amp;sideNums=161311&amp;dates=8A8271" height="170" alt="GitHub contribution streak"/>
   </picture>
 </p>
 
-<!-- field notes: animated grid, one 11-week window -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/github-contribution-grid-snake-dark.svg"/>
@@ -120,25 +104,21 @@ Shipped daily. Here is the honest record.
 </p>
 
 <p align="center">
-  <img src="./assets/rule.svg" width="100%" alt=""/>
+  <img src="./assets/divider-bauhaus.svg" width="100%" alt=""/>
 </p>
 
-### No. 05 — ORBIT
+### ■ CONTACT
 
-Open to internships, collaborations and honest engineering conversations.
-
-| Channel | Address |
+|  |  |
 |:--|:--|
-| **GitHub** | [github.com/Joel-Williams-Mathew](https://github.com/Joel-Williams-Mathew) |
-| **LinkedIn** | [linkedin.com/in/joel-williams-97b375272](https://www.linkedin.com/in/joel-williams-97b375272/) |
-| **Instagram** | [instagram.com/jomu.willy](https://www.instagram.com/jomu.willy/) |
-| **X (Twitter)** | [x.com/joelw2200](https://x.com/joelw2200) |
-| **Direct line** | [joelw2200@gmail.com](mailto:joelw2200@gmail.com) |
+| **GIT** | [Joel-Williams-Mathew](https://github.com/Joel-Williams-Mathew) |
+| **IN** | [joel-williams-97b375272](https://www.linkedin.com/in/joel-williams-97b375272/) |
+| **IG** | [jomu.willy](https://www.instagram.com/jomu.willy/) |
+| **X** | [joelw2200](https://x.com/joelw2200) |
+| **MAIL** | [joelw2200@gmail.com](mailto:joelw2200@gmail.com) |
 
 <p align="center">
-  <img src="./assets/rule.svg" width="100%" alt=""/>
+  <img src="./assets/divider-bauhaus.svg" width="100%" alt=""/>
 </p>
 
-<p align="center">
-  <code>FIN. — JOEL WILLIAMS&nbsp;&nbsp;·&nbsp;&nbsp;BUILD IT, BREAK IT, SHIP IT&nbsp;&nbsp;·&nbsp;&nbsp;THEN MAKE IT CINEMATIC</code>
-</p>
+<p align="center"><b>JOEL — 2026</b><br/><sub>MATERIALS: CODE · CURIOSITY · COFFEE</sub></p>

@@ -1,0 +1,23 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Joel Williams — AI &amp; ML Engineer</title>
+  <rect width="1200" height="360" fill="#FFFFFF"/>
+
+  <!-- red overbar accent -->
+  <rect x="60" y="30" width="230" height="16" fill="#E30613"/>
+
+  <!-- kicker -->
+  <text x="60" y="70" font-family="'Courier New', Courier, monospace" font-size="17" font-weight="700" letter-spacing="5" fill="#000000">AI &amp; ML ENGINEER</text>
+  <text x="60" y="97" font-family="'Courier New', Courier, monospace" font-size="12" letter-spacing="4" fill="#000000">SJCET — PALAI · 2026</text>
+
+  <!-- name -->
+  <text x="60" y="212" font-family="'Arial Black', Arial, sans-serif" font-weight="900" font-size="112" fill="#000000">JOEL</text>
+  <text x="60" y="328" font-family="'Arial Black', Arial, sans-serif" font-weight="900" font-size="104" fill="#000000">WILLIAMS<tspan fill="#0057B8">.</tspan></text>
+
+  <!-- Bauhaus cluster -->
+  <circle cx="955" cy="84" r="70" fill="#E30613"/>
+  <rect x="848" y="168" width="152" height="152" fill="#FFD500"/>
+  <polygon points="1014,182 1155,250 1014,318" fill="#0057B8"/>
+
+  <!-- vertical black bar -->
+  <rect x="1176" y="0" width="24" height="360" fill="#000000"/>
+</svg>
