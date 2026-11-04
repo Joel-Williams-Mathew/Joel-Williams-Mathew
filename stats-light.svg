@@ -9,11 +9,11 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Joel Williams Mathew&#39;s GitHub Stats, Rank: C+</title>
-        <desc id="descId">Total Stars Earned: 11, Total Commits  : 290, Total PRs: 1, Total Issues: 0, Contributed to (last year): 0</desc>
+        <desc id="descId">Total Stars Earned: 11, Total Commits  : 291, Total PRs: 1, Total Issues: 0, Contributed to (last year): 0</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #111111;
+            fill: #FFB454;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -22,7 +22,7 @@
           }
           
     .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #333333;
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #F5E6CC;
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
@@ -33,7 +33,7 @@
       animation: fadeInAnimation 0.3s ease-in-out forwards;
     }
     .rank-text {
-      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #333333;
+      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #F5E6CC;
       animation: scaleInAnimation 0.3s ease-in-out forwards;
     }
     .rank-percentile-header {
@@ -46,18 +46,18 @@
     .not_bold { font-weight: 400 }
     .bold { font-weight: 700 }
     .icon {
-      fill: #C2410C;
+      fill: #FF6B35;
       display: block;
     }
 
     .rank-circle-rim {
-      stroke: #111111;
+      stroke: #FF6B35;
       fill: none;
       stroke-width: 6;
       opacity: 0.2;
     }
     .rank-circle {
-      stroke: #111111;
+      stroke: #FF6B35;
       stroke-dasharray: 250;
       fill: none;
       stroke-width: 6;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 211.43783496520078;
+        stroke-dashoffset: 211.4140958315621;
       }
     }
   
@@ -116,9 +116,9 @@
           y="0.5"
           rx="4.5"
           height="99%"
-          stroke="#111111"
+          stroke="#FFB454"
           width="466"
-          fill="#FFFFFF"
+          fill="#0D1117"
           stroke-opacity="1"
         />
 
@@ -184,7 +184,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >290</text>
+      >291</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
