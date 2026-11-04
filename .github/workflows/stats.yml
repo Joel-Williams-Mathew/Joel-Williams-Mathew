@@ -25,35 +25,35 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate stats card (dark)
+      - name: Generate stats card (dark - amber cinematic)
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=Joel-Williams-Mathew&show_icons=true&include_all_commits=true&count_private=true&bg_color=FFFFFF&title_color=111111&icon_color=C2410C&text_color=333333&border_color=111111&hide_border=false
+          options: username=Joel-Williams-Mathew&show_icons=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=FFB454&icon_color=FF6B35&text_color=F5E6CC&ring_color=FF6B35&border_color=FFB454&hide_border=false&cache_seconds=86400
           path: dist/stats-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate stats card (light)
+      - name: Generate stats card (light = dark amber, always matches banner)
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=Joel-Williams-Mathew&show_icons=true&include_all_commits=true&count_private=true&bg_color=FFFFFF&title_color=111111&icon_color=C2410C&text_color=333333&border_color=111111&hide_border=false
+          options: username=Joel-Williams-Mathew&show_icons=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=FFB454&icon_color=FF6B35&text_color=F5E6CC&ring_color=FF6B35&border_color=FFB454&hide_border=false&cache_seconds=86400
           path: dist/stats-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate top languages card (dark)
+      - name: Generate top languages card (dark - amber cinematic)
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=Joel-Williams-Mathew&layout=compact&langs_count=6&bg_color=FFFFFF&title_color=111111&text_color=333333&border_color=111111&hide_border=false
+          options: username=Joel-Williams-Mathew&layout=compact&langs_count=6&bg_color=0D1117&title_color=FFB454&text_color=F5E6CC&border_color=FFB454&hide_border=false&cache_seconds=86400
           path: dist/top-langs-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate top languages card (light)
+      - name: Generate top languages card (light = dark amber, always matches banner)
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=Joel-Williams-Mathew&layout=compact&langs_count=6&bg_color=FFFFFF&title_color=111111&text_color=333333&border_color=111111&hide_border=false
+          options: username=Joel-Williams-Mathew&layout=compact&langs_count=6&bg_color=0D1117&title_color=FFB454&text_color=F5E6CC&border_color=FFB454&hide_border=false&cache_seconds=86400
           path: dist/top-langs-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
