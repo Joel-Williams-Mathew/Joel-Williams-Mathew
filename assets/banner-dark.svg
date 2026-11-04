@@ -1,5 +1,13 @@
 ﻿<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" role="img">
   <title>Joel Williams Mathew — AI &amp; ML Engineer, Building DUM-E &amp; GNNs</title>
+  <style>
+    .fade-up { opacity: 0; animation: fadeUp 1s cubic-bezier(.22,.61,.36,1) forwards; }
+    .fade-in { opacity: 0; animation: fadeIn 1.4s ease forwards; }
+    .d1 { animation-delay: .15s; } .d2 { animation-delay: .35s; } .d3 { animation-delay: .55s; }
+    .d4 { animation-delay: .75s; } .d5 { animation-delay: .95s; }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(28px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  </style>
   <defs>
     <radialGradient id="bg" cx="0.16" cy="0.9" r="1.15">
       <stop offset="0" stop-color="#2A1C0C"/>
@@ -30,46 +38,51 @@
     </linearGradient>
   </defs>
 
-  <rect width="1200" height="320" fill="url(#bg)"/>
-  <rect width="1200" height="320" fill="url(#halo)"/>
-  <rect width="1200" height="320" fill="url(#dots)" opacity="0.8"/>
-
-  <!-- travelling light sweep -->
-  <g opacity="0.18">
-    <rect x="-240" y="-40" width="170" height="420" fill="url(#scan)" transform="skewX(-18)">
-      <animateTransform attributeName="transform" additive="sum" type="translate" from="0 0" to="2100 0" dur="5.2s" repeatCount="indefinite"/>
-    </rect>
+  <g class="fade-in">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#halo)"/>
+    <rect width="1200" height="320" fill="url(#dots)" opacity="0.8"/>
+    <g opacity="0.18">
+      <rect x="-240" y="-40" width="170" height="420" fill="url(#scan)" transform="skewX(-18)">
+        <animateTransform attributeName="transform" additive="sum" type="translate" from="0 0" to="2100 0" dur="5.2s" repeatCount="indefinite"/>
+      </rect>
+    </g>
   </g>
 
-  <!-- kicker with blinking beacon -->
-  <circle cx="75" cy="40" r="4" fill="#FFB454">
-    <animate attributeName="opacity" values="1;0.15;1" dur="1.7s" repeatCount="indefinite"/>
-  </circle>
-  <text x="88" y="46" font-family="'Courier New', Courier, monospace" font-size="13" letter-spacing="5" fill="#8B949E">NASA SPACE APPS 2025 &#183; GLOBAL NOMINEE</text>
+  <g class="fade-up d1">
+    <circle cx="75" cy="40" r="4" fill="#FFB454">
+      <animate attributeName="opacity" values="1;0.15;1" dur="1.7s" repeatCount="indefinite"/>
+    </circle>
+    <text x="88" y="46" font-family="'Courier New', Courier, monospace" font-size="13" letter-spacing="5" fill="#8B949E">NASA SPACE APPS 2025 &#183; GLOBAL NOMINEE</text>
+  </g>
 
-  <!-- wordmark with fake-3D extrusion -->
-  <text x="68" y="130" font-family="'Arial Black', Arial, sans-serif" font-weight="900" font-size="92" letter-spacing="6" fill="#000000" opacity="0.55">JOEL</text>
-  <text x="64" y="126" font-family="'Arial Black', Arial, sans-serif" font-weight="900" font-size="92" letter-spacing="6" fill="#F5F1E8">JOEL</text>
-  <text x="68" y="224" font-family="'Arial Black', Arial, sans-serif" font-weight="900" font-size="80" letter-spacing="4" fill="#000000" opacity="0.55">WILLIAMS</text>
-  <text x="64" y="220" font-family="'Arial Black', Arial, sans-serif" font-weight="900" font-size="80" letter-spacing="4" fill="#F5F1E8">WILLIAMS</text>
+  <g class="fade-up d2">
+    <text x="68" y="130" font-family="'Arial Black', Arial, sans-serif" font-weight="900" font-size="92" letter-spacing="6" fill="#000000" opacity="0.55">JOEL</text>
+    <text x="64" y="126" font-family="'Arial Black', Arial, sans-serif" font-weight="900" font-size="92" letter-spacing="6" fill="#F5F1E8">JOEL</text>
+  </g>
 
-  <!-- amber rule with travelling pulse -->
-  <line x1="70" y1="238" x2="560" y2="238" stroke="url(#rule)" stroke-width="3.5"/>
-  <line x1="70" y1="238" x2="560" y2="238" stroke="#FFF3D6" stroke-width="3.5" stroke-dasharray="70 500" stroke-opacity="0.9">
-    <animate attributeName="stroke-dashoffset" from="570" to="0" dur="3.1s" repeatCount="indefinite"/>
-  </line>
+  <g class="fade-up d3">
+    <text x="68" y="224" font-family="'Arial Black', Arial, sans-serif" font-weight="900" font-size="80" letter-spacing="4" fill="#000000" opacity="0.55">WILLIAMS</text>
+    <text x="64" y="220" font-family="'Arial Black', Arial, sans-serif" font-weight="900" font-size="80" letter-spacing="4" fill="#F5F1E8">WILLIAMS</text>
+  </g>
 
-  <!-- tagline -->
-  <text x="70" y="268" font-family="'Courier New', Courier, monospace" font-size="14.5" letter-spacing="4.2" fill="#FFB454">AI &amp; ML ENGINEER &#8212; BUILDING DUM-E &amp; GNNS</text>
+  <g class="fade-up d4">
+    <line x1="70" y1="238" x2="560" y2="238" stroke="url(#rule)" stroke-width="3.5"/>
+    <line x1="70" y1="238" x2="560" y2="238" stroke="#FFF3D6" stroke-width="3.5" stroke-dasharray="70 500" stroke-opacity="0.9">
+      <animate attributeName="stroke-dashoffset" from="570" to="0" dur="3.1s" repeatCount="indefinite"/>
+    </line>
+    <text x="70" y="268" font-family="'Courier New', Courier, monospace" font-size="14.5" letter-spacing="4.2" fill="#FFB454">AI &amp; ML ENGINEER &#8212; BUILDING DUM-E &amp; GNNS</text>
+  </g>
 
-  <!-- rotating monogram ring + pulsing core -->
-  <circle cx="1015" cy="152" r="94" fill="none" stroke="#FFB454" stroke-width="2.5" stroke-dasharray="5 9" stroke-opacity="0.9">
-    <animateTransform attributeName="transform" type="rotate" from="0 1015 152" to="360 1015 152" dur="16s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="1015" cy="152" r="74" fill="none" stroke="#B45309" stroke-width="1.5" stroke-opacity="0.7"/>
-  <line x1="1015" y1="34" x2="1015" y2="48" stroke="#FFB454" stroke-width="3"/>
-  <line x1="1015" y1="256" x2="1015" y2="270" stroke="#FFB454" stroke-width="3"/>
-  <line x1="897" y1="152" x2="911" y2="152" stroke="#FFB454" stroke-width="3"/>
-  <line x1="1119" y1="152" x2="1133" y2="152" stroke="#FFB454" stroke-width="3"/>
-  <text x="1015" y="176" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-weight="700" font-size="88" fill="url(#jwgrad)">JW</text>
+  <g class="fade-up d5">
+    <circle cx="1015" cy="152" r="94" fill="none" stroke="#FFB454" stroke-width="2.5" stroke-dasharray="5 9" stroke-opacity="0.9">
+      <animateTransform attributeName="transform" type="rotate" from="0 1015 152" to="360 1015 152" dur="16s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1015" cy="152" r="74" fill="none" stroke="#B45309" stroke-width="1.5" stroke-opacity="0.7"/>
+    <line x1="1015" y1="34" x2="1015" y2="48" stroke="#FFB454" stroke-width="3"/>
+    <line x1="1015" y1="256" x2="1015" y2="270" stroke="#FFB454" stroke-width="3"/>
+    <line x1="897" y1="152" x2="911" y2="152" stroke="#FFB454" stroke-width="3"/>
+    <line x1="1119" y1="152" x2="1133" y2="152" stroke="#FFB454" stroke-width="3"/>
+    <text x="1015" y="176" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-weight="700" font-size="88" fill="url(#jwgrad)">JW</text>
+  </g>
 </svg>
