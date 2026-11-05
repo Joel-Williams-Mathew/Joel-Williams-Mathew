@@ -1,10 +1,11 @@
 <!-- Joel Williams Mathew — profile readme (wide lockup system) -->
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-wide.svg">
-    <img src="./assets/hero-wide.svg" width="100%" alt="Joel Williams — AI and Data Science Engineer, Kozhikode, India">
-  </picture>
+  <img src="./assets/hero-wide.svg" width="100%" alt="Joel Williams — AI and Data Science Engineer, Kozhikode, India">
+</p>
+
+<p align="center">
+  <img src="./assets/tech-strip.svg" width="100%" alt="Technology strip: Python, PyTorch, TensorFlow, Scikit-learn, LangChain, Ollama, Hugging Face, NumPy, Pandas, Flutter, React, MySQL, Firebase, Git, Linux">
 </p>
 
 <p align="center">

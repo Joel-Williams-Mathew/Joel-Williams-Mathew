@@ -1,34 +1,77 @@
-<svg width="1400" height="470" viewBox="0 0 1400 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Horizontal lockup — Joel Williams, AI and Data Science">
-  <rect width="1400" height="470" fill="#0B0B0B"/>
+<svg width="1200" height="520" viewBox="0 0 1200 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Joel Williams — AI and Data Science Engineer, Kozhikode, India">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0B0B"/>
+      <stop offset="0.5" stop-color="#141210"/>
+      <stop offset="1" stop-color="#0B0B0B"/>
+    </linearGradient>
 
-  <!-- copper hairline grid -->
-  <g stroke="#2A2A2A" stroke-width="1">
-    <line x1="0" y1="1" x2="1400" y2="1"/>
-    <line x1="0" y1="469" x2="1400" y2="469"/>
-    <line x1="1" y1="0" x2="1" y2="470"/>
-    <line x1="1399" y1="0" x2="1399" y2="470"/>
+    <!-- animated aurora sweep behind the name -->
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C2410C" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FF6B35" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#C2410C" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- copper draw gradient -->
+    <linearGradient id="cu" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7C2D12"/>
+      <stop offset="0.5" stop-color="#FF8A3D"/>
+      <stop offset="1" stop-color="#C2410C"/>
+    </linearGradient>
+
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#242424"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="520" fill="url(#bgGrad)"/>
+  <rect width="1200" height="520" fill="url(#dots)" opacity="0.85"/>
+
+  <!-- frame -->
+  <rect x="14" y="14" width="1172" height="492" fill="none" stroke="#262626" stroke-width="1.5"/>
+  <rect x="22" y="22" width="1156" height="476" fill="none" stroke="#1A1A1A" stroke-width="1"/>
+
+  <!-- travelling light sweep behind the name -->
+  <rect x="-320" y="90" width="300" height="300" fill="url(#sweep)" opacity="0.5" transform="skewX(-18)">
+    <animate attributeName="x" values="-320;1240" dur="6.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- kicker -->
+  <circle cx="72" cy="66" r="4.5" fill="#FF6B35">
+    <animate attributeName="opacity" values="1;0.15;1" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="88" y="71" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="6" fill="#9A9A9A">AI &amp; DATA SCIENCE ENGINEER</text>
+  <text x="1128" y="71" text-anchor="end" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="6" fill="#9A9A9A">KOZHIKODE, IN</text>
+
+  <line x1="72" y1="98" x2="1128" y2="98" stroke="#2E2E2E" stroke-width="1"/>
+
+  <!-- NAME — stacked so it can never clip. JOEL fades up, WILLIAMS follows -->
+  <g opacity="0" transform="translate(0 26)">
+    <animate attributeName="opacity" from="0" to="1" begin="0.15s" dur="0.7s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0 26" to="0 0" begin="0.15s" dur="0.7s" fill="freeze"/>
+    <text x="66" y="248" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="150" letter-spacing="-4" fill="#F5F5F5">JOEL</text>
   </g>
 
-  <!-- kicker row -->
-  <text x="70" y="78" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="7" fill="#8A8A8A">AI &amp; DATA SCIENCE ENGINEER</text>
-  <text x="1330" y="78" text-anchor="end" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="7" fill="#8A8A8A">KOZHIKODE, IN</text>
+  <g opacity="0" transform="translate(0 26)">
+    <animate attributeName="opacity" from="0" to="1" begin="0.45s" dur="0.7s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0 26" to="0 0" begin="0.45s" dur="0.7s" fill="freeze"/>
+    <text x="66" y="366" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="150" letter-spacing="-4" fill="#F5F5F5">WILLIAMS<tspan fill="#FF6B35">.</tspan></text>
+  </g>
 
-  <!-- hairline -->
-  <line x1="70" y1="104" x2="1330" y2="104" stroke="#3A3A3A" stroke-width="1"/>
-
-  <!-- horizontal lockup: JOEL | WILLIAMS -->
-  <text x="64" y="290" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="184" letter-spacing="-8" fill="#F5F5F5">JOEL</text>
-  <text x="640" y="290" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="184" letter-spacing="-8" fill="#F5F5F5">WILLIAMS</text>
-
-  <!-- copper underline that draws itself -->
-  <line x1="70" y1="330" x2="700" y2="330" stroke="#C2410C" stroke-width="6" stroke-dasharray="630" stroke-dashoffset="630">
-    <animate attributeName="stroke-dashoffset" from="630" to="0" dur="1.4s" fill="freeze"/>
+  <!-- copper underline draws itself -->
+  <line x1="72" y1="398" x2="762" y2="398" stroke="url(#cu)" stroke-width="6" stroke-dasharray="690" stroke-dashoffset="690" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" from="690" to="0" begin="0.9s" dur="1.5s" fill="freeze"/>
   </line>
 
-  <!-- facts strip -->
-  <text x="70" y="382" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#C2410C" font-weight="600">NASA SPACE APPS 2025 — GLOBAL NOMINEE</text>
-  <text x="70" y="410" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#8A8A8A">ML INTERN @ COGNIFYZ &amp; PACELAB — B.TECH AI &amp; DS @ SJCET, PALAI</text>
+  <!-- facts -->
+  <text x="72" y="440" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="600" fill="#FF8A3D">NASA SPACE APPS 2025 — GLOBAL NOMINEE</text>
+  <text x="72" y="468" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#8A8A8A">ML INTERN @ COGNIFYZ &amp; PACELAB — B.TECH AI &amp; DS @ SJCET, PALAI</text>
 
-  <!-- corner mark -->
-  <text x="1330" y="410" text-anchor="end" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" letter-spacing="5" fill="#5A5A5A">EST. 2026</text>
+  <text x="1128" y="468" text-anchor="end" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" letter-spacing="4" fill="#5A5A5A">EST. 2026</text>
 </svg>
