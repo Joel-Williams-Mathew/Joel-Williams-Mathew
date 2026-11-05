@@ -90,7 +90,7 @@
     <td width="50%" valign="top">
       <b>🔊 DUM-E</b><br>
       <sub>Voice-first desktop automation built with PyAutoGUI and text-to-speech. Runs hands-free routines from a wake word.</sub><br>
-      <code>Python</code> <code>PyAutoGUI</code> <code>TTS</code>
+      <code>Python</code> <code>PyAutoGUI</code> <code>TTS</code> <code>private</code>
     </td>
     <td width="50%" valign="top">
       <b>🧠 Genetic Neural Networks</b><br>
