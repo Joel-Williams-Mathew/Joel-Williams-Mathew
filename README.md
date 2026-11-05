@@ -39,13 +39,9 @@
 
 ## 🚀 Building Now
 
-| Status | Project |
-|:--:|:--|
-| 🔊 `IN DEV` | **DUM-E** — Voice-first desktop automation (PyAutoGUI + TTS) |
-| 🧠 `TRAINING` | **GNNs** — Neuroevolution inside Pygame |
-| 🌍 `NOMINEE` | **NASA Space Apps 2025** — Deadline engineering, finished first |
-| 📊 `SHIPPING` | **ML Pipelines** — Raw CSV → Jupyter → Recommendation logic |
-| 📱 `BUILDING` | **Flutter Full-Stack** — UI on real business logic |
+<p align="center">
+  <img src="./assets/status-chips.svg" width="100%" alt="Currently building: DUM-E (in development), GNNs (training), NASA Space Apps 2025 (nominee), ML Pipelines (shipping), Flutter Full-Stack (building)">
+</p>
 
 ## ⚡ Tech Stack
 
