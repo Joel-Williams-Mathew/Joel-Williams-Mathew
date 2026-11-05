@@ -24,4 +24,26 @@
       <animate attributeName="opacity" values="0;1;0" dur="1.9s" begin="0.4s" fill="freeze"/>
     </circle>
   </g>
+  <g>
+    <circle cx="140" cy="60" r="2.2" fill="#FFB454" opacity="0.7">
+      <animate attributeName="cy" values="60;300;60" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.15;0.8;0.15" dur="14s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="360" cy="250" r="1.8" fill="#FF8A3D" opacity="0.6">
+      <animate attributeName="cy" values="250;40;250" dur="17s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.7;0.1" dur="17s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="640" cy="90" r="2.6" fill="#FFE1A6" opacity="0.55">
+      <animate attributeName="cy" values="90;290;90" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.12;0.75;0.12" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="880" cy="230" r="2" fill="#FF6B35" opacity="0.65">
+      <animate attributeName="cy" values="230;70;230" dur="15.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.15;0.85;0.15" dur="15.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1120" cy="130" r="2.3" fill="#FFB454" opacity="0.6">
+      <animate attributeName="cy" values="130;300;130" dur="13.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.7;0.1" dur="13.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
 </svg>
