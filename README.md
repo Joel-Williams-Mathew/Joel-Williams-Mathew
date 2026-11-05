@@ -87,9 +87,43 @@
   </picture>
 </p>
 
+## 📌 Featured
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <b>🔊 DUM-E</b><br>
+      <sub>Voice-first desktop automation built with PyAutoGUI and text-to-speech. Runs hands-free routines from a wake word.</sub><br>
+      <code>Python</code> <code>PyAutoGUI</code> <code>TTS</code>
+    </td>
+    <td width="50%" valign="top">
+      <b>🧠 Genetic Neural Networks</b><br>
+      <sub>Neuroevolution inside Pygame - populations evolve on screen, fitness decides who survives.</sub><br>
+      <code>Python</code> <code>Pygame</code> <code>Neuroevolution</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <b>🌍 NASA Space Apps 2025</b><br>
+      <sub>Deadline engineering under a hard clock - Global Nominee. The project I am proudest of from that weekend.</sub><br>
+      <code>Team</code> <code>Hackathon</code> <code>Global Nominee</code>
+    </td>
+    <td width="50%" valign="top">
+      <b>📊 ML Pipelines</b><br>
+      <sub>Raw CSV through Jupyter into custom recommendation logic. The unglamorous work that makes models useful.</sub><br>
+      <code>Jupyter</code> <code>Pandas</code> <code>scikit-learn</code>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="./assets/divider-dark.svg" width="100%" alt="">
+</p>
+
 ## 📬 Let's Connect
 
-<p align="center"><b>Open to internships, collaborations & honest engineering chats.</b></p>
+<p align="center"><b>Open to internships, collaborations & honest engineering chats.</b><br>
+<sub>Looking for: <b>AI / ML internship</b> · open to remote or Kerala · available immediately</sub></p>
 
 <p align="center">
   <a href="https://github.com/Joel-Williams-Mathew"><img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github" alt="GitHub"></a>
