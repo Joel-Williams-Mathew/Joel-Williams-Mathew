@@ -33,26 +33,6 @@
 
 ## <img src="https://media.giphy.com/media/W5ZuxHzDJsGHuS96OH/giphy.gif" width="28"> About Me
 
-```python
-class Joel_Williams_Mathew:
-    def __init__(self):
-        self.name        = "Joel Williams Mathew"
-        self.role        = "AI & Data Science Engineer"
-        self.location    = "Kozhikode, Kerala - Western Ghats x Arabian Sea"
-        self.education   = "B.Tech AI & Data Science @ SJCET, Palai"
-        self.interns     = ["ML Intern @ Cognifyz", "ML Intern @ PaceLab"]
-        self.awards      = ["NASA Space Apps 2025 - Global Nominee", "2x Hackathon Finalist"]
-        self.stack       = ["Python", "PyTorch", "TensorFlow", "Flutter", "React"]
-        self.environment = "Windows x Arch Linux - VS Code / Cursor"
-        self.afk         = ["Royal Enfield Himalayan 450", "cinematic photography"]
-        self.motto       = "Build it, break it, ship it - then make it cinematic."
-
-    def say_hi(self):
-        return "I build intelligent systems that leave the lab."
-
-print(Joel_Williams_Mathew().say_hi())
-```
-
 🎓 B.Tech **AI & Data Science** @ SJCET, Palai · 💼 ML Intern @ **Cognifyz** & **PaceLab, Kozhikode**  
 🏆 **NASA Space Apps 2025 — Global Nominee** · 2× Hackathon Finalist · 📍 Kozhikode  
 > *I build systems that leave the lab — Python & PyTorch for depth, Flutter & React for surface.* ✨
