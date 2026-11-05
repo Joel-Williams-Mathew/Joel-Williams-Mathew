@@ -29,7 +29,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=Joel-Williams-Mathew&show_icons=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=FFB454&icon_color=FF6B35&text_color=F5E6CC&ring_color=FF6B35&border_color=FFB454&hide_border=false&cache_seconds=86400
+          options: username=Joel-Williams-Mathew&show_icons=true&include_all_commits=true&count_private=true&bg_color=0B0B0B&title_color=F5F5F5&icon_color=C2410C&text_color=A8A8A8&border_color=2E2E2E&hide_border=false&cache_seconds=86400
           path: dist/stats-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -37,7 +37,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=Joel-Williams-Mathew&show_icons=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=FFB454&icon_color=FF6B35&text_color=F5E6CC&ring_color=FF6B35&border_color=FFB454&hide_border=false&cache_seconds=86400
+          options: username=Joel-Williams-Mathew&show_icons=true&include_all_commits=true&count_private=true&bg_color=0B0B0B&title_color=F5F5F5&icon_color=C2410C&text_color=A8A8A8&border_color=2E2E2E&hide_border=false&cache_seconds=86400
           path: dist/stats-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -45,7 +45,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=Joel-Williams-Mathew&layout=compact&langs_count=6&bg_color=0D1117&title_color=FFB454&text_color=F5E6CC&border_color=FFB454&hide_border=false&cache_seconds=86400
+          options: username=Joel-Williams-Mathew&layout=compact&langs_count=6&bg_color=0B0B0B&title_color=F5F5F5&text_color=A8A8A8&border_color=2E2E2E&hide_border=false&cache_seconds=86400
           path: dist/top-langs-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -53,7 +53,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=Joel-Williams-Mathew&layout=compact&langs_count=6&bg_color=0D1117&title_color=FFB454&text_color=F5E6CC&border_color=FFB454&hide_border=false&cache_seconds=86400
+          options: username=Joel-Williams-Mathew&layout=compact&langs_count=6&bg_color=0B0B0B&title_color=F5F5F5&text_color=A8A8A8&border_color=2E2E2E&hide_border=false&cache_seconds=86400
           path: dist/top-langs-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 

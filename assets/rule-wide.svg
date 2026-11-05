@@ -1,0 +1,6 @@
+<svg width="1400" height="14" viewBox="0 0 1400 14" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <line x1="0" y1="7" x2="1400" y2="7" stroke="#2E2E2E" stroke-width="1"/>
+  <rect x="0" y="6" width="54" height="2.5" fill="#C2410C">
+    <animate attributeName="x" values="-54;1400" dur="2.6s" repeatCount="indefinite"/>
+  </rect>
+</svg>
