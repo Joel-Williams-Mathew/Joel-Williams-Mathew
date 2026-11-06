@@ -72,7 +72,7 @@
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Joel-Williams-Mathew&background=0D1117&ring=FF6B35&fire=FF6B35&currStreakLabel=FFB454&currStreakNum=F5E6CC&sideNums=F5E6CC&sideLabels=FFB454&dates=8B949E&border=FFB454&cache_seconds=3600&v=2" height="185" alt="streak">
+  <img src="./streak.svg" height="185" alt="GitHub contribution streak">
 </p>
 
 <p align="center">
