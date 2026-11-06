@@ -14,10 +14,6 @@ on:
 permissions:
   contents: write
 
-concurrency:
-  group: streak
-  cancel-in-progress: false
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -26,7 +22,6 @@ jobs:
 
       - name: Generate streak.svg
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
           GH_USER: Joel-Williams-Mathew
           ACCOUNT_START: "2024-08-26"
         run: python3 scripts/streak_card.py
