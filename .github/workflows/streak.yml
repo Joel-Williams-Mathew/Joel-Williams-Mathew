@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - scripts/streak_card.py
+      - scripts/make_streak_json.py
       - .github/workflows/streak.yml
 
 permissions:
@@ -23,54 +24,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Environment check
-        run: |
-          echo "python3: $(python3 --version 2>&1 || echo MISSING)"
-          echo "curl:    $(curl --version 2>&1 | head -1 || echo MISSING)"
-          echo "pwd:     $(pwd)"
-          ls -la scripts/ 2>&1 || echo "no scripts dir"
-          echo "---- current streak.svg ----"
-          head -5 streak.svg 2>&1 || echo "no streak.svg"
-
       - name: Generate streak.svg
-        id: gen
-        continue-on-error: true
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
           GH_USER: Joel-Williams-Mathew
           ACCOUNT_START: "2024-08-26"
-        run: |
-          set +e
-          python3 scripts/streak_card.py > gen.log 2>&1
-          echo "exit=$?" >> gen.log
-          echo "===== gen.log ====="
-          cat gen.log
+        run: python3 scripts/streak_card.py
 
-      - name: Write streak.json
-        id: json
-        continue-on-error: true
-        run: |
-          python3 -c "
-import json, re, pathlib
-svg = pathlib.Path('streak.svg').read_text(encoding='utf-8')
-nums = [int(v.strip()) for v in re.findall(r'>([^<>\n]+)</text>', svg) if v.strip().isdigit()]
-data = {'total': nums[0] if nums else None,
-        'current': nums[1] if len(nums) > 1 else None,
-        'longest': nums[2] if len(nums) > 2 else None}
-pathlib.Path('streak.json').write_text(json.dumps(data) + chr(10), encoding='utf-8')
-print('streak.json ->', data)
-" > json.log 2>&1
-          cat json.log
-
-      - name: Upload logs
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: streak-logs
-          path: |
-            gen.log
-            json.log
-          if-no-files-found: ignore
+      - name: Generate streak.json
+        run: python3 scripts/make_streak_json.py
 
       - name: Commit if changed
         run: |
