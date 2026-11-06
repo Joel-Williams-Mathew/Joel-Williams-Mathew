@@ -15,6 +15,8 @@ import sys
 import urllib.request
 
 USER = "Joel-Williams-Mathew"
+# first contribution date on the profile (set once)
+ACCOUNT_START = "2024-08-26"
 OUT = "streak.svg"
 
 # palette (matches the site)
@@ -115,9 +117,10 @@ def compute(days):
         best_start = None
     long_range = f"{fmt(best_start)} - {fmt(best_end_d)}" if best_start else "-"
 
-    active = [dt.date.fromisoformat(d) for d, c in ordered if c > 0]
-    first = active[0] if active else dates[0]
-    span = f"{fmt(first)}, {first.year} - Present"
+    # The contributions calendar only covers ~12 months, so its earliest date
+    # is NOT when the account started. Use the account creation year instead.
+    start = dt.date.fromisoformat(ACCOUNT_START)
+    span = f"{fmt(start)}, {start.year} - Present"
 
     return total, cur, longest, cur_range, long_range, span
 
@@ -133,9 +136,17 @@ def build_svg(total, cur, longest, cur_range, long_range, span):
     <line x1="165" y1="28" x2="165" y2="167" stroke="#333" stroke-width="1"/>
     <line x1="330" y1="28" x2="330" y2="167" stroke="#333" stroke-width="1"/>
 
-    <circle cx="247" cy="72" r="31" fill="none" stroke="{RING}" stroke-width="4"/>
-    <text x="247" y="80" font-size="24" font-weight="700" fill="{NUM}" text-anchor="middle">{cur}</text>
-    <text x="247" y="86" font-size="12" fill="{FIRE}" text-anchor="middle">^</text>
+    <!-- streak ring, open at the top so the flame sits in the gap -->
+    <path d="M 224 50 A 31 31 0 1 0 270 50"
+          fill="none" stroke="{RING}" stroke-width="5" stroke-linecap="round"/>
+    <text x="247" y="80" font-size="26" font-weight="700" fill="{NUM}" text-anchor="middle">{cur}</text>
+    <!-- flame, centred in the ring opening -->
+    <g transform="translate(247,36)">
+      <path d="M0,-13 C 5,-5 8,-2 8,3 A 8,8 0 0 1 -8,3 C -8,-2 -5,-5 0,-13 Z"
+            fill="{FIRE}"/>
+      <path d="M0,-4 C 2.4,0 3.6,1.6 3.6,3.4 A 3.6,3.6 0 0 1 -3.6,3.4 C -3.6,1.6 -2.4,0 0,-4 Z"
+            fill="#FFD8A8" opacity="0.9"/>
+    </g>
     <text x="247" y="120" font-size="14" fill="{LABEL}" text-anchor="middle">Current Streak</text>
     <text x="247" y="142" font-size="11" fill="{MUTED}" text-anchor="middle">{cur_range}</text>
 
