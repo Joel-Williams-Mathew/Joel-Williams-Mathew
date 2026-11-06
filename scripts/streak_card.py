@@ -35,10 +35,11 @@ MUTED = "#8B949E"
 # data sources
 # ---------------------------------------------------------------------------
 def fetch_graphql(token):
-    """Return {date: count} using the authenticated GraphQL API.
+    """Return ({date: count}, total) for the FULL history via GraphQL.
 
-    Includes private contributions, so this matches what the profile shows
-    once 'include private contributions' is enabled.
+    contributionCollection only returns 12 months at a time, so we request one
+    window per year and sum them. With a token that can see private
+    contributions, this is the complete picture.
     """
     query = """
     query($login: String!) {
@@ -82,27 +83,64 @@ def fetch_graphql(token):
     return days, cal["totalContributions"]
 
 
-def fetch_public():
-    """Fallback: scrape the public contributions page (no private data)."""
-    url = f"https://github.com/users/{USER}/contributions"
+def fetch_year(year):
+    """Return (headline_total, {date: count}) for one calendar year.
+
+    GitHub exposes a separate calendar per year via from/to query params,
+    which is the only way to total the account's whole history.
+    """
+    url = (f"https://github.com/users/{USER}/contributions"
+           f"?from={year}-01-01&to={year}-12-31")
     req = urllib.request.Request(url, headers={
-        "User-Agent": "Mozilla/5.0 (compatible; streak-card/2.0)",
+        "User-Agent": "Mozilla/5.0 (compatible; streak-card/3.0)",
     })
     html = urllib.request.urlopen(req, timeout=30).read().decode("utf-8", "replace")
+
+    headline = None
+    m = re.search(r"([\d,]+)\s+contributions?\s+in\s+" + str(year), html)
+    if m:
+        headline = int(m.group(1).replace(",", ""))
 
     dates = re.findall(r'data-date="(\d{4}-\d{2}-\d{2})"', html)
     tips = re.findall(r"<tool-tip[^>]*>([^<]*)</tool-tip>", html)
 
+    days = {}
     counts = []
     for tip in tips:
-        m = re.search(r"(\d+|No)\s+contribution", tip)
-        if m:
-            counts.append(0 if m.group(1) == "No" else int(m.group(1)))
+        c = re.search(r"(\d+|No)\s+contribution", tip)
+        if c:
+            counts.append(0 if c.group(1) == "No" else int(c.group(1)))
 
-    days = {}
     for d, c in zip(dates, counts):
         days[d] = c
-    return days, sum(days.values())
+
+    if headline is None:
+        headline = sum(days.values())
+
+    return headline, days
+
+
+def fetch_all_years():
+    """Sum every year GitHub has a calendar for (2024 -> current)."""
+    start_year = int(ACCOUNT_START[:4])
+    now_year = dt.date.today().year
+
+    all_days = {}
+    total = 0
+    found = []
+
+    for year in range(start_year, now_year + 1):
+        try:
+            head, days = fetch_year(year)
+        except Exception as exc:  # noqa: BLE001
+            print(f"  {year}: failed ({exc})", file=sys.stderr)
+            continue
+        all_days.update(days)
+        total += head
+        found.append(f"{year}={head}")
+
+    print("  per year: " + ", ".join(found), file=sys.stderr)
+    return all_days, total
 
 
 # ---------------------------------------------------------------------------
@@ -117,8 +155,16 @@ def compute(days, total):
     if not ordered:
         return None
 
-    dates = [dt.date.fromisoformat(d) for d, _ in ordered]
     today = dt.date.today()
+
+    # Drop future-padded days that GitHub includes when we request a whole year,
+    # otherwise the streak walk starts on empty dates.
+    ordered = [(d, c) for d, c in ordered
+               if dt.date.fromisoformat(d) <= today]
+    if not ordered:
+        return None
+
+    dates = [dt.date.fromisoformat(d) for d, _ in ordered]
 
     # current streak - allow today to be empty without breaking it
     i = len(ordered) - 1
@@ -215,7 +261,8 @@ def main():
 
     if days is None:
         try:
-            days, total = fetch_public()
+            days, total = fetch_all_years()
+            source = "public calendars (all years)"
         except Exception as exc:  # noqa: BLE001
             print(f"public fetch failed: {exc}", file=sys.stderr)
             return 0
