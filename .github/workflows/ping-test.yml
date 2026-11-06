@@ -1,0 +1,14 @@
+name: Ping test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say hello
+        run: echo "actions are working"
