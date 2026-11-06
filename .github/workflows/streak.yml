@@ -2,7 +2,7 @@ name: Update streak card
 
 on:
   schedule:
-    - cron: "20 0 * * *"      # daily, 20 min after midnight UTC
+    - cron: "20 0 * * *"      # daily at 00:20 UTC
   workflow_dispatch:
   push:
     branches: [main]
@@ -24,6 +24,13 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Generate streak.svg
+        env:
+          # GH_TOKEN is a personal access token that can read private
+          # contribution counts. Falls back to the default token, which only
+          # sees public data.
+          GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_USER: Joel-Williams-Mathew
+          ACCOUNT_START: "2024-08-26"
         run: python3 scripts/streak_card.py
 
       - name: Commit if changed

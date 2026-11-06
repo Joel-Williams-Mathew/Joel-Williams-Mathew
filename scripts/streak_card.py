@@ -1,25 +1,28 @@
 #!/usr/bin/env python3
 """
-Fetch the GitHub contribution streak and write it as an SVG.
+Generate the GitHub streak card as an SVG.
 
-Produces the same visual as streak-stats.demolab.com but hosted in this repo,
-so GitHub's image proxy has nothing external to cache stale.
+Uses the GitHub GraphQL API when a token is available, so contributions to
+PRIVATE repositories are counted. Falls back to the public contributions page
+when no token is present.
 
-Reads contribution data from the public GitHub contributions page, which does
-not require authentication.
+Token is read from (in order):
+    GH_TOKEN   - repo secret, preferred
+    GITHUB_TOKEN - the Actions default token (public data only)
 """
 import datetime as dt
 import json
+import os
 import re
 import sys
+import urllib.error
 import urllib.request
 
-USER = "Joel-Williams-Mathew"
-# first contribution date on the profile (set once)
-ACCOUNT_START = "2024-08-26"
-OUT = "streak.svg"
+USER = os.environ.get("GH_USER", "Joel-Williams-Mathew")
+OUT = os.environ.get("STREAK_OUT", "streak.svg")
+ACCOUNT_START = os.environ.get("ACCOUNT_START", "2024-08-26")
 
-# palette (matches the site)
+# palette
 BG = "#0D1117"
 RING = "#FF6B35"
 FIRE = "#FF6B35"
@@ -28,103 +31,144 @@ NUM = "#F5E6CC"
 MUTED = "#8B949E"
 
 
-def fetch_contributions():
-    """Return {date: count} from the public contributions calendar."""
+# ---------------------------------------------------------------------------
+# data sources
+# ---------------------------------------------------------------------------
+def fetch_graphql(token):
+    """Return {date: count} using the authenticated GraphQL API.
+
+    Includes private contributions, so this matches what the profile shows
+    once 'include private contributions' is enabled.
+    """
+    query = """
+    query($login: String!) {
+      user(login: $login) {
+        contributionsCollection {
+          contributionCalendar {
+            totalContributions
+            weeks {
+              contributionDays {
+                date
+                contributionCount
+              }
+            }
+          }
+        }
+      }
+    }
+    """
+    body = json.dumps({"query": query, "variables": {"login": USER}}).encode()
+    req = urllib.request.Request(
+        "https://api.github.com/graphql",
+        data=body,
+        headers={
+            "Authorization": f"bearer {token}",
+            "Content-Type": "application/json",
+            "User-Agent": "streak-card/2.0",
+        },
+        method="POST",
+    )
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        payload = json.loads(resp.read().decode("utf-8"))
+
+    if "errors" in payload:
+        raise RuntimeError(payload["errors"])
+
+    cal = payload["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+    days = {}
+    for week in cal["weeks"]:
+        for day in week["contributionDays"]:
+            days[day["date"]] = day["contributionCount"]
+    return days, cal["totalContributions"]
+
+
+def fetch_public():
+    """Fallback: scrape the public contributions page (no private data)."""
     url = f"https://github.com/users/{USER}/contributions"
     req = urllib.request.Request(url, headers={
-        "User-Agent": "Mozilla/5.0 (compatible; streak-card/1.0)",
-        "Accept": "text/html",
+        "User-Agent": "Mozilla/5.0 (compatible; streak-card/2.0)",
     })
     html = urllib.request.urlopen(req, timeout=30).read().decode("utf-8", "replace")
 
-    # each day is a <td> with data-date and a tooltip containing the count
-    days = {}
-    for m in re.finditer(
-        r'data-date="(\d{4}-\d{2}-\d{2})"[^>]*?(?:data-level="(\d)")?', html
-    ):
-        days[m.group(1)] = 0
-
-    # tooltips look like: <tool-tip ...>12 contributions on November 5th.</tool-tip>
-    # they appear after each day cell, so pair them up in document order
     dates = re.findall(r'data-date="(\d{4}-\d{2}-\d{2})"', html)
-    tips = re.findall(r'<tool-tip[^>]*>([^<]*)</tool-tip>', html)
+    tips = re.findall(r"<tool-tip[^>]*>([^<]*)</tool-tip>", html)
 
     counts = []
     for tip in tips:
-        n = re.search(r"(\d+|No)\s+contribution", tip)
-        if n:
-            counts.append(0 if n.group(1) == "No" else int(n.group(1)))
+        m = re.search(r"(\d+|No)\s+contribution", tip)
+        if m:
+            counts.append(0 if m.group(1) == "No" else int(m.group(1)))
 
+    days = {}
     for d, c in zip(dates, counts):
         days[d] = c
+    return days, sum(days.values())
 
-    return days
+
+# ---------------------------------------------------------------------------
+# streak maths
+# ---------------------------------------------------------------------------
+def fmt(d):
+    return f"{d.strftime('%b')} {d.day}"
 
 
-def compute(days):
-    if not days:
-        return None, None, None
+def compute(days, total):
     ordered = sorted(days.items())
-    today = dt.date.today()
-    total = sum(days.values())
+    if not ordered:
+        return None
 
-    # current streak: walk back from today (or yesterday if today is 0 so far)
     dates = [dt.date.fromisoformat(d) for d, _ in ordered]
-    cur = 0
+    today = dt.date.today()
+
+    # current streak - allow today to be empty without breaking it
     i = len(ordered) - 1
-    # allow today to be empty without breaking the streak
     if i >= 0 and ordered[i][1] == 0 and dates[i] == today:
         i -= 1
+    cur = 0
     while i >= 0 and ordered[i][1] > 0:
         cur += 1
         i -= 1
 
-    # longest streak
-    longest = 0
-    run = 0
-    for _, c in ordered:
-        if c > 0:
-            run += 1
-            longest = max(longest, run)
-        else:
-            run = 0
-
-    # current streak date range
-    def fmt(d):
-        return d.strftime("%b %-d") if sys.platform != "win32" else d.strftime("%b %d").replace(" 0", " ")
-
+    # length of the current run, for the date range
     if cur:
-        end = dates[len(ordered) - 1] if ordered[-1][1] > 0 else dates[len(ordered) - 2]
+        end_i = len(ordered) - 1
+        if ordered[end_i][1] == 0 and dates[end_i] == today:
+            end_i -= 1
+        end = dates[end_i]
         start = end - dt.timedelta(days=cur - 1)
         cur_range = f"{fmt(start)} - {fmt(end)}"
     else:
         cur_range = "no current streak"
 
-    # longest streak range
-    best_end = None
+    # longest streak + its range
+    longest = 0
     run = 0
-    for d, c in ordered:
+    best_end_i = None
+    for idx, (_, c) in enumerate(ordered):
         if c > 0:
             run += 1
-            if run == longest:
-                best_end = d
+            if run > longest:
+                longest = run
+                best_end_i = idx
         else:
             run = 0
-    if best_end:
-        best_end_d = dt.date.fromisoformat(best_end)
-        best_start = best_end_d - dt.timedelta(days=longest - 1)
-    else:
-        best_start = None
-    long_range = f"{fmt(best_start)} - {fmt(best_end_d)}" if best_start else "-"
 
-    # The contributions calendar only covers ~12 months, so its earliest date
-    # is NOT when the account started. Use the account creation year instead.
-    start = dt.date.fromisoformat(ACCOUNT_START)
-    span = f"{fmt(start)}, {start.year} - Present"
+    if best_end_i is not None:
+        best_end = dates[best_end_i]
+        best_start = best_end - dt.timedelta(days=longest - 1)
+        long_range = f"{fmt(best_start)} - {fmt(best_end)}"
+    else:
+        long_range = "-"
+
+    start_date = dt.date.fromisoformat(ACCOUNT_START)
+    span = f"{fmt(start_date)}, {start_date.year} - Present"
 
     return total, cur, longest, cur_range, long_range, span
 
 
+# ---------------------------------------------------------------------------
+# rendering
+# ---------------------------------------------------------------------------
 def build_svg(total, cur, longest, cur_range, long_range, span):
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-label="GitHub streak: {total} total contributions, current streak {cur}, longest streak {longest}">
   <rect x="0.5" y="0.5" width="494" height="194" rx="4.5" fill="{BG}" stroke="{RING}"/>
@@ -136,14 +180,11 @@ def build_svg(total, cur, longest, cur_range, long_range, span):
     <line x1="165" y1="28" x2="165" y2="167" stroke="#333" stroke-width="1"/>
     <line x1="330" y1="28" x2="330" y2="167" stroke="#333" stroke-width="1"/>
 
-    <!-- streak ring, open at the top so the flame sits in the gap -->
     <path d="M 224 50 A 31 31 0 1 0 270 50"
           fill="none" stroke="{RING}" stroke-width="5" stroke-linecap="round"/>
     <text x="247" y="80" font-size="26" font-weight="700" fill="{NUM}" text-anchor="middle">{cur}</text>
-    <!-- flame, centred in the ring opening -->
     <g transform="translate(247,36)">
-      <path d="M0,-13 C 5,-5 8,-2 8,3 A 8,8 0 0 1 -8,3 C -8,-2 -5,-5 0,-13 Z"
-            fill="{FIRE}"/>
+      <path d="M0,-13 C 5,-5 8,-2 8,3 A 8,8 0 0 1 -8,3 C -8,-2 -5,-5 0,-13 Z" fill="{FIRE}"/>
       <path d="M0,-4 C 2.4,0 3.6,1.6 3.6,3.4 A 3.6,3.6 0 0 1 -3.6,3.4 C -3.6,1.6 -2.4,0 0,-4 Z"
             fill="#FFD8A8" opacity="0.9"/>
     </g>
@@ -159,27 +200,43 @@ def build_svg(total, cur, longest, cur_range, long_range, span):
 
 
 def main():
-    try:
-        days = fetch_contributions()
-    except Exception as exc:
-        print(f"fetch failed: {exc}", file=sys.stderr)
-        return 0
+    token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN") or ""
+    source = "public page"
 
-    print(f"days parsed: {len(days)}", file=sys.stderr)
+    days = None
+    total = None
+
+    if token:
+        try:
+            days, total = fetch_graphql(token)
+            source = "GraphQL (authenticated - includes private)"
+        except Exception as exc:  # noqa: BLE001
+            print(f"graphql failed, falling back: {exc}", file=sys.stderr)
+
+    if days is None:
+        try:
+            days, total = fetch_public()
+        except Exception as exc:  # noqa: BLE001
+            print(f"public fetch failed: {exc}", file=sys.stderr)
+            return 0
+
+    print(f"source: {source}", file=sys.stderr)
+    print(f"days: {len(days)}  sum: {sum(days.values())}  reported: {total}", file=sys.stderr)
+
     if not days:
-        print("no contribution days found - leaving streak.svg untouched", file=sys.stderr)
+        print("no data - leaving streak.svg unchanged", file=sys.stderr)
         return 0
 
-    result = compute(days)
-    if not result or result[0] is None:
-        print("could not compute streaks", file=sys.stderr)
+    result = compute(days, total)
+    if not result:
+        print("could not compute", file=sys.stderr)
         return 0
 
-    total, cur, longest, cur_range, long_range, span = result
-    print(f"total={total} current={cur} longest={longest}", file=sys.stderr)
+    t, cur, longest, cur_range, long_range, span = result
+    print(f"total={t} current={cur} longest={longest}", file=sys.stderr)
 
     with open(OUT, "w", encoding="utf-8") as fh:
-        fh.write(build_svg(total, cur, longest, cur_range, long_range, span))
+        fh.write(build_svg(t, cur, longest, cur_range, long_range, span))
 
     print(f"wrote {OUT}", file=sys.stderr)
     return 0
