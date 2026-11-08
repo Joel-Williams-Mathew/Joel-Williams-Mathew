@@ -72,7 +72,7 @@
 </p>
 
 <p align="center">
-  <img src="./streak.svg" height="185" alt="GitHub contribution streak">
+  <img src="./streak.svg?v=3" height="185" alt="GitHub contribution streak">
 </p>
 
 <p align="center">
