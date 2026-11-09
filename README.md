@@ -8,7 +8,7 @@
   </picture>
 </p>
 
-<h1 align="center">ðŸ‘‹ Hey, I'm Joel Williams Mathew</h1>
+<h1 align="center">👋 Hey, I'm Joel Williams Mathew</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=900&color=FF6B35&center=true&vCenter=true&width=720&lines=AI+%26+Data+Science+Engineer+%F0%9F%9A%80;Build+it%2C+break+it%2C+ship+it+%E2%80%94+cinematic.;NASA+Space+Apps+2025+%E2%80%94+Global+Nominee+%F0%9F%8C%8D;ML+%C2%B7+Python+%C2%B7+PyTorch+%C2%B7+Computer+Vision" alt="typing">
@@ -33,30 +33,30 @@
 
 ## <img src="https://media.giphy.com/media/W5ZuxHzDJsGHuS96OH/giphy.gif" width="28"> About Me
 
-ðŸŽ“ B.Tech **AI & Data Science** @ SJCET, Palai Â· ðŸ’¼ ML Intern @ **Cognifyz** & **PaceLab, Kozhikode**  
-ðŸ† **NASA Space Apps 2025 â€” Global Nominee** Â· 2Ã— Hackathon Finalist Â· ðŸ“ Kozhikode  
-> *I build systems that leave the lab â€” Python & PyTorch for depth, Flutter & React for surface.* âœ¨
+🎓 B.Tech **AI & Data Science** @ SJCET, Palai · 💼 ML Intern @ **Cognifyz** & **PaceLab, Kozhikode**  
+🏆 **NASA Space Apps 2025 — Global Nominee** · 2× Hackathon Finalist · 📍 Kozhikode  
+> *I build systems that leave the lab — Python & PyTorch for depth, Flutter & React for surface.* ✨
 
-## ðŸš€ Building Now
+## 🚀 Building Now
 
 <p align="center">
   <img src="./assets/status-chips.svg" width="100%" alt="Currently building: DUM-E (in development), GNNs (training), NASA Space Apps 2025 (nominee), ML Pipelines (shipping), Flutter Full-Stack (building)">
 </p>
 
-## âš¡ Tech Stack
+## ⚡ Tech Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,scikit-learn,pandas,numpy,matplotlib,react,flutter,js,html,css,mysql,firebase,git,github,vscode,jupyter,linux" alt="skills" width="400">
 </p>
 
 <p align="center">
-  <code>Python Â· C Â· Java Â· SQL</code> &nbsp;|&nbsp; <code>PyTorch Â· TensorFlow Â· Scikit-learn Â· LangChain Â· Ollama Â· Hugging Face</code><br>
-  <code>NumPy Â· Pandas Â· Matplotlib</code> &nbsp;|&nbsp; <code>React Â· Flutter</code> &nbsp;|&nbsp; <code>MySQL Â· Firebase Â· Neon</code>
+  <code>Python · C · Java · SQL</code> &nbsp;|&nbsp; <code>PyTorch · TensorFlow · Scikit-learn · LangChain · Ollama · Hugging Face</code><br>
+  <code>NumPy · Pandas · Matplotlib</code> &nbsp;|&nbsp; <code>React · Flutter</code> &nbsp;|&nbsp; <code>MySQL · Firebase · Neon</code>
 </p>
 
 <p align="center"><img src="./assets/divider-dark.svg" width="100%" alt=""></p>
 
-## ðŸ“Š GitHub Stats
+## 📊 GitHub Stats
 
 <p align="center">
   <img src="./stats.svg?v=1" height="185" alt="GitHub stats">
@@ -79,29 +79,29 @@
   </picture>
 </p>
 
-## ðŸ“Œ Featured
+## 📌 Featured
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <b>ðŸ”Š DUM-E</b><br>
+      <b>🔊 DUM-E</b><br>
       <sub>Voice-first desktop automation built with PyAutoGUI and text-to-speech. Runs hands-free routines from a wake word.</sub><br>
       <code>Python</code> <code>PyAutoGUI</code> <code>TTS</code> <code>private</code>
     </td>
     <td width="50%" valign="top">
-      <b>ðŸ§  Genetic Neural Networks</b><br>
+      <b>🧠 Genetic Neural Networks</b><br>
       <sub>Neuroevolution inside Pygame - populations evolve on screen, fitness decides who survives.</sub><br>
       <code>Python</code> <code>Pygame</code> <code>Neuroevolution</code>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <b>ðŸŒ NASA Space Apps 2025</b><br>
+      <b>🌍 NASA Space Apps 2025</b><br>
       <sub>Deadline engineering under a hard clock - Global Nominee. The project I am proudest of from that weekend.</sub><br>
       <code>Team</code> <code>Hackathon</code> <code>Global Nominee</code>
     </td>
     <td width="50%" valign="top">
-      <b>ðŸ“Š ML Pipelines</b><br>
+      <b>📊 ML Pipelines</b><br>
       <sub>Raw CSV through Jupyter into custom recommendation logic. The unglamorous work that makes models useful.</sub><br>
       <code>Jupyter</code> <code>Pandas</code> <code>scikit-learn</code>
     </td>
@@ -112,10 +112,10 @@
   <img src="./assets/divider-dark.svg" width="100%" alt="">
 </p>
 
-## ðŸ“¬ Let's Connect
+## 📬 Let's Connect
 
 <p align="center"><b>Open to internships, collaborations & honest engineering chats.</b><br>
-<sub>Looking for: <b>AI / ML internship</b> Â· open to remote or Kerala Â· available immediately</sub></p>
+<sub>Looking for: <b>AI / ML internship</b> · open to remote or Kerala · available immediately</sub></p>
 
 <p align="center">
   <a href="https://github.com/Joel-Williams-Mathew"><img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github" alt="GitHub"></a>
@@ -127,4 +127,4 @@
 
 <p align="center"><img src="./assets/divider-dark.svg" width="100%" alt=""></p>
 
-<p align="center"><code>KOZHIKODE Â· BUILD IT, BREAK IT, SHIP IT â€” CINEMATIC Â· VOL. I</code></p>
+<p align="center"><code>KOZHIKODE · BUILD IT, BREAK IT, SHIP IT — CINEMATIC · VOL. I</code></p>
