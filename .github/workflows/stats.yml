@@ -1,23 +1,22 @@
-name: Generate profile stats cards
+name: Generate stats card
 
-# Generates self-hosted stats + top-languages cards (dark & light) and
-# publishes them ADDITIVELY to the `output` branch. The README references
-# these files, so the cards refresh daily and depend on no external host.
+# Self-hosted stats card (Total Commits / PRs / Stars) as stats.svg on main.
+# Public data only with GITHUB_TOKEN; with a repo secret GH_TOKEN (repo scope)
+# it also counts private repos. Refresh locally anytime with:
+#   python scripts/stats_card.py   (with GH_TOKEN set)
 
 on:
   schedule:
-    - cron: "30 0 * * *"  # daily, 30 min after the snake run
-  workflow_dispatch:        # allow manual runs
+    - cron: "30 0 * * *"
+  workflow_dispatch:
   push:
-    branches:
-      - main
+    branches: [main]
+    paths:
+      - scripts/stats_card.py
+      - .github/workflows/stats.yml
 
 permissions:
   contents: write
-
-concurrency:
-  group: publish-output
-  cancel-in-progress: false
 
 jobs:
   build:
@@ -25,45 +24,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate stats card (dark - amber cinematic)
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: stats
-          options: username=Joel-Williams-Mathew&show_icons=true&include_all_commits=true&count_private=true&bg_color=0B0B0B&title_color=F5F5F5&icon_color=C2410C&text_color=A8A8A8&border_color=2E2E2E&hide_border=false&cache_seconds=86400
-          path: dist/stats-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate stats.svg
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_USER: Joel-Williams-Mathew
+        run: python3 scripts/stats_card.py
 
-      - name: Generate stats card (light = dark amber, always matches banner)
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: stats
-          options: username=Joel-Williams-Mathew&show_icons=true&include_all_commits=true&count_private=true&bg_color=0B0B0B&title_color=F5F5F5&icon_color=C2410C&text_color=A8A8A8&border_color=2E2E2E&hide_border=false&cache_seconds=86400
-          path: dist/stats-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate top languages card (dark - amber cinematic)
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=Joel-Williams-Mathew&layout=compact&langs_count=6&bg_color=0B0B0B&title_color=F5F5F5&text_color=A8A8A8&border_color=2E2E2E&hide_border=false&cache_seconds=86400
-          path: dist/top-langs-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate top languages card (light = dark amber, always matches banner)
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=Joel-Williams-Mathew&layout=compact&langs_count=6&bg_color=0B0B0B&title_color=F5F5F5&text_color=A8A8A8&border_color=2E2E2E&hide_border=false&cache_seconds=86400
-          path: dist/top-langs-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Publish to output branch (additive)
+      - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git fetch origin output
-          git checkout output
-          cp dist/stats-dark.svg dist/stats-light.svg dist/top-langs-dark.svg dist/top-langs-light.svg .
-          git add stats-dark.svg stats-light.svg top-langs-dark.svg top-langs-light.svg
-          git commit -m "chore: update stats cards" || echo "no changes to commit"
-          git push origin output
+          git add stats.svg
+          if git diff --staged --quiet; then
+            echo "no change"
+          else
+            git commit -m "chore: update stats card [skip ci]"
+            git pull --rebase origin main || true
+            git push
+          fi
