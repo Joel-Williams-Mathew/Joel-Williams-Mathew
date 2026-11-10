@@ -22,16 +22,20 @@ ROWS = [
 ]
 
 
+def esc(text):
+    return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
 def build_svg():
     rows = []
     y = 72
     for tag, line in ROWS:
         rows.append(
             f'<text x="80" y="{y}" font-size="11" fill="{DOT}" '
-            f'font-weight="700" letter-spacing="2">{tag}</text>'
+            f'font-weight="700" letter-spacing="2">{esc(tag)}</text>'
         )
         rows.append(
-            f'<text x="170" y="{y}" font-size="12" fill="{TEXT}">{line}</text>'
+            f'<text x="170" y="{y}" font-size="12" fill="{TEXT}">{esc(line)}</text>'
         )
         y += 34
 
