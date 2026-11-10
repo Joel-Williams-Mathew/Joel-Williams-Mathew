@@ -55,7 +55,7 @@ def build_svg():
     today = dt.date.today()
     quote, author = pick_quote(today)
     week = today.isocalendar()[1]
-    lines = wrap(quote, limit=40)
+    lines = wrap(quote, limit=46)
 
     # vertical centering for up to 2 lines
     line_h = 27

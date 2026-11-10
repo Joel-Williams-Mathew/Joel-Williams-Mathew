@@ -76,7 +76,7 @@
 </p>
 
 <p align="center">
-  <img src="./heat.svg?v=2" width="100%" alt="Contribution heatmap">
+  <img src="./quote.svg?v=1" width="100%" alt="Weekly quote">
 </p>
 
 ## 📌 Featured
