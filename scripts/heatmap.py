@@ -88,9 +88,11 @@ def build_svg():
     cols = 53
     cell, gap = 11, 3
     grid_w = cols * (cell + gap) - gap
-    left, top = 38, 34
+    left = 38
+    top = 46
     width = left + grid_w + 14
-    height = 34 + 7 * (cell + gap) + 58
+    footer_y = top + 7 * (cell + gap) + 16
+    height = footer_y + 12
 
     def cell_x(col):
         return left + col * (cell + gap)
@@ -121,7 +123,7 @@ def build_svg():
         d = start + dt.timedelta(days=col * 7)
         m = d.strftime("%b")
         if m != prev:
-            months.append(f'<text x="{cell_x(col)}" y="22" font-size="10" fill="{MUTED}">{m}</text>')
+            months.append(f'<text x="{cell_x(col)}" y="38" font-size="10" fill="{MUTED}">{m}</text>')
             prev = m
 
     daylabels = []
@@ -132,20 +134,20 @@ def build_svg():
     total_all = sum(c for _, c in ordered)
 
     legend = []
-    legend.append(f'<text x="{width - 186}" y="{height - 10}" font-size="10" fill="{MUTED}" text-anchor="end">Less</text>')
+    legend.append(f'<text x="{width - 186}" y="{footer_y}" font-size="10" fill="{MUTED}" text-anchor="end">Less</text>')
     for i, col in enumerate(COLORS):
-        legend.append(f'<rect x="{width - 178 + i * 14}" y="{height - 18}" width="11" height="11" rx="2" fill="{col}"/>')
-    legend.append(f'<text x="{width - 6}" y="{height - 10}" font-size="10" fill="{MUTED}" text-anchor="end">More</text>')
+        legend.append(f'<rect x="{width - 178 + i * 14}" y="{footer_y - 10}" width="11" height="11" rx="2" fill="{col}"/>')
+    legend.append(f'<text x="{width - 6}" y="{footer_y}" font-size="10" fill="{MUTED}" text-anchor="end">More</text>')
 
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="Contribution heatmap, {total_all} contributions total">
   <rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="6" fill="{BG}" stroke="{BORDER}"/>
   <g font-family="'Segoe UI', Ubuntu, sans-serif">
-    <text x="{left}" y="19" font-size="10" fill="{LABEL}" letter-spacing="2">CONTRIBUTION HEAT</text>
-    <text x="{width - 14}" y="19" font-size="10" fill="{MUTED}" text-anchor="end">{total_window} in the last year</text>
+    <text x="{left}" y="17" font-size="10" fill="{LABEL}" letter-spacing="2">CONTRIBUTION HEAT</text>
+    <text x="{width - 14}" y="17" font-size="10" fill="{MUTED}" text-anchor="end">{total_window} in the last year</text>
     {''.join(months)}
     {''.join(daylabels)}
     {''.join(cells)}
-    <text x="{left}" y="{height - 10}" font-size="9" fill="{MUTED}">Aug 2024 - present · {total_all} total</text>
+    <text x="{left}" y="{footer_y}" font-size="9" fill="{MUTED}">Aug 2024 - present · {total_all} total</text>
     {''.join(legend)}
   </g>
 </svg>
