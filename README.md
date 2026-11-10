@@ -76,7 +76,7 @@
 </p>
 
 <p align="center">
-  <img src="./quote.svg?v=1" width="100%" alt="Weekly quote">
+  <img src="./quote.svg?v=2" height="185" alt="Weekly quote">
 </p>
 
 ## 📌 Featured
@@ -115,7 +115,7 @@
 ## ✦ Now
 
 <p align="center">
-  <img src="./now.svg?v=1" height="195" alt="What I'm doing right now: building DUM-E, exploring generative AI and agents, shipping ML pipelines and CV projects">
+  <img src="./now.svg?v=2" height="195" alt="What I am doing right now: building DUM-E, exploring generative AI and agents, shipping ML pipelines and CV projects">
 </p>
 
 <p align="center">
