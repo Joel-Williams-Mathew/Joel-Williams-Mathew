@@ -112,6 +112,16 @@
   <img src="./assets/divider-dark.svg" width="100%" alt="">
 </p>
 
+## ✦ Now
+
+<p align="center">
+  <img src="./now.svg?v=1" height="195" alt="What I'm doing right now: building DUM-E, exploring generative AI and agents, shipping ML pipelines and CV projects">
+</p>
+
+<p align="center">
+  <img src="./assets/divider-dark.svg" width="100%" alt="">
+</p>
+
 ## 📬 Let's Connect
 
 <p align="center"><b>Open to internships, collaborations & honest engineering chats.</b><br>
