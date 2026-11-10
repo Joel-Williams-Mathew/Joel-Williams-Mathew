@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-label="What Joel is doing now">
-  <rect x="0.5" y="0.5" width="494" height="194" rx="4.5" fill="#0D1117" stroke="#FF6B35"/>
-  <g font-family="'Segoe UI', Ubuntu, sans-serif">
-    <text x="30" y="30" font-size="10" fill="#FFB454" letter-spacing="3">NOW</text>
-    <text x="465" y="30" font-size="9" fill="#8B949E" text-anchor="end" letter-spacing="1">LIVE FROM KERALA</text>
-    <circle cx="52" cy="68" r="3.2" fill="#FFB454"/><circle cx="52" cy="102" r="3.2" fill="#FFB454"/><circle cx="52" cy="136" r="3.2" fill="#FFB454"/>
-    <text x="80" y="72" font-size="11" fill="#FFB454" font-weight="700" letter-spacing="2">BUILDING</text><text x="170" y="72" font-size="12" fill="#F5E6CC">DUM-E - voice-first desktop automation</text><text x="80" y="106" font-size="11" fill="#FFB454" font-weight="700" letter-spacing="2">EXPLORING</text><text x="170" y="106" font-size="12" fill="#F5E6CC">generative AI, agents &amp; RAG patterns</text><text x="80" y="140" font-size="11" fill="#FFB454" font-weight="700" letter-spacing="2">SHIPPING</text><text x="170" y="140" font-size="12" fill="#F5E6CC">ML pipelines &amp; computer vision projects</text>
-  </g>
-</svg>
