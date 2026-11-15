@@ -33,8 +33,8 @@
 
 ## <img src="https://media.giphy.com/media/W5ZuxHzDJsGHuS96OH/giphy.gif" width="28"> About Me
 
-🎓 B.Tech **AI & Data Science** @ SJCET, Palai · 💼 ML Intern @ **Cognifyz** & **PaceLab, Kozhikode**  
-🏆 **NASA Space Apps 2025 — Global Nominee** · 2× Hackathon Finalist · 📍 Kozhikode  
+🎓 B.Tech **AI & Data Science** @ SJCET, Palai · 💼 ML Intern @ **Cognifyz** & **PaceLab**  
+🏆 **NASA Space Apps 2025 — Global Nominee** · 2× Hackathon Finalist  
 > *I build systems that leave the lab — Python & PyTorch for depth, Flutter & React for surface.* ✨
 
 ## 🚀 Building Now
@@ -123,4 +123,4 @@
 
 <p align="center"><img src="./assets/divider-dark.svg" width="100%" alt=""></p>
 
-<p align="center"><code>KOZHIKODE · BUILD IT, BREAK IT, SHIP IT — CINEMATIC · VOL. I</code></p>
+<p align="center"><code>BUILD IT · BREAK IT · SHIP IT — VOL. I</code></p>
