@@ -59,7 +59,7 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-<img src="./stats.svg?v=8" height="185" alt="GitHub stats">
+<img src="./stats.svg?v=9" height="185" alt="GitHub stats">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/top-langs-dark.svg?v=4">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Joel-Williams-Mathew/Joel-Williams-Mathew/output/top-langs-light.svg?v=4">
@@ -68,7 +68,7 @@
 </p>
 
 <p align="center">
-  <img src="./streak.svg?v=14" height="185" alt="GitHub contribution streak">
+  <img src="./streak.svg?v=15" height="185" alt="GitHub contribution streak">
 </p>
 
 <p align="center">
